@@ -1,0 +1,455 @@
+{
+  "description": "ASME B16.5 Pressure-Temperature Ratings for Flange Materials",
+  "source": "ASME B16.5 Table 2",
+  "materials": [
+    {
+      "id": "a105-group1.1",
+      "name": "ASTM A105 Carbon Steel",
+      "spec": "ASTM A105",
+      "group": "1.1",
+      "forgedBody": true,
+      "description": "Normalized carbon steel, suitable for general service applications",
+      "class150": [
+        {
+          "temperature": -20,
+          "temperatureF": "-20°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 100,
+          "temperatureF": "100°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 200,
+          "temperatureF": "200°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 300,
+          "temperatureF": "300°F",
+          "pressure": 280
+        },
+        {
+          "temperature": 400,
+          "temperatureF": "400°F",
+          "pressure": 275
+        },
+        {
+          "temperature": 500,
+          "temperatureF": "500°F",
+          "pressure": 260
+        },
+        {
+          "temperature": 600,
+          "temperatureF": "600°F",
+          "pressure": 230
+        },
+        {
+          "temperature": 700,
+          "temperatureF": "700°F",
+          "pressure": 200
+        },
+        {
+          "temperature": 800,
+          "temperatureF": "800°F",
+          "pressure": 160
+        }
+      ],
+      "class300": [
+        {
+          "temperature": -20,
+          "temperatureF": "-20°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 100,
+          "temperatureF": "100°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 200,
+          "temperatureF": "200°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 300,
+          "temperatureF": "300°F",
+          "pressure": 720
+        },
+        {
+          "temperature": 400,
+          "temperatureF": "400°F",
+          "pressure": 705
+        },
+        {
+          "temperature": 500,
+          "temperatureF": "500°F",
+          "pressure": 675
+        },
+        {
+          "temperature": 600,
+          "temperatureF": "600°F",
+          "pressure": 595
+        },
+        {
+          "temperature": 700,
+          "temperatureF": "700°F",
+          "pressure": 520
+        },
+        {
+          "temperature": 800,
+          "temperatureF": "800°F",
+          "pressure": 415
+        }
+      ],
+      "class600": [
+        {
+          "temperature": -20,
+          "temperatureF": "-20°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 100,
+          "temperatureF": "100°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 200,
+          "temperatureF": "200°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 300,
+          "temperatureF": "300°F",
+          "pressure": 1440
+        },
+        {
+          "temperature": 400,
+          "temperatureF": "400°F",
+          "pressure": 1410
+        },
+        {
+          "temperature": 500,
+          "temperatureF": "500°F",
+          "pressure": 1350
+        },
+        {
+          "temperature": 600,
+          "temperatureF": "600°F",
+          "pressure": 1190
+        },
+        {
+          "temperature": 700,
+          "temperatureF": "700°F",
+          "pressure": 1040
+        },
+        {
+          "temperature": 800,
+          "temperatureF": "800°F",
+          "pressure": 830
+        }
+      ]
+    },
+    {
+      "id": "a182-f304-group2.1",
+      "name": "ASTM A182 F304 Stainless Steel",
+      "spec": "ASTM A182",
+      "grade": "F304",
+      "group": "2.1",
+      "forgedBody": true,
+      "description": "Austenitic stainless steel, excellent corrosion resistance",
+      "class150": [
+        {
+          "temperature": -20,
+          "temperatureF": "-20°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 100,
+          "temperatureF": "100°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 200,
+          "temperatureF": "200°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 300,
+          "temperatureF": "300°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 400,
+          "temperatureF": "400°F",
+          "pressure": 280
+        },
+        {
+          "temperature": 500,
+          "temperatureF": "500°F",
+          "pressure": 275
+        },
+        {
+          "temperature": 600,
+          "temperatureF": "600°F",
+          "pressure": 270
+        },
+        {
+          "temperature": 700,
+          "temperatureF": "700°F",
+          "pressure": 265
+        },
+        {
+          "temperature": 800,
+          "temperatureF": "800°F",
+          "pressure": 260
+        }
+      ],
+      "class300": [
+        {
+          "temperature": -20,
+          "temperatureF": "-20°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 100,
+          "temperatureF": "100°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 200,
+          "temperatureF": "200°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 300,
+          "temperatureF": "300°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 400,
+          "temperatureF": "400°F",
+          "pressure": 720
+        },
+        {
+          "temperature": 500,
+          "temperatureF": "500°F",
+          "pressure": 705
+        },
+        {
+          "temperature": 600,
+          "temperatureF": "600°F",
+          "pressure": 695
+        },
+        {
+          "temperature": 700,
+          "temperatureF": "700°F",
+          "pressure": 680
+        },
+        {
+          "temperature": 800,
+          "temperatureF": "800°F",
+          "pressure": 665
+        }
+      ],
+      "class600": [
+        {
+          "temperature": -20,
+          "temperatureF": "-20°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 100,
+          "temperatureF": "100°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 200,
+          "temperatureF": "200°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 300,
+          "temperatureF": "300°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 400,
+          "temperatureF": "400°F",
+          "pressure": 1440
+        },
+        {
+          "temperature": 500,
+          "temperatureF": "500°F",
+          "pressure": 1410
+        },
+        {
+          "temperature": 600,
+          "temperatureF": "600°F",
+          "pressure": 1390
+        },
+        {
+          "temperature": 700,
+          "temperatureF": "700°F",
+          "pressure": 1360
+        },
+        {
+          "temperature": 800,
+          "temperatureF": "800°F",
+          "pressure": 1330
+        }
+      ]
+    },
+    {
+      "id": "a182-f316-group2.3",
+      "name": "ASTM A182 F316 Stainless Steel",
+      "spec": "ASTM A182",
+      "grade": "F316",
+      "group": "2.3",
+      "forgedBody": true,
+      "description": "Molybdenum-bearing austenitic stainless steel, superior corrosion resistance",
+      "class150": [
+        {
+          "temperature": -20,
+          "temperatureF": "-20°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 100,
+          "temperatureF": "100°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 200,
+          "temperatureF": "200°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 300,
+          "temperatureF": "300°F",
+          "pressure": 285
+        },
+        {
+          "temperature": 400,
+          "temperatureF": "400°F",
+          "pressure": 282
+        },
+        {
+          "temperature": 500,
+          "temperatureF": "500°F",
+          "pressure": 277
+        },
+        {
+          "temperature": 600,
+          "temperatureF": "600°F",
+          "pressure": 272
+        },
+        {
+          "temperature": 700,
+          "temperatureF": "700°F",
+          "pressure": 267
+        },
+        {
+          "temperature": 800,
+          "temperatureF": "800°F",
+          "pressure": 262
+        }
+      ],
+      "class300": [
+        {
+          "temperature": -20,
+          "temperatureF": "-20°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 100,
+          "temperatureF": "100°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 200,
+          "temperatureF": "200°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 300,
+          "temperatureF": "300°F",
+          "pressure": 740
+        },
+        {
+          "temperature": 400,
+          "temperatureF": "400°F",
+          "pressure": 730
+        },
+        {
+          "temperature": 500,
+          "temperatureF": "500°F",
+          "pressure": 720
+        },
+        {
+          "temperature": 600,
+          "temperatureF": "600°F",
+          "pressure": 705
+        },
+        {
+          "temperature": 700,
+          "temperatureF": "700°F",
+          "pressure": 690
+        },
+        {
+          "temperature": 800,
+          "temperatureF": "800°F",
+          "pressure": 675
+        }
+      ],
+      "class600": [
+        {
+          "temperature": -20,
+          "temperatureF": "-20°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 100,
+          "temperatureF": "100°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 200,
+          "temperatureF": "200°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 300,
+          "temperatureF": "300°F",
+          "pressure": 1480
+        },
+        {
+          "temperature": 400,
+          "temperatureF": "400°F",
+          "pressure": 1460
+        },
+        {
+          "temperature": 500,
+          "temperatureF": "500°F",
+          "pressure": 1440
+        },
+        {
+          "temperature": 600,
+          "temperatureF": "600°F",
+          "pressure": 1410
+        },
+        {
+          "temperature": 700,
+          "temperatureF": "700°F",
+          "pressure": 1380
+        },
+        {
+          "temperature": 800,
+          "temperatureF": "800°F",
+          "pressure": 1350
+        }
+      ]
+    }
+  ]
+}

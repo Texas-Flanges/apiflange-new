@@ -1,0 +1,199 @@
+{
+  "description": "Bolt Torque Reference Data for Flange Bolting",
+  "material": "ASTM A193 B7 Alloy Steel Bolts",
+  "tensileStrength": "125 ksi minimum",
+  "yieldStrength": "105 ksi minimum",
+  "standard": "ASME B16.5 / MSS SP-25",
+  "notes": "Torque values based on clean, dry threads. Oil-lubricated (SAE 10 oil) values are approximately 25% lower. Molybdenum disulfide values are approximately 15-20% higher than dry.",
+  "bolts": [
+    {
+      "boltSize": "1/2\"",
+      "diameter": 0.5,
+      "threadPitch": "13 TPI",
+      "metric": "M12 x 1.75",
+      "stressArea": 0.196,
+      "minTensile": 24500,
+      "minYield": 20580,
+      "torqueDry": {
+        "value": 60,
+        "unit": "ft-lbs"
+      },
+      "torqueOiled": {
+        "value": 45,
+        "unit": "ft-lbs"
+      },
+      "torqueMoly": {
+        "value": 70,
+        "unit": "ft-lbs"
+      }
+    },
+    {
+      "boltSize": "5/8\"",
+      "diameter": 0.625,
+      "threadPitch": "11 TPI",
+      "metric": "M16 x 2.0",
+      "stressArea": 0.307,
+      "minTensile": 38375,
+      "minYield": 32235,
+      "torqueDry": {
+        "value": 110,
+        "unit": "ft-lbs"
+      },
+      "torqueOiled": {
+        "value": 82,
+        "unit": "ft-lbs"
+      },
+      "torqueMoly": {
+        "value": 128,
+        "unit": "ft-lbs"
+      }
+    },
+    {
+      "boltSize": "3/4\"",
+      "diameter": 0.75,
+      "threadPitch": "10 TPI",
+      "metric": "M20 x 2.5",
+      "stressArea": 0.442,
+      "minTensile": 55250,
+      "minYield": 46410,
+      "torqueDry": {
+        "value": 185,
+        "unit": "ft-lbs"
+      },
+      "torqueOiled": {
+        "value": 138,
+        "unit": "ft-lbs"
+      },
+      "torqueMoly": {
+        "value": 212,
+        "unit": "ft-lbs"
+      }
+    },
+    {
+      "boltSize": "7/8\"",
+      "diameter": 0.875,
+      "threadPitch": "9 TPI",
+      "metric": "M24 x 3.0",
+      "stressArea": 0.601,
+      "minTensile": 75125,
+      "minYield": 63105,
+      "torqueDry": {
+        "value": 300,
+        "unit": "ft-lbs"
+      },
+      "torqueOiled": {
+        "value": 225,
+        "unit": "ft-lbs"
+      },
+      "torqueMoly": {
+        "value": 345,
+        "unit": "ft-lbs"
+      }
+    },
+    {
+      "boltSize": "1\"",
+      "diameter": 1.0,
+      "threadPitch": "8 TPI",
+      "metric": "M27 x 3.0",
+      "stressArea": 0.785,
+      "minTensile": 98125,
+      "minYield": 82305,
+      "torqueDry": {
+        "value": 475,
+        "unit": "ft-lbs"
+      },
+      "torqueOiled": {
+        "value": 356,
+        "unit": "ft-lbs"
+      },
+      "torqueMoly": {
+        "value": 545,
+        "unit": "ft-lbs"
+      }
+    },
+    {
+      "boltSize": "1-1/8\"",
+      "diameter": 1.125,
+      "threadPitch": "8 TPI",
+      "metric": "M30 x 3.5",
+      "stressArea": 0.994,
+      "minTensile": 124250,
+      "minYield": 104370,
+      "torqueDry": {
+        "value": 675,
+        "unit": "ft-lbs"
+      },
+      "torqueOiled": {
+        "value": 506,
+        "unit": "ft-lbs"
+      },
+      "torqueMoly": {
+        "value": 777,
+        "unit": "ft-lbs"
+      }
+    },
+    {
+      "boltSize": "1-1/4\"",
+      "diameter": 1.25,
+      "threadPitch": "8 TPI",
+      "metric": "M33 x 3.5",
+      "stressArea": 1.227,
+      "minTensile": 153375,
+      "minYield": 128835,
+      "torqueDry": {
+        "value": 950,
+        "unit": "ft-lbs"
+      },
+      "torqueOiled": {
+        "value": 712,
+        "unit": "ft-lbs"
+      },
+      "torqueMoly": {
+        "value": 1095,
+        "unit": "ft-lbs"
+      }
+    },
+    {
+      "boltSize": "1-3/8\"",
+      "diameter": 1.375,
+      "threadPitch": "8 TPI",
+      "metric": "M36 x 4.0",
+      "stressArea": 1.485,
+      "minTensile": 185625,
+      "minYield": 156105,
+      "torqueDry": {
+        "value": 1350,
+        "unit": "ft-lbs"
+      },
+      "torqueOiled": {
+        "value": 1012,
+        "unit": "ft-lbs"
+      },
+      "torqueMoly": {
+        "value": 1555,
+        "unit": "ft-lbs"
+      }
+    },
+    {
+      "boltSize": "1-1/2\"",
+      "diameter": 1.5,
+      "threadPitch": "8 TPI",
+      "metric": "M39 x 4.0",
+      "stressArea": 1.767,
+      "minTensile": 220875,
+      "minYield": 185535,
+      "torqueDry": {
+        "value": 1850,
+        "unit": "ft-lbs"
+      },
+      "torqueOiled": {
+        "value": 1387,
+        "unit": "ft-lbs"
+      },
+      "torqueMoly": {
+        "value": 2137,
+        "unit": "ft-lbs"
+      }
+    }
+  ]
+}
