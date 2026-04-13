@@ -230,6 +230,23 @@
     border-width: 0;
   }
 
+  /* Contrast safety net for dark backgrounds */
+  .bg-iron, .bg-charcoal, .bg-iron-light,
+  [class*="bg-iron"], [class*="bg-charcoal"] {
+    & h1, & h2, & h3, & h4, & h5, & h6 {
+      color: var(--color-silver-bright) !important;
+    }
+    & p {
+      color: var(--color-silver-light) !important;
+    }
+    & a:not([class*="bg-brass"]):not([class*="btn-"]) {
+      color: var(--color-brass-light);
+    }
+    & a:not([class*="bg-brass"]):not([class*="btn-"]):hover {
+      color: var(--color-brass);
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
       animation-duration: 0.01ms !important;

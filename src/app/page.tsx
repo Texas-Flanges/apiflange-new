@@ -154,15 +154,15 @@ export default function HomePage() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-black text-silver-bright leading-tight mb-6">
-                Steel Flanges Built
+                Steel Flanges Forged to
                 <br />
-                <span className="text-brass">Without Compromise</span>
+                <span className="text-brass">API 6A/6BX</span>
               </h1>
 
               <p className="text-silver/80 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl">
-                Every joint in a piping system is a point of trust. We supply
-                flanges, fittings, and custom-machined connections engineered to
-                hold under pressure, temperature, and time.
+                Every joint in an API wellhead system is a point of integrity.
+                We supply flanges, fittings, and custom machined components
+                engineered to hold under stress for up to API 20K class connections.
               </p>
             </motion.div>
 
@@ -211,6 +211,70 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── WHAT ARE API FLANGES? ── */}
+      <section className="bg-steam py-20 md:py-28 border-b border-silver/20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn>
+            <div className="max-w-4xl mx-auto">
+              <div className="text-center mb-10">
+                <span className="text-brass uppercase tracking-[0.2em] text-sm font-medium">
+                  API Specification
+                </span>
+                <h2 className="text-3xl md:text-4xl font-display font-bold text-iron mt-3 mb-4">
+                  What Are API Flanges?
+                </h2>
+                <BrassDivider />
+              </div>
+
+              <div className="prose prose-lg max-w-none text-iron-mid leading-relaxed space-y-5">
+                <p>
+                  API flanges are built for the oil and gas sector, including upstream, midstream,
+                  and even downstream. The API 6A specification (developed by the American Petroleum
+                  Institute) covers flanges used in high-pressure petrochemical and oilfield
+                  applications where some standard ANSI/ASME ratings just don&apos;t cut it.
+                </p>
+                <p>
+                  Dimensionally, API 6A flanges look similar to their ASME counterparts, but the
+                  pressure requirements start where most ASME flanges top out. The baseline is the
+                  2000# class (similar to the ASME 600# class), and from there the classes climb:
+                  3000#, 5000# - up to the 6BX 10,000#, 20,000# and 25,000# for the most
+                  demanding applications.
+                </p>
+                <p>
+                  Most jobs fall in the 5000# range and below; the extreme high-pressure classes
+                  are less common but available for production when you need them.
+                </p>
+                <p>
+                  One thing that&apos;s non-negotiable with API flanges: ring type joint (RTJ)
+                  facings with the proper ring gaskets. That metal-to-metal seal is what gives them
+                  the integrity needed for volatile, high-pressure service.
+                </p>
+                <p>
+                  On the upstream side, you&apos;ll find API flanges on wellheads, blowout
+                  preventers, and drilling equipment. Downstream in refining and processing, they
+                  handle the conditions involved in turning crude oil into finished products.
+                </p>
+              </div>
+
+              <div className="mt-8 pt-6 border-t border-silver/30">
+                <p className="text-sm text-iron-mid">
+                  <span className="font-semibold text-iron">API</span> = American Petroleum Institute.
+                  More at{' '}
+                  <a
+                    href="https://www.api.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-brass hover:text-brass-light underline"
+                  >
+                    api.org
+                  </a>
+                </p>
+              </div>
+            </div>
+          </FadeIn>
         </div>
       </section>
 

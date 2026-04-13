@@ -33,6 +33,7 @@ const navItems: NavItem[] = [
     label: 'Standards',
     href: '/standards',
     submenu: [
+      { label: 'API', href: 'https://www.texasflange.com/products/flange-dims-weights/api-flange-slide-rule/' },
       { label: 'ASME', href: '/standards/asme-flanges' },
       { label: 'ANSI', href: '/standards/ansi-flanges' },
       { label: 'AWWA', href: '/standards/awwa-flanges' },
@@ -45,7 +46,6 @@ const navItems: NavItem[] = [
     submenu: [
       { label: 'Carbon Steel', href: '/materials/carbon-steel' },
       { label: 'Stainless Steel', href: '/materials/stainless-steel' },
-      { label: 'Alloy Steel', href: '/materials/alloy-steel' },
       { label: 'Alloy Steel', href: '/materials/alloy-steel' },
     ],
   },
