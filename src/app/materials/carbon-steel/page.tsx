@@ -44,7 +44,7 @@ const a105ChemicalColumns = [
 const a105ChemicalData = [
   {
     element: 'Carbon (C)',
-    min: '0.30',
+    min: '0.20',
     max: '0.35',
     notes: 'Core requirement for strength',
   },
@@ -75,7 +75,7 @@ const a105ChemicalData = [
   {
     element: 'Chromium (Cr)',
     min: '-',
-    max: '0.40',
+    max: '0.30',
     notes: 'Optional for enhanced hardenability',
   },
   {
@@ -87,7 +87,7 @@ const a105ChemicalData = [
   {
     element: 'Nickel (Ni)',
     min: '-',
-    max: '0.30',
+    max: '0.40',
     notes: 'Optional for toughness',
   },
 ];
@@ -114,15 +114,9 @@ const a105MechanicalData = [
     notes: 'Minimum proof strength',
   },
   {
-    property: 'Elongation in 2 inches',
-    value: '22% - 35%',
-    astmMin: '22%',
-    notes: 'Measures ductility at room temperature',
-  },
-  {
     property: 'Reduction of Area',
-    value: '40% - 60%',
-    astmMin: '40%',
+    value: '30%',
+    astmMin: '30%',
     notes: 'Cross-sectional reduction during tension test',
   },
   {
@@ -248,43 +242,43 @@ const comparisonColumns = [
 const comparisonData = [
   {
     feature: 'Carbon Content',
-    a105: '0.30-0.35%',
-    a350lf2: '0.24-0.35%',
+    a105: '0.20-0.35%',
+    a350lf2: '0.30% max',
   },
   {
     feature: 'Manganese Content',
     a105: '0.60-1.05%',
-    a350lf2: '0.70-1.15%',
+    a350lf2: '0.60-1.35%',
   },
   {
     feature: 'Nickel Content',
-    a105: 'Optional (max 0.30%)',
+    a105: 'Optional (max 0.40%)',
     a350lf2: 'Required (0.40-0.80%)',
   },
   {
     feature: 'Molybdenum Content',
     a105: 'Optional (max 0.12%)',
-    a350lf2: 'Required (0.15-0.30%)',
+    a350lf2: '0.12% max',
   },
   {
     feature: 'Phosphorus Maximum',
     a105: '0.035%',
-    a350lf2: '0.025% (stricter)',
+    a350lf2: '0.035%',
   },
   {
     feature: 'Sulfur Maximum',
     a105: '0.040%',
-    a350lf2: '0.025% (stricter)',
+    a350lf2: '0.040%',
   },
   {
     feature: 'Tensile Strength',
     a105: '70-100 ksi',
-    a350lf2: '70-100 ksi',
+    a350lf2: '78-95 ksi',
   },
   {
     feature: 'Yield Strength',
     a105: '36 ksi min',
-    a350lf2: '40 ksi min',
+    a350lf2: '36 ksi min',
   },
   {
     feature: 'Min Service Temp',
@@ -316,11 +310,6 @@ const temperatureColumns = [
 ];
 
 const temperatureData = [
-  {
-    range: '-325°F to -50°F',
-    description: 'Cryogenic (LNG, liquid nitrogen)',
-    material: 'ASTM A350 LF2 (required)',
-  },
   {
     range: '-50°F to 0°F',
     description: 'Low-temperature (arctic, refrigeration)',
@@ -434,7 +423,7 @@ const faqItems = [
   {
     question: 'What is the maximum operating pressure for carbon steel flanges?',
     answer:
-      'Carbon steel flange pressure ratings depend on the ASME B16.5 class (150, 300, 600, 900, 1500, 2500 lbs) and operating temperature. A 600-class carbon steel flange rated at 100°F handles 600 psig, but this decreases with temperature. At 600°F, the same flange might only be rated for 400 psig due to reduced material strength at elevated temperature. Always refer to ASME B16.5 tables for your specific pressure class and operating temperature.',
+      'Carbon steel flange pressure ratings depend on the ASME B16.5 class (150, 300, 600, 900, 1500, 2500 lbs) and operating temperature. Always refer to ASME B16.5 tables for your specific pressure class and operating temperature.',
   },
   {
     question: 'Are carbon steel flanges suitable for seawater or corrosive fluids?',
@@ -562,9 +551,7 @@ export default function CarbonSteelPage() {
                 <div>
                   <h4 className="font-bold text-gray-900 mb-2">Pressure Rating Derating</h4>
                   <p className="text-gray-700">
-                    ASME B16.5 provides pressure vs. temperature derating tables. At 68°F, a Class 600
-                    flange is rated 600 psig. At 400°F, the rating reduces to ~540 psig. At 600°F,
-                    the rating is ~420 psig. Always consult ASME tables for your exact conditions.
+                    ASME B16.5 provides pressure vs. temperature derating tables. Always consult ASME tables for your exact conditions.
                   </p>
                 </div>
               </div>
@@ -686,7 +673,7 @@ export default function CarbonSteelPage() {
                 <h4 className="font-bold text-gray-900 mb-2">Use ASTM A350 LF2 if:</h4>
                 <ul className="space-y-2 text-gray-700 text-sm">
                   <li>• Service temperature below -20°F</li>
-                  <li>• Cryogenic service (-50°F or lower)</li>
+                  <li>• Cryogenic service (-50°F or higher)</li>
                   <li>• LNG or cryogenic gas handling</li>
                   <li>• Arctic/cold climate operation</li>
                   <li>• Impact testing or charpy requirements</li>

@@ -38,7 +38,7 @@ export default function MaterialGradesPage() {
     {
       question: 'What is the difference between ASTM A105 and A350 LF2?',
       answer:
-        'Both are carbon steel forged flanges but designed for different temperature ranges. ASTM A105 is standard carbon steel suitable for -20°F to 800°F. ASTM A350 LF2 is specifically designed for low-temperature (LF) service and is suitable for cryogenic applications down to -425°F. A350 LF2 is required for LNG, liquid nitrogen, and cryogenic systems. A105 cannot safely be used below about -20°F due to brittle fracture risk.',
+        'Both are carbon steel forged flanges but designed for different temperature ranges. ASTM A105 is standard carbon steel suitable for -20°F to 800°F. ASTM A350 LF2 is specifically designed for low-temperature (LF) service and is suitable for cryogenic applications down to -50°F. A350 LF2 is required for LNG, liquid nitrogen, and cryogenic systems. A105 cannot safely be used below about -20°F due to brittle fracture risk.',
     },
     {
       question: 'Why is material selection important for flanges?',
@@ -167,9 +167,9 @@ export default function MaterialGradesPage() {
                 <div>
                   <h4 className="font-bold text-gray-900 mb-3">Typical Chemistry</h4>
                   <ul className="text-sm text-gray-700 space-y-2">
-                    <li><strong>Carbon:</strong> 0.25-0.35%</li>
-                    <li><strong>Manganese:</strong> 0.45-0.70%</li>
-                    <li><strong>Silicon:</strong> 0.15-0.35%</li>
+                    <li><strong>Carbon:</strong> 0.20-0.35%</li>
+                    <li><strong>Manganese:</strong> 0.60-1.05%</li>
+                    <li><strong>Silicon:</strong> 0.10-0.35%</li>
                     <li><strong>Phosphorus:</strong> max 0.035%</li>
                   </ul>
                 </div>
@@ -267,19 +267,19 @@ export default function MaterialGradesPage() {
                 <div>
                   <h4 className="font-bold text-gray-900 mb-3">Specification</h4>
                   <ul className="text-sm text-gray-700 space-y-2">
-                    <li><strong>Common Grades:</strong> LF2, LF3, LF4, LF7, LF8</li>
+                    <li><strong>Common Grades:</strong> LF2, LF3, LF4, LF5, LF6, LF787</li>
                     <li><strong>LF2:</strong> Most common (carbon-manganese)</li>
-                    <li><strong>LF3/LF4:</strong> 3.5% Nickel alloys</li>
-                    <li><strong>LF7/LF8:</strong> 9% Nickel alloys</li>
+                    <li><strong>LF3/LF4:</strong> Colder service</li>
+                    <li><strong>LF787:</strong> Very low carbon</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-3">Service Range</h4>
                   <ul className="text-sm text-gray-700 space-y-2">
-                    <li><strong>LF2:</strong> Down to -425°F</li>
-                    <li><strong>LF3/LF4:</strong> Down to -320°F</li>
-                    <li><strong>LF7/LF8:</strong> Down to -452°F</li>
-                    <li>Impact strength maintained at cryogenic temps</li>
+                    <li><strong>LF2:</strong> Down to -50°F</li>
+                    <li><strong>LF3:</strong> Down to -150°F</li>
+                    <li><strong>LF787:</strong> Down to -75/-100°F</li>
+                    <li><strong>Cryogenic:</strong> Impact strength maintained at cryogenic temps</li>
                   </ul>
                 </div>
               </div>
@@ -413,48 +413,48 @@ export default function MaterialGradesPage() {
               <tbody>
                 <tr className="hover:bg-gray-50">
                   <td className="border border-gray-300 p-3 font-semibold">A105 Carbon</td>
-                  <td className="border border-gray-300 p-3 text-center">0.25-0.35%</td>
-                  <td className="border border-gray-300 p-3 text-center">0.45-0.70%</td>
-                  <td className="border border-gray-300 p-3 text-center">0.15-0.35%</td>
-                  <td className="border border-gray-300 p-3 text-center">-</td>
-                  <td className="border border-gray-300 p-3 text-center">-</td>
-                  <td className="border border-gray-300 p-3 text-center">-</td>
+                  <td className="border border-gray-300 p-3 text-center">0.20-0.35%</td>
+                  <td className="border border-gray-300 p-3 text-center">0.60-1.05%</td>
+                  <td className="border border-gray-300 p-3 text-center">0.10-0.35%</td>
+                  <td className="border border-gray-300 p-3 text-center">0.30% max</td>
+                  <td className="border border-gray-300 p-3 text-center">0.40% max</td>
+                  <td className="border border-gray-300 p-3 text-center">0.12% max</td>
                 </tr>
                 <tr className="hover:bg-gray-50 bg-gray-50">
                   <td className="border border-gray-300 p-3 font-semibold">A350 LF2</td>
-                  <td className="border border-gray-300 p-3 text-center">0.13 max</td>
-                  <td className="border border-gray-300 p-3 text-center">0.70-1.00%</td>
-                  <td className="border border-gray-300 p-3 text-center">0.15-0.40%</td>
-                  <td className="border border-gray-300 p-3 text-center">-</td>
-                  <td className="border border-gray-300 p-3 text-center">-</td>
-                  <td className="border border-gray-300 p-3 text-center">-</td>
+                  <td className="border border-gray-300 p-3 text-center">0.30% max</td>
+                  <td className="border border-gray-300 p-3 text-center">0.60-1.35%</td>
+                  <td className="border border-gray-300 p-3 text-center">0.15-0.30%</td>
+                  <td className="border border-gray-300 p-3 text-center">0.30% max</td>
+                  <td className="border border-gray-300 p-3 text-center">0.40% max</td>
+                  <td className="border border-gray-300 p-3 text-center">0.12% max</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="border border-gray-300 p-3 font-semibold">A182 F304</td>
-                  <td className="border border-gray-300 p-3 text-center">0.08 max</td>
+                  <td className="border border-gray-300 p-3 font-semibold">A182 F304 L</td>
+                  <td className="border border-gray-300 p-3 text-center">0.03% max</td>
                   <td className="border border-gray-300 p-3 text-center">2.00 max</td>
                   <td className="border border-gray-300 p-3 text-center">1.00 max</td>
                   <td className="border border-gray-300 p-3 text-center">18-20%</td>
-                  <td className="border border-gray-300 p-3 text-center">8-12%</td>
+                  <td className="border border-gray-300 p-3 text-center">8-13%</td>
                   <td className="border border-gray-300 p-3 text-center">-</td>
                 </tr>
                 <tr className="hover:bg-gray-50 bg-gray-50">
-                  <td className="border border-gray-300 p-3 font-semibold">A182 F316</td>
-                  <td className="border border-gray-300 p-3 text-center">0.08 max</td>
+                  <td className="border border-gray-300 p-3 font-semibold">A182 F316 L</td>
+                  <td className="border border-gray-300 p-3 text-center">0.03% max</td>
                   <td className="border border-gray-300 p-3 text-center">2.00 max</td>
                   <td className="border border-gray-300 p-3 text-center">1.00 max</td>
                   <td className="border border-gray-300 p-3 text-center">16-18%</td>
-                  <td className="border border-gray-300 p-3 text-center">10-14%</td>
+                  <td className="border border-gray-300 p-3 text-center">10-15%</td>
                   <td className="border border-gray-300 p-3 text-center">2-3%</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="border border-gray-300 p-3 font-semibold">A182 F11</td>
-                  <td className="border border-gray-300 p-3 text-center">0.05-0.15%</td>
-                  <td className="border border-gray-300 p-3 text-center">0.30-0.60%</td>
-                  <td className="border border-gray-300 p-3 text-center">0.10-0.50%</td>
-                  <td className="border border-gray-300 p-3 text-center">1.00-1.50%</td>
+                  <td className="border border-gray-300 p-3 font-semibold">A182 F11 CL2 & 3</td>
+                  <td className="border border-gray-300 p-3 text-center">0.10-0.20%</td>
+                  <td className="border border-gray-300 p-3 text-center">0.30-0.80%</td>
+                  <td className="border border-gray-300 p-3 text-center">0.50-1.00%</td>
+                  <td className="border border-gray-300 p-3 text-center">0.50-1.00%</td>
                   <td className="border border-gray-300 p-3 text-center">-</td>
-                  <td className="border border-gray-300 p-3 text-center">0.90-1.10%</td>
+                  <td className="border border-gray-300 p-3 text-center">0.44-0.65%</td>
                 </tr>
               </tbody>
             </table>
@@ -484,36 +484,36 @@ export default function MaterialGradesPage() {
                   <td className="border border-gray-300 p-3 font-semibold">A105 Carbon</td>
                   <td className="border border-gray-300 p-3 text-center">70,000 min</td>
                   <td className="border border-gray-300 p-3 text-center">36,000 min</td>
-                  <td className="border border-gray-300 p-3 text-center">18% min</td>
-                  <td className="border border-gray-300 p-3 text-center">180-220</td>
+                  <td className="border border-gray-300 p-3 text-center">22%</td>
+                  <td className="border border-gray-300 p-3 text-center">187 max</td>
                 </tr>
                 <tr className="hover:bg-white bg-white">
                   <td className="border border-gray-300 p-3 font-semibold">A350 LF2</td>
                   <td className="border border-gray-300 p-3 text-center">70,000 min</td>
                   <td className="border border-gray-300 p-3 text-center">36,000 min</td>
-                  <td className="border border-gray-300 p-3 text-center">24% min</td>
-                  <td className="border border-gray-300 p-3 text-center">160-200</td>
+                  <td className="border border-gray-300 p-3 text-center">22%</td>
+                  <td className="border border-gray-300 p-3 text-center">197 max</td>
                 </tr>
                 <tr className="hover:bg-white">
-                  <td className="border border-gray-300 p-3 font-semibold">A182 F304</td>
-                  <td className="border border-gray-300 p-3 text-center">75,000 min</td>
-                  <td className="border border-gray-300 p-3 text-center">30,000 min</td>
-                  <td className="border border-gray-300 p-3 text-center">35% min</td>
-                  <td className="border border-gray-300 p-3 text-center">217 max</td>
-                </tr>
-                <tr className="hover:bg-white bg-white">
-                  <td className="border border-gray-300 p-3 font-semibold">A182 F316</td>
-                  <td className="border border-gray-300 p-3 text-center">75,000 min</td>
+                  <td className="border border-gray-300 p-3 font-semibold">A182 F304 L</td>
+                  <td className="border border-gray-300 p-3 text-center">70,000-75,000</td>
                   <td className="border border-gray-300 p-3 text-center">30,000 min</td>
                   <td className="border border-gray-300 p-3 text-center">30% min</td>
-                  <td className="border border-gray-300 p-3 text-center">217 max</td>
+                  <td className="border border-gray-300 p-3 text-center">123-217</td>
+                </tr>
+                <tr className="hover:bg-white bg-white">
+                  <td className="border border-gray-300 p-3 font-semibold">A182 F316 L</td>
+                  <td className="border border-gray-300 p-3 text-center">70,000-75,000</td>
+                  <td className="border border-gray-300 p-3 text-center">30,000 min</td>
+                  <td className="border border-gray-300 p-3 text-center">30% min</td>
+                  <td className="border border-gray-300 p-3 text-center">123-217</td>
                 </tr>
                 <tr className="hover:bg-white">
-                  <td className="border border-gray-300 p-3 font-semibold">A182 F11</td>
-                  <td className="border border-gray-300 p-3 text-center">80,000-100,000</td>
-                  <td className="border border-gray-300 p-3 text-center">50,000 min</td>
-                  <td className="border border-gray-300 p-3 text-center">18% min</td>
-                  <td className="border border-gray-300 p-3 text-center">215-260</td>
+                  <td className="border border-gray-300 p-3 font-semibold">A182 F11 CL2 & 3</td>
+                  <td className="border border-gray-300 p-3 text-center">60,000-75,000</td>
+                  <td className="border border-gray-300 p-3 text-center">40,000-45,000</td>
+                  <td className="border border-gray-300 p-3 text-center">20% min</td>
+                  <td className="border border-gray-300 p-3 text-center">143-207</td>
                 </tr>
               </tbody>
             </table>
@@ -535,7 +535,7 @@ export default function MaterialGradesPage() {
             </div>
             <div className="bg-cyan-50 p-4 rounded-lg border border-cyan-200">
               <p className="text-gray-700">
-                <strong>A350 LF2 (Low Temp):</strong> -425°F to 850°F (Mandatory for cryogenic below -20°F)
+                <strong>A350 LF2 (Low Temp):</strong> -50°F to 850°F (Mandatory for cryogenic below -20°F)
               </p>
             </div>
             <div className="bg-green-50 p-4 rounded-lg border border-green-200">

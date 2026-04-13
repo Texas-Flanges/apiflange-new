@@ -35,7 +35,7 @@ export default function FlangesPage() {
   return (
     <>
       <PageHero
-        title="Steel Pipe Flanges"
+        title="Flanges Beyond API 6A Specs"
         subtitle="Complete range of industrial-grade flanges engineered for every pressure class, temperature range, and application requirement"
         variant="navy"
         breadcrumbs={[

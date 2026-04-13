@@ -87,37 +87,37 @@ const flangeTypesData = [
 
 const flangeTypesRows = [
   {
-    type: 'Type 01',
+    type: 'Type 11',
     designation: 'Weld Neck (WN)',
     description:
       'Tapered hub with gradual transition. Preferred for high-temperature and high-pressure applications due to excellent fatigue resistance.',
   },
   {
-    type: 'Type 02',
+    type: 'Type 12/13',
     designation: 'Slip-On (SO)',
     description:
       'Flange slips over pipe with two fillet welds. Cost-effective option for lower pressure applications.',
   },
   {
-    type: 'Type 05',
+    type: 'Type 02/32',
     designation: 'Socket Weld (SW)',
     description:
       'Pipe inserts into socket with fillet weld at end. Compact design for small-diameter piping.',
   },
   {
-    type: 'Type 11',
+    type: 'Type 04',
     designation: 'Lap Joint (LJ)',
     description:
       'Loose flange on stub end. Allows rotation and interchangeability; economical for frequent changes.',
   },
   {
-    type: 'Type 12',
+    type: 'Type 13',
     designation: 'Threaded (Th)',
     description:
       'Pipe threads into flange bore. Used where welding is not possible or practical.',
   },
   {
-    type: 'Type 13',
+    type: 'Type 05',
     designation: 'Blind/Cap (Bl)',
     description:
       'Solid flange with no bore. Used to cap pipe ends or isolate portions of system.',
@@ -218,33 +218,6 @@ const faqItems = [
     question: 'What materials are available for DIN EN 1092-1 flanges?',
     answer:
       'DIN provides a range of materials: carbon steel (C22), chrome-molybdenum steel (Cr-Mo), stainless steel (304/316L), ductile iron, and others. Material selection depends on temperature, pressure, and corrosion requirements. Carbon steel covers most applications; stainless steel for corrosive environments. Always verify material availability for your size and PN rating.',
-  },
-];
-
-const materialsInfo = [
-  {
-    title: 'Carbon Steel (C22)',
-    description: 'DIN 1.0498 equivalent to ASTM A105',
-    tempRange: '-10°C to 350°C',
-    common: true,
-  },
-  {
-    title: 'Chrome-Molybdenum (Cr-Mo)',
-    description: 'Enhanced high-temperature capabilities',
-    tempRange: '-10°C to 400°C',
-    common: false,
-  },
-  {
-    title: 'Stainless Steel 304',
-    description: 'DIN 1.4301 equivalent to ASTM 304',
-    tempRange: '-196°C to 400°C',
-    common: true,
-  },
-  {
-    title: 'Stainless Steel 316L',
-    description: 'Superior corrosion resistance, molybdenum',
-    tempRange: '-196°C to 400°C',
-    common: true,
   },
 ];
 
@@ -474,120 +447,6 @@ export default function DINFlangePage() {
               <SpecTable columns={flangeTypesData} data={flangeTypesRows} />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-white rounded-lg p-6 border border-gray-200">
-                <h3 className="text-lg font-bold text-primary mb-3">
-                  Type 01 (Weld Neck)
-                </h3>
-                <p className="text-gray-700 text-sm mb-3">
-                  Most robust design with tapered hub. Best for high-pressure and high-temperature
-                  service.
-                </p>
-                <p className="text-xs text-brass font-semibold">
-                  Recommended for: Critical service
-                </p>
-              </div>
-
-              <div className="bg-white rounded-lg p-6 border border-gray-200">
-                <h3 className="text-lg font-bold text-primary mb-3">
-                  Type 02 (Slip-On)
-                </h3>
-                <p className="text-gray-700 text-sm mb-3">
-                  Economical option with double-welded construction. Suitable for moderate
-                  pressure.
-                </p>
-                <p className="text-xs text-brass font-semibold">
-                  Recommended for: Cost-sensitive applications
-                </p>
-              </div>
-
-              <div className="bg-white rounded-lg p-6 border border-gray-200">
-                <h3 className="text-lg font-bold text-primary mb-3">
-                  Type 11 (Lap Joint)
-                </h3>
-                <p className="text-gray-700 text-sm mb-3">
-                  Loose flange on stub end allows rotation and easy flange changes. Cost-effective
-                  for stainless.
-                </p>
-                <p className="text-xs text-brass font-semibold">
-                  Recommended for: Frequent maintenance
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-blue-50 border-l-4 border-brass p-6">
-              <p className="text-gray-700">
-                <strong>Availability Note:</strong> Type 01 (Weld Neck) is most commonly
-                manufactured and stocked. Types 02, 05, 11, 12 may require longer lead times.
-                Always verify flange type availability with your supplier before finalizing
-                specifications.
-              </p>
-            </div>
-          </Container>
-        </section>
-
-        {/* Materials Section */}
-        <section className="py-16 md:py-24 bg-white">
-          <Container>
-            <h2 className="text-4xl font-bold text-primary mb-12">
-              DIN EN 1092-1 Materials
-            </h2>
-
-            <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-3xl">
-              DIN EN 1092-1 specifies materials using German designations (DIN 1.XXXX) that
-              correspond to international equivalents. The most common materials are carbon steel,
-              stainless steel 304, and stainless steel 316L.
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-              {materialsInfo.map((material, idx) => (
-                <div
-                  key={idx}
-                  className="bg-gradient-to-br from-gray-50 to-white rounded-lg p-8 border border-gray-200"
-                >
-                  <div className="flex items-start gap-4 mb-4">
-                    {material.common ? (
-                      <div className="w-2 h-2 bg-brass rounded-full mt-2" />
-                    ) : (
-                      <div className="w-2 h-2 bg-gray-300 rounded-full mt-2" />
-                    )}
-                    <div>
-                      <h3 className="text-lg font-bold text-primary">
-                        {material.title}
-                      </h3>
-                      <p className="text-sm text-gray-600">{material.description}</p>
-                    </div>
-                  </div>
-                  <div className="space-y-2 text-sm text-gray-700">
-                    <p>
-                      <strong>Temperature:</strong> {material.tempRange}
-                    </p>
-                    <p>
-                      <strong>Availability:</strong>{' '}
-                      {material.common ? 'Common' : 'Special order'}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="bg-iron text-white rounded-lg p-8">
-              <h3 className="text-xl font-bold mb-4">Material Selection Guide</h3>
-              <div className="space-y-4 text-sm">
-                <div>
-                  <p className="font-bold mb-1">For General Industrial Use:</p>
-                  <p className="opacity-90">Carbon steel (DIN 1.0498) is economical and widely available.</p>
-                </div>
-                <div className="border-t border-white/20 pt-4">
-                  <p className="font-bold mb-1">For Corrosive Environments:</p>
-                  <p className="opacity-90">Stainless 304 (DIN 1.4301) offers good corrosion resistance.</p>
-                </div>
-                <div className="border-t border-white/20 pt-4">
-                  <p className="font-bold mb-1">For High-Chloride or Offshore:</p>
-                  <p className="opacity-90">Stainless 316L (DIN 1.4404) provides superior pitting resistance.</p>
-                </div>
-              </div>
-            </div>
           </Container>
         </section>
 
@@ -674,124 +533,6 @@ export default function DINFlangePage() {
                 both standards, use engineered adapter spools or transition pieces designed for
                 that specific application. Mixing standards will result in leaks, failures, and
                 safety hazards.
-              </p>
-            </div>
-          </Container>
-        </section>
-
-        {/* Metric Conversion Tips Section */}
-        <section className="py-16 md:py-24 bg-white">
-          <Container>
-            <h2 className="text-4xl font-bold text-primary mb-8">
-              Working with DIN Metric Standards
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-white rounded-lg p-8 border border-gray-200">
-                <h3 className="text-xl font-bold text-primary mb-4">
-                  DN-to-NPS Approximate Guide
-                </h3>
-                <div className="space-y-2 text-sm text-gray-700 font-mono">
-                  <p>DN 15 ≈ NPS 1/2"</p>
-                  <p>DN 20 ≈ NPS 3/4"</p>
-                  <p>DN 25 ≈ NPS 1"</p>
-                  <p>DN 32 ≈ NPS 1 1/4"</p>
-                  <p>DN 40 ≈ NPS 1 1/2"</p>
-                  <p>DN 50 ≈ NPS 2"</p>
-                  <p>DN 80 ≈ NPS 3"</p>
-                  <p>DN 100 ≈ NPS 4"</p>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-lg p-8 border border-gray-200">
-                <h3 className="text-xl font-bold text-primary mb-4">
-                  PN-to-PSI Conversion
-                </h3>
-                <p className="text-gray-700 text-sm mb-4">
-                  1 bar = 14.5 PSI (approximately)
-                </p>
-                <div className="space-y-2 text-sm text-gray-700 font-mono bg-gray-50 p-4 rounded">
-                  <p>PN 6 = 6 bar ≈ 87 PSI</p>
-                  <p>PN 10 = 10 bar ≈ 145 PSI</p>
-                  <p>PN 16 = 16 bar ≈ 232 PSI</p>
-                  <p>PN 25 = 25 bar ≈ 363 PSI</p>
-                  <p>PN 40 = 40 bar ≈ 580 PSI</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-blue-50 border-l-4 border-brass p-6">
-              <p className="text-gray-700">
-                <strong>Important:</strong> These conversions are approximate guides only. Never
-                use approximate conversions for specification or purchasing. Always obtain exact
-                flange dimensions and specifications from manufacturers. When working with metric
-                equipment, specify in metric; when working with inch equipment, specify in inches.
-              </p>
-            </div>
-          </Container>
-        </section>
-
-        {/* Temperature Considerations */}
-        <section className="py-16 md:py-24 bg-gray-50">
-          <Container>
-            <h2 className="text-4xl font-bold text-primary mb-8">
-              Temperature Ranges & Derating
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <h3 className="text-xl font-bold text-primary mb-4">
-                  Typical Temperature Limits
-                </h3>
-                <div className="space-y-4">
-                  <div className="bg-white rounded-lg p-6 border border-gray-200">
-                    <p className="font-semibold text-primary mb-2">Carbon Steel</p>
-                    <p className="text-gray-700 text-sm">
-                      -10°C to +350°C (-14°F to 662°F). Industrial limit typically 300°C.
-                    </p>
-                  </div>
-                  <div className="bg-white rounded-lg p-6 border border-gray-200">
-                    <p className="font-semibold text-primary mb-2">Stainless Steel</p>
-                    <p className="text-gray-700 text-sm">
-                      -196°C to +400°C (-321°F to 752°F). Cryogenic service possible with 304/316L.
-                    </p>
-                  </div>
-                  <div className="bg-white rounded-lg p-6 border border-gray-200">
-                    <p className="font-semibold text-primary mb-2">Gasket Material</p>
-                    <p className="text-gray-700 text-sm">
-                      Often the limiting factor. Check gasket temperature rating; may be lower than
-                      flange rating.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-bold text-primary mb-4">
-                  Pressure Derating at Temperature
-                </h3>
-                <p className="text-gray-700 text-sm mb-4">
-                  DIN EN 1092-1 specifies that flange pressure ratings decrease at elevated
-                  temperatures. A PN 16 flange rated at room temperature may have reduced capacity
-                  at 300°C. Deration is typically 10-30% depending on material and temperature.
-                </p>
-                <div className="bg-white rounded-lg p-6 border border-gray-200">
-                  <p className="font-semibold text-primary mb-3">Example:</p>
-                  <ul className="space-y-2 text-sm text-gray-700">
-                    <li>• PN 16 at 20°C = 16 bar design pressure</li>
-                    <li>• PN 16 at 200°C ≈ 13 bar (approx 18% deration)</li>
-                    <li>• PN 16 at 300°C ≈ 10 bar (approx 37% deration)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-iron text-white rounded-lg p-8">
-              <h3 className="text-xl font-bold mb-4">Always Verify Temperature Adequacy</h3>
-              <p className="mb-4">
-                If your application involves temperatures above room temperature or below 0°C,
-                consult DIN EN 1092-1 derating tables or manufacturer datasheets to verify the
-                flange maintains adequate pressure capacity.
               </p>
             </div>
           </Container>

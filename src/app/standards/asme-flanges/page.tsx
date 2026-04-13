@@ -20,58 +20,6 @@ interface FAQItem {
   answer: string;
 }
 
-const pressureClassData = [
-  { label: 'Pressure Class', key: 'class', width: '20%' },
-  { label: 'Design Pressure', key: 'pressure', width: '20%' },
-  { label: 'Temperature Range', key: 'temp', width: '20%' },
-  { label: 'Common Applications', key: 'applications', width: '40%' },
-];
-
-const pressureClassRows = [
-  {
-    class: '150 PSI',
-    pressure: '165 PSI',
-    temp: '-20°F to 400°F',
-    applications: 'Low-pressure piping, utility systems, air/steam',
-  },
-  {
-    class: '300 PSI',
-    pressure: '330 PSI',
-    temp: '-20°F to 600°F',
-    applications: 'General industrial piping, moderate pressure systems',
-  },
-  {
-    class: '400 PSI',
-    pressure: '440 PSI',
-    temp: '-20°F to 600°F',
-    applications: 'Intermediate pressure applications',
-  },
-  {
-    class: '600 PSI',
-    pressure: '660 PSI',
-    temp: '-20°F to 650°F',
-    applications: 'High-pressure piping, petrochemicals, power plants',
-  },
-  {
-    class: '900 PSI',
-    pressure: '990 PSI',
-    temp: '-20°F to 750°F',
-    applications: 'Very high pressure systems, specialized industrial',
-  },
-  {
-    class: '1500 PSI',
-    pressure: '1650 PSI',
-    temp: '-20°F to 800°F',
-    applications: 'Extreme pressure applications, specialized piping',
-  },
-  {
-    class: '2500 PSI',
-    pressure: '2750 PSI',
-    temp: '-20°F to 850°F',
-    applications: 'Ultra-high pressure piping, specialized systems',
-  },
-];
-
 const faceTypeData = [
   { label: 'Face Type', key: 'face', width: '25%' },
   { label: 'Designation', key: 'designation', width: '25%' },
@@ -83,7 +31,7 @@ const faceTypeRows = [
     face: 'Flat Face (FF)',
     designation: 'FF',
     description:
-      'Completely flat sealing surface. Used with gaskets. Most common in industrial applications.',
+      'Completely flat sealing surface. Used with rubber gaskets. Typical for low pressure applications.',
   },
   {
     face: 'Raised Face (RF)',
@@ -164,7 +112,7 @@ const faqItems = [
   {
     question: 'What does "raised face" mean, and should I use it?',
     answer:
-      'Raised face (RF) flanges have a 1/16" raised ring around the bore. This concentrates the gasket load in a smaller area, improving sealing performance and gasket longevity. RF is standard for most industrial applications in ASME B16.5. Flat face (FF) is used primarily with full-face gaskets. Ring joint (RJ) is reserved for high-pressure/high-temperature critical service. Most new designs specify raised face.',
+      'Raised face (RF) flanges have a 1/16" or 1/4" raised ring around the bore. This concentrates the gasket load in a smaller area, improving sealing performance and gasket longevity. RF is standard for most industrial applications in ASME B16.5. Flat face (FF) is used primarily with full-face gaskets. Ring joint (RJ) is reserved for high-pressure/high-temperature critical service. Most new designs specify raised face.',
   },
   {
     question: 'Can I mix ASME B16.5 with other flange standards?',
@@ -180,7 +128,7 @@ const faqItems = [
 
 const sizeRanges = [
   { label: 'Small Bore', range: 'NPS 1/2 to 2', use: 'Instrumentation, small systems' },
-  { label: 'Standard Bore', range: 'NPS 3 to 8', use: 'General industrial piping' },
+  { label: 'Medium', range: 'NPS 3 to 8', use: 'General industrial piping' },
   { label: 'Large Bore', range: 'NPS 10 to 24', use: 'Major process systems, waterworks' },
 ];
 
@@ -310,7 +258,7 @@ export default function ASMEFlangePage() {
                   </li>
                   <li className="flex gap-3">
                     <span className="text-gray-400 font-bold">•</span>
-                    <span>Series A (75, 150 PSI) & Series B (150, 300 PSI)</span>
+                    <span>Series A (150# and up) & Series B (75# and up)</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="text-gray-400 font-bold">•</span>
@@ -367,7 +315,7 @@ export default function ASMEFlangePage() {
               <p className="text-gray-700 mb-2">
                 <strong>Flange Availability:</strong> While ASME B16.5 nominally covers NPS 1/2
                 through 24, standard manufacturing typically begins at NPS 1/2 with most
-                industrial applications concentrated in NPS 1 through 16. Very large sizes
+                industrial applications concentrated in NPS 1 through 12. Very large sizes
                 (20-24 inches) may require longer lead times or special orders.
               </p>
             </div>
@@ -385,85 +333,9 @@ export default function ASMEFlangePage() {
               ASME B16.5 defines seven pressure classes, each with specific design pressures,
               temperature deration curves, and intended applications. The pressure class
               selected should match or exceed the maximum operating pressure and temperature of
-              your piping system. Design pressure is typically set at 1.5 times the maximum
-              working pressure to provide a safety margin.
+              your piping system. Hydrostatic test pressure is 1.5 times the published pressure values in the spec.
             </p>
 
-            <div className="bg-white rounded-lg overflow-hidden border border-gray-200 mb-8">
-              <SpecTable columns={pressureClassData} data={pressureClassRows} />
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-bold text-primary mb-4">
-                  Pressure Class Selection Criteria
-                </h3>
-                <ul className="space-y-3">
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">1</span>
-                    <div>
-                      <p className="font-semibold text-gray-800">Maximum System Pressure</p>
-                      <p className="text-sm text-gray-600">
-                        Select class with design pressure ≥ 1.5 × max working pressure
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">2</span>
-                    <div>
-                      <p className="font-semibold text-gray-800">Operating Temperature</p>
-                      <p className="text-sm text-gray-600">
-                        Verify temperature is within flange rating (note deration at high temps)
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">3</span>
-                    <div>
-                      <p className="font-semibold text-gray-800">Peak Operating Conditions</p>
-                      <p className="text-sm text-gray-600">
-                        Account for startup transients and emergency scenarios
-                      </p>
-                    </div>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">4</span>
-                    <div>
-                      <p className="font-semibold text-gray-800">Material Compatibility</p>
-                      <p className="text-sm text-gray-600">
-                        Different materials have different pressure/temperature ratings
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-iron text-white rounded-lg p-8">
-                <h3 className="text-xl font-bold mb-4">Pressure Class Example</h3>
-                <div className="bg-white/10 rounded p-4 mb-4">
-                  <p className="text-sm mb-4">
-                    <strong>System Operating Conditions:</strong>
-                  </p>
-                  <ul className="text-sm space-y-2 mb-4">
-                    <li>• Max working pressure: 300 PSI</li>
-                    <li>• Operating temperature: 500°F</li>
-                    <li>• Fluid: Steam</li>
-                  </ul>
-                </div>
-                <div className="bg-white/10 rounded p-4">
-                  <p className="text-sm mb-2">
-                    <strong>Recommended Selection:</strong>
-                  </p>
-                  <p className="text-base font-bold">
-                    ASME B16.5 Class 600 PSI
-                  </p>
-                  <p className="text-xs mt-2 opacity-90">
-                    Design pressure 660 PSI exceeds requirement (1.5 × 300 = 450 PSI). Temperature
-                    650°F rating provides safety margin above 500°F operating condition.
-                  </p>
-                </div>
-              </div>
-            </div>
           </Container>
         </section>
 

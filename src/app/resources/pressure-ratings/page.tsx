@@ -139,54 +139,38 @@ export default function PressureRatingsPage() {
           <div className="space-y-8">
             <div className="bg-white p-8 rounded-lg border border-gray-200">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Step 1: Identify Your Flange Class</h3>
-              <p className="text-gray-700 leading-relaxed mb-4">
+              <p className="text-gray-700 leading-relaxed">
                 ASME B16.5 pressure classes are: 150, 300, 400, 600, 900, 1500, and 2500. Your piping system design
                 pressure determines which class you need. A Class 150 flange is rated for 150 psi at room temperature
                 but will have lower allowable pressures at elevated temperatures.
               </p>
-              <div className="bg-orange-50 p-4 rounded border border-orange-200 text-sm text-gray-700">
-                <strong>Example:</strong> If your system operates at 200 psi, you need at least a Class 300 flange
-                (which is rated for 300 psi at room temperature).
-              </div>
             </div>
 
             <div className="bg-white p-8 rounded-lg border border-gray-200">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Step 2: Determine Your Material Group</h3>
-              <p className="text-gray-700 leading-relaxed mb-4">
+              <p className="text-gray-700 leading-relaxed">
                 ASME B16.5 Table 2 organizes materials into groups (A, B, C, D, E, F, etc.) based on similar strength
                 and temperature characteristics. All materials in the same group have identical P-T ratings for a given
                 pressure class. Identify which material group your flange material belongs to.
               </p>
-              <div className="bg-orange-50 p-4 rounded border border-orange-200 text-sm text-gray-700">
-                <strong>Example:</strong> ASTM A105 (carbon steel) belongs to Group A. ASTM A182 F304 (stainless)
-                belongs to a different group with higher temperature capability.
-              </div>
             </div>
 
             <div className="bg-white p-8 rounded-lg border border-gray-200">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Step 3: Find Your Operating Temperature</h3>
-              <p className="text-gray-700 leading-relaxed mb-4">
+              <p className="text-gray-700 leading-relaxed">
                 Locate the operating temperature (or the next higher temperature listed) in Table 2. ASME provides
                 ratings at standard temperature intervals. If your exact temperature falls between listed values, you
                 can interpolate linearly.
               </p>
-              <div className="bg-orange-50 p-4 rounded border border-orange-200 text-sm text-gray-700">
-                <strong>Example:</strong> For 450°F, find the nearest temperature values in the table (typically 400°F
-                and 500°F are listed) and interpolate to find the rating at 450°F.
-              </div>
             </div>
 
             <div className="bg-white p-8 rounded-lg border border-gray-200">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Step 4: Read the Allowable Pressure</h3>
-              <p className="text-gray-700 leading-relaxed mb-4">
+              <p className="text-gray-700 leading-relaxed">
                 Where your class row, material group column, and temperature intersect is your allowable pressure
                 rating. This is the maximum pressure at which you can operate your flange at that temperature. Your
                 actual system pressure must equal or be less than this value.
               </p>
-              <div className="bg-orange-50 p-4 rounded border border-orange-200 text-sm text-gray-700">
-                <strong>Example:</strong> Class 150, Group A material (A105), at 500°F = 100 psi allowable pressure.
-                Your system cannot exceed 100 psi at 500°F with this flange.
-              </div>
             </div>
           </div>
         </Container>
@@ -265,174 +249,6 @@ export default function PressureRatingsPage() {
         </Container>
       </SectionWrapper>
 
-      {/* Sample P-T Rating Tables */}
-      <SectionWrapper className="py-16 md:py-24 bg-gray-50">
-        <Container>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-            Sample P-T Rating Tables (ASTM A105, Carbon Steel)
-          </h2>
-
-          <p className="text-gray-700 leading-relaxed mb-8">
-            Below are representative P-T ratings for ASTM A105 carbon steel flanges. These are simplified examples;
-            always consult the official ASME B16.5 standard tables for your specific class and material.
-          </p>
-
-          <div className="space-y-8">
-            {/* Class 150 */}
-            <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
-              <div className="bg-iron text-white p-4 font-bold">
-                Class 150 Flange - ASTM A105 Carbon Steel
-              </div>
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="bg-blue-100">
-                      <th className="border border-gray-300 p-3 text-left font-bold">Temperature (°F)</th>
-                      <th className="border border-gray-300 p-3 text-center font-bold">Allowable Pressure (psi)</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">-20 to 100</td>
-                      <td className="border border-gray-300 p-3 text-center">150</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">200</td>
-                      <td className="border border-gray-300 p-3 text-center">150</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">300</td>
-                      <td className="border border-gray-300 p-3 text-center">145</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">400</td>
-                      <td className="border border-gray-300 p-3 text-center">140</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">500</td>
-                      <td className="border border-gray-300 p-3 text-center">125</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">600</td>
-                      <td className="border border-gray-300 p-3 text-center">110</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">700</td>
-                      <td className="border border-gray-300 p-3 text-center">95</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">800</td>
-                      <td className="border border-gray-300 p-3 text-center">80</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            {/* Class 300 */}
-            <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
-              <div className="bg-orange-900 text-white p-4 font-bold">
-                Class 300 Flange - ASTM A105 Carbon Steel
-              </div>
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="bg-parchment">
-                      <th className="border border-gray-300 p-3 text-left font-bold">Temperature (°F)</th>
-                      <th className="border border-gray-300 p-3 text-center font-bold">Allowable Pressure (psi)</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">-20 to 100</td>
-                      <td className="border border-gray-300 p-3 text-center">300</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">200</td>
-                      <td className="border border-gray-300 p-3 text-center">300</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">300</td>
-                      <td className="border border-gray-300 p-3 text-center">290</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">400</td>
-                      <td className="border border-gray-300 p-3 text-center">280</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">500</td>
-                      <td className="border border-gray-300 p-3 text-center">250</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">600</td>
-                      <td className="border border-gray-300 p-3 text-center">220</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">700</td>
-                      <td className="border border-gray-300 p-3 text-center">190</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">800</td>
-                      <td className="border border-gray-300 p-3 text-center">160</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            {/* Class 600 */}
-            <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
-              <div className="bg-red-900 text-white p-4 font-bold">
-                Class 600 Flange - ASTM A105 Carbon Steel
-              </div>
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="bg-red-100">
-                      <th className="border border-gray-300 p-3 text-left font-bold">Temperature (°F)</th>
-                      <th className="border border-gray-300 p-3 text-center font-bold">Allowable Pressure (psi)</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">-20 to 100</td>
-                      <td className="border border-gray-300 p-3 text-center">600</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">200</td>
-                      <td className="border border-gray-300 p-3 text-center">600</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">300</td>
-                      <td className="border border-gray-300 p-3 text-center">580</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">400</td>
-                      <td className="border border-gray-300 p-3 text-center">560</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">500</td>
-                      <td className="border border-gray-300 p-3 text-center">500</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">600</td>
-                      <td className="border border-gray-300 p-3 text-center">440</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">700</td>
-                      <td className="border border-gray-300 p-3 text-center">380</td>
-                    </tr>
-                    <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 p-3">800</td>
-                      <td className="border border-gray-300 p-3 text-center">320</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </Container>
-      </SectionWrapper>
 
       {/* Safety Factors and Design Margins */}
       <SectionWrapper className="py-16 md:py-24 bg-white">

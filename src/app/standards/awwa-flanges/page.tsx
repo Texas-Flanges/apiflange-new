@@ -30,30 +30,30 @@ const awwaC207ClassesData = [
 const awwaC207ClassesRows = [
   {
     class: 'Class B',
-    pressure: '150 PSI',
-    sizes: '4" to 144"',
-    face: 'Raised Face',
+    pressure: '86 PSI',
+    sizes: 'up to 144"',
+    face: 'Flat Face',
     uses: 'Low-pressure water transmission',
   },
   {
     class: 'Class D',
-    pressure: '200 PSI',
-    sizes: '4" to 96"',
-    face: 'Raised Face',
+    pressure: '175 PSI',
+    sizes: 'up to 144"',
+    face: 'Flat Face',
     uses: 'Standard water distribution (most common)',
   },
   {
     class: 'Class E',
-    pressure: '300 PSI',
-    sizes: '4" to 96"',
-    face: 'Raised Face',
+    pressure: '275 PSI',
+    sizes: 'up to 144"',
+    face: 'Flat Face',
     uses: 'High-pressure water transmission lines',
   },
   {
     class: 'Class F',
-    pressure: '350 PSI',
-    sizes: '4" to 60"',
-    face: 'Raised Face',
+    pressure: '300 PSI',
+    sizes: 'up to 48"',
+    face: 'Flat Face',
     uses: 'Maximum pressure waterworks service',
   },
 ];
@@ -381,7 +381,7 @@ export default function AWWAFlangePage() {
                   Class D (Most Common)
                 </h3>
                 <p className="text-gray-700 text-sm mb-4">
-                  Class D at 200 PSI is the industry standard for most water distribution systems.
+                  Class D at 175 PSI is the industry standard for most water distribution systems.
                   It represents the optimal balance between pressure capability and cost for typical
                   municipal water operations.
                 </p>
@@ -411,15 +411,15 @@ export default function AWWAFlangePage() {
                 </h3>
                 <div className="space-y-4 text-sm text-gray-700">
                   <div>
-                    <p className="font-semibold text-primary mb-1">Class B (150 PSI)</p>
+                    <p className="font-semibold text-primary mb-1">Class B (86 PSI)</p>
                     <p>For low-pressure applications; less common due to economic constraints.</p>
                   </div>
                   <div className="border-t border-gray-200 pt-4">
-                    <p className="font-semibold text-primary mb-1">Class E (300 PSI)</p>
+                    <p className="font-semibold text-primary mb-1">Class E (275 PSI)</p>
                     <p>For high-elevation systems and long-distance transmission with pressure boost.</p>
                   </div>
                   <div className="border-t border-gray-200 pt-4">
-                    <p className="font-semibold text-primary mb-1">Class F (350 PSI)</p>
+                    <p className="font-semibold text-primary mb-1">Class F (300 PSI)</p>
                     <p>Premium high-pressure service; used in critical transmission bottlenecks.</p>
                   </div>
                 </div>
@@ -428,319 +428,6 @@ export default function AWWAFlangePage() {
           </Container>
         </section>
 
-        {/* AWWA C228 Section */}
-        <section className="py-16 md:py-24 bg-white">
-          <Container>
-            <h2 className="text-4xl font-bold text-primary mb-8">
-              AWWA C228: Stainless Steel Flanges for Waterworks
-            </h2>
-
-            <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-3xl">
-              AWWA C228 specifies stainless steel flanges for waterworks applications. Where
-              galvanizing or epoxy coatings are insufficient (coastal areas, high-chloride water,
-              or aesthetic concerns), stainless steel provides superior corrosion resistance.
-              AWWA C228 covers sizes 2" to 72" with three pressure classes.
-            </p>
-
-            <h3 className="text-2xl font-bold text-primary mb-6">
-              Pressure Classes (AWWA C228)
-            </h3>
-
-            <div className="bg-white rounded-lg overflow-hidden border border-gray-200 mb-8">
-              <SpecTable
-                columns={awwaC228ClassesData}
-                data={awwaC228ClassesRows}
-              />
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              <div className="bg-gradient-to-br from-blue-50 to-white rounded-lg p-6 border border-gray-200">
-                <h3 className="text-lg font-bold text-primary mb-3">Stainless 304</h3>
-                <p className="text-gray-700 text-sm mb-4">
-                  General-purpose stainless steel. Good for freshwater and mildly corrosive environments.
-                </p>
-                <p className="text-xs text-gray-600">
-                  <strong>Cost:</strong> Lower than 316L
-                </p>
-              </div>
-
-              <div className="bg-gradient-to-br from-blue-50 to-white rounded-lg p-6 border border-gray-200">
-                <h3 className="text-lg font-bold text-primary mb-3">Stainless 316L</h3>
-                <p className="text-gray-700 text-sm mb-4">
-                  Enhanced corrosion resistance with added molybdenum. Excellent for seawater and
-                  brackish environments.
-                </p>
-                <p className="text-xs text-gray-600">
-                  <strong>Cost:</strong> Higher; better for harsh climates
-                </p>
-              </div>
-
-              <div className="bg-gradient-to-br from-blue-50 to-white rounded-lg p-6 border border-gray-200">
-                <h3 className="text-lg font-bold text-primary mb-3">Duplex Stainless</h3>
-                <p className="text-gray-700 text-sm mb-4">
-                  Highest strength stainless. Superior pitting resistance and stress corrosion cracking.
-                </p>
-                <p className="text-xs text-gray-600">
-                  <strong>Cost:</strong> Highest; for extreme conditions
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-iron text-white rounded-lg p-8">
-              <h3 className="text-xl font-bold mb-4">When to Specify AWWA C228</h3>
-              <ul className="space-y-3">
-                <li className="flex gap-3">
-                  <span className="text-brass font-bold text-xl">•</span>
-                  <span>Coastal systems with salt spray exposure</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-brass font-bold text-xl">•</span>
-                  <span>Brackish or desalination water systems</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-brass font-bold text-xl">•</span>
-                  <span>High-chloride water treatment plants</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-brass font-bold text-xl">•</span>
-                  <span>Systems requiring 30+ year service life</span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-brass font-bold text-xl">•</span>
-                  <span>Where aesthetic appearance matters (visible installations)</span>
-                </li>
-              </ul>
-            </div>
-          </Container>
-        </section>
-
-        {/* Coatings Section */}
-        <section className="py-16 md:py-24 bg-gray-50">
-          <Container>
-            <h2 className="text-4xl font-bold text-primary mb-8">
-              AWWA C207 Coating Options
-            </h2>
-
-            <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-3xl">
-              AWWA C207 flanges are available with galvanized or epoxy coatings, each providing
-              different levels of corrosion protection for different water environments. The
-              coating selection is critical for system longevity.
-            </p>
-
-            <div className="bg-white rounded-lg overflow-hidden border border-gray-200 mb-8">
-              <SpecTable columns={coatingData} data={coatingRows} />
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-white rounded-lg p-8 border border-gray-200">
-                <h3 className="text-xl font-bold text-primary mb-4">
-                  Galvanized Coating (ASTM A123)
-                </h3>
-                <p className="text-gray-700 text-sm mb-4">
-                  Hot-dip galvanizing provides a zinc coating that protects the base steel. The zinc
-                  corrodes preferentially, sacrificing itself to protect the underlying steel.
-                </p>
-                <div className="space-y-2 text-sm text-gray-700">
-                  <p><strong>Advantages:</strong></p>
-                  <ul className="list-disc list-inside space-y-1 ml-2">
-                    <li>Cost-effective for typical freshwater systems</li>
-                    <li>Proven 15-20 year service life in freshwater</li>
-                    <li>Self-healing properties at cut/damaged areas</li>
-                    <li>Industry standard for inland utilities</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-lg p-8 border border-gray-200">
-                <h3 className="text-xl font-bold text-primary mb-4">
-                  Epoxy Coating (AWWA C213)
-                </h3>
-                <p className="text-gray-700 text-sm mb-4">
-                  Polyamide epoxy coating creates a barrier between water and steel. Superior
-                  protection in aggressive water conditions.
-                </p>
-                <div className="space-y-2 text-sm text-gray-700">
-                  <p><strong>Advantages:</strong></p>
-                  <ul className="list-disc list-inside space-y-1 ml-2">
-                    <li>Superior corrosion resistance (20+ year life)</li>
-                    <li>Protects interior and exterior surfaces</li>
-                    <li>Better in seawater and high-chloride water</li>
-                    <li>Preferred for critical transmission lines</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-8 bg-blue-50 border-l-4 border-brass p-6">
-              <h3 className="text-lg font-bold text-primary mb-3">
-                Coating Selection Guidelines
-              </h3>
-              <div className="space-y-3 text-gray-700 text-sm">
-                <p>
-                  <strong>Use Galvanized for:</strong> Inland freshwater systems, temperate climates,
-                  budget-conscious projects with 15-year replacement cycles.
-                </p>
-                <p>
-                  <strong>Use Epoxy for:</strong> Coastal areas, high-chloride water, systems requiring
-                  20+ year service without replacement, aesthetic applications.
-                </p>
-              </div>
-            </div>
-          </Container>
-        </section>
-
-        {/* Dimensions Section */}
-        <section className="py-16 md:py-24 bg-white">
-          <Container>
-            <h2 className="text-4xl font-bold text-primary mb-6">
-              AWWA C207 Typical Dimensions (Class D)
-            </h2>
-
-            <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-3xl">
-              AWWA C207 Class D (200 PSI) dimensions for common pipe sizes. These are approximate
-              values; always consult manufacturer specifications for exact dimensions.
-            </p>
-
-            <div className="bg-white rounded-lg overflow-hidden border border-gray-200 mb-8">
-              <SpecTable columns={dimensionTableData} data={dimensionTableRows} />
-            </div>
-
-            <div className="bg-blue-50 border-l-4 border-brass p-6 mb-8">
-              <p className="text-gray-700">
-                <strong>Note on Dimensions:</strong> AWWA flange dimensions differ from ASME B16.5
-                in many cases. Always verify dimensions before installation. Mixing AWWA and ASME
-                flanges may result in bolt hole misalignment or incompatible pressure ratings.
-              </p>
-            </div>
-
-            <h3 className="text-xl font-bold text-primary mb-4">
-              Size Availability
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-                <p className="font-semibold text-primary mb-2">Small Sizes (4"-8")</p>
-                <p className="text-gray-700 text-sm">
-                  Readily available from most suppliers. Short lead times (1-2 weeks).
-                </p>
-              </div>
-              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-                <p className="font-semibold text-primary mb-2">Medium Sizes (10"-24")</p>
-                <p className="text-gray-700 text-sm">
-                  Generally available; lead times 2-4 weeks depending on coating and quantity.
-                </p>
-              </div>
-              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-                <p className="font-semibold text-primary mb-2">Large Sizes (30"-144")</p>
-                <p className="text-gray-700 text-sm">
-                  Special order; lead times 8-12 weeks. Custom forging may be required.
-                </p>
-              </div>
-            </div>
-          </Container>
-        </section>
-
-        {/* AWWA vs ASME Comparison */}
-        <section className="py-16 md:py-24 bg-gray-50">
-          <Container>
-            <h2 className="text-4xl font-bold text-primary mb-8">
-              AWWA vs. ASME Flange Comparison
-            </h2>
-
-            <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-3xl">
-              While both AWWA and ASME standards specify industrial flanges, they serve different
-              purposes and are not interchangeable. Here's a detailed comparison:
-            </p>
-
-            <div className="bg-white rounded-lg overflow-hidden border border-gray-200 mb-8">
-              <SpecTable columns={asmeVsAwwaData} data={asmeVsAwwaRows} />
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-white rounded-lg p-8 border border-gray-200">
-                <h3 className="text-xl font-bold text-primary mb-4">
-                  Use ASME B16.5 When:
-                </h3>
-                <ul className="space-y-3 text-gray-700 text-sm">
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">→</span>
-                    <span>General industrial piping (oil, gas, chemicals)</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">→</span>
-                    <span>High-temperature or high-pressure service</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">→</span>
-                    <span>Need pressure classes above 350 PSI</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">→</span>
-                    <span>Multiple flange types required (WN, SO, SW)</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">→</span>
-                    <span>Equipment not potable water related</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-white rounded-lg p-8 border border-gray-200">
-                <h3 className="text-xl font-bold text-primary mb-4">
-                  Use AWWA C207/C228 When:
-                </h3>
-                <ul className="space-y-3 text-gray-700 text-sm">
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">→</span>
-                    <span>Water transmission or distribution systems</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">→</span>
-                    <span>Potable water compliance required</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">→</span>
-                    <span>Long-term corrosion protection needed</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">→</span>
-                    <span>Water utility or municipality specification</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="text-brass font-bold">→</span>
-                    <span>Galvanized or stainless alternatives required</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </Container>
-        </section>
-
-        {/* Key Advantages Section */}
-        <section className="py-16 md:py-24 bg-white">
-          <Container>
-            <h2 className="text-4xl font-bold text-primary mb-12">
-              Why AWWA Standards Matter for Water Systems
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {watermarksPoints.map((point, idx) => (
-                <div key={idx} className="bg-gray-50 rounded-lg p-8 border border-gray-200">
-                  <div className="flex items-start gap-4 mb-4">
-                    <div className="w-10 h-10 bg-brass text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">
-                      {idx + 1}
-                    </div>
-                    <h3 className="text-lg font-bold text-primary mt-1">
-                      {point.title}
-                    </h3>
-                  </div>
-                  <p className="text-gray-700 text-sm">
-                    {point.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </Container>
-        </section>
 
         {/* FAQ Section */}
         <section className="py-16 md:py-24 bg-gray-50">

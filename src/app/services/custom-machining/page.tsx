@@ -301,16 +301,16 @@ export default function CustomMachiningPage() {
               {/* Tolerance Specifications */}
               <div className="bg-white rounded-lg p-6 border border-gray-200">
                 <h3 className="font-bold text-iron mb-4">
-                  Standard Tolerances
+                  Industry Tolerances
                 </h3>
                 <div className="space-y-3">
                   {[
-                    { spec: 'Linear Dimensions', tolerance: '±0.005"' },
-                    { spec: 'Bore Diameters', tolerance: '±0.002"' },
-                    { spec: 'Bolt Hole Patterns', tolerance: '±0.003"' },
+                    { spec: 'Linear Dimensions', tolerance: '+/- 0.01" or better' },
+                    { spec: 'Bore Diameters', tolerance: '+/- 0.01" or better' },
+                    { spec: 'Bolt Hole Patterns', tolerance: '+/- 0.01" or better' },
                     { spec: 'Flatness (Surfaces)', tolerance: '0.001" TIR' },
                     { spec: 'Parallelism', tolerance: '0.001-0.002"' },
-                    { spec: 'Surface Finish (Ra)', tolerance: '32-125 µ"' },
+                    { spec: 'Surface Finish (Ra)', tolerance: '32-125 μ"' },
                   ].map((item, idx) => (
                     <div
                       key={idx}
