@@ -226,7 +226,7 @@ export function generateOrganizationSchema(): Record<string, any> {
     description: SITE_DESCRIPTION,
     logo: `${SITE_URL}/logo.png`,
     image: `${SITE_URL}/og-image.png`,
-    sameAs: Object.values(SOCIAL_LINKS),
+    // sameAs omitted - pillar sites do not include social links
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+1-281-484-8325',
@@ -241,7 +241,7 @@ export function generateOrganizationSchema(): Record<string, any> {
       postalCode: '77588',
       addressCountry: 'US',
     },
-    foundingDate: '2010',
+    // foundingDate omitted - no verifiable founding date
     areaServed: 'US',
     knowsAbout: ['Flanges', 'API Standards', 'Industrial Components', 'Oil & Gas'],
   };

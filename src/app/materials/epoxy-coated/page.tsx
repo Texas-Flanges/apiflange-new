@@ -43,9 +43,9 @@ const specColumns = [
 const specData = [
   {
     parameter: 'Coating Dry Thickness',
-    requirement: '125 - 150 mils (3.2-3.8 mm)',
-    typical: '140 mils',
-    notes: 'Minimum 125 mils at any point',
+    requirement: '8 - 14 mils (0.2-0.36 mm)',
+    typical: '10-12 mils',
+    notes: 'Minimum 8 mils at any point per AWWA C550',
   },
   {
     parameter: 'Surface Preparation',
@@ -73,9 +73,9 @@ const specData = [
   },
   {
     parameter: 'Minimum Film Thickness',
-    requirement: 'No point below 125 mils',
-    typical: '125+ mils everywhere',
-    notes: 'Measured by gage; cannot be waived',
+    requirement: 'No point below 8 mils',
+    typical: '8+ mils everywhere',
+    notes: 'Measured by magnetic gage; cannot be waived',
   },
   {
     parameter: 'Holiday (Defect) Testing',
@@ -248,7 +248,7 @@ const qcData = [
   {
     test: 'Dry Film Thickness',
     standard: 'ASTM B499 (magnetic gage)',
-    acceptance: '125-150 mils (FBE per AWWA C550)',
+    acceptance: '8-14 mils (FBE per AWWA C550)',
     frequency: 'Every 2 feet (minimum 5 tests)',
   },
   {
@@ -313,7 +313,7 @@ const faqItems = [
   {
     question: 'Can I paint or apply additional coating over an epoxy-coated flange?',
     answer:
-      "Generally, no. Additional coatings do not adhere well to the smooth epoxy surface without special preparation. If additional protection is needed, the epoxy must be lightly abraded with sandpaper to provide tooth for the new coating. Consult the coating manufacturer for compatibility. In most cases, the 140-150 mil epoxy coating is sufficient and additional coatings are not necessary or recommended.",
+      "Generally, no. Additional coatings do not adhere well to the smooth epoxy surface without special preparation. If additional protection is needed, the epoxy must be lightly abraded with sandpaper to provide tooth for the new coating. Consult the coating manufacturer for compatibility. In most cases, the 8-14 mil FBE coating is sufficient and additional coatings are not necessary or recommended.",
   },
   {
     question: 'What is the difference between NSF-61 potable water and AWWA certifications?',
@@ -380,7 +380,7 @@ export default function EpoxyCoatedPage() {
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Unlike uncoated steel (which leaches iron and discolors water) or stainless steel (which is
               more expensive), epoxy-coated flanges provide a cost-effective solution with proven performance
-              in municipal and industrial potable water systems worldwide. The 125-150 mil epoxy coating
+              in municipal and industrial potable water systems worldwide. The 8-14 mil FBE coating
               provides 15-25 years of protection, with the option to extend service life through proper
               maintenance and environment management.
             </p>
@@ -425,11 +425,11 @@ export default function EpoxyCoatedPage() {
             <h3 className="text-xl font-bold text-gray-900 mb-4">Understanding the Specifications</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-bold text-gray-900 mb-2">Why 125-150 mils thick?</h4>
+                <h4 className="font-bold text-gray-900 mb-2">Why 8-14 mils thick?</h4>
                 <p className="text-gray-700 text-sm">
-                  This thickness provides a complete barrier with margin for minor surface variations. 125
-                  mils is the minimum acceptable thickness. Thicker coatings provide slightly longer life
-                  but at increased cost. 140 mils is a typical target balance.
+                  This thickness provides a complete barrier with margin for minor surface variations. 8
+                  mils is the minimum acceptable thickness per AWWA C550. Thicker coatings provide slightly longer life
+                  but at increased cost. 10-12 mils is a typical target balance.
                 </p>
               </div>
               <div>
@@ -540,7 +540,7 @@ export default function EpoxyCoatedPage() {
               <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-600">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Step 5: Inspection and Testing</h3>
                 <p className="text-gray-700 text-sm">
-                  Each flange is inspected for coating thickness (125-150 mils), holiday detection (100%
+                  Each flange is inspected for coating thickness (8-14 mils), holiday detection (100%
                   coverage), and adhesion testing. All ASTM tests must pass. Any failures require touch-up
                   and retesting before the flange is approved for shipment.
                 </p>

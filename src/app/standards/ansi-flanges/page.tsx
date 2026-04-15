@@ -96,7 +96,7 @@ const faqItems = [
   {
     question: 'How often is the ASME B16.5 standard updated?',
     answer:
-      'ASME typically updates major standards every 5-10 years. Updates address manufacturing improvements, clarify ambiguities, and incorporate new material grades and testing methods. Each new edition is backward compatible with prior versions—newer flanges will work with older equipment. Check the publication year when specifying.',
+      'ASME typically updates major standards every 5-10 years. Updates address manufacturing improvements, clarify ambiguities, and incorporate new material grades and testing methods. Each new edition is backward compatible with prior versions - newer flanges will work with older equipment. Check the publication year when specifying.',
   },
   {
     question: 'Are there any differences between ASME B16.5-2017 and ASME B16.5-2009?',
@@ -259,7 +259,7 @@ export default function ANSIFlangePage() {
                 </p>
                 <p className="text-gray-700 text-sm">
                   This compatibility is intentional and engineered. Updates maintain core dimensions
-                  and only refine materials, clarify terminology, or add new options—they never
+                  and only refine materials, clarify terminology, or add new options. They never
                   obsolete existing specifications.
                 </p>
               </div>
@@ -423,7 +423,7 @@ export default function ANSIFlangePage() {
                 <p className="text-gray-700 mb-4">
                   If you're looking at legacy equipment marked "ANSI B16.5," understand that it
                   uses the same flange design as modern "ASME B16.5" equipment. You can source
-                  replacements using either designation—they're compatible. For new projects,
+                  replacements using either designation - they're compatible. For new projects,
                   use the ASME designation as it's the current standard.
                 </p>
               </div>

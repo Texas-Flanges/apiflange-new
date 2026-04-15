@@ -805,15 +805,15 @@ export default function HomePage() {
             {[
               {
                 q: 'What flange standards do you stock?',
-                a: 'We carry inventory to ASME B16.5, ASME B16.47 Series A and B, AWWA C207, and DIN/EN 1092-1. If your project calls for a different standard, we can source or manufacture to it.',
+                a: 'We carry inventory to ASME B16.5, ASME B16.47 Series A and B, AWWA C207, and DIN/EN 1092-1. If your project calls for a different standard, we can source it.',
               },
               {
                 q: 'Can you supply flanges with domestic melt requirements?',
-                a: 'Yes. We stock Buy American / ARRA compliant flanges and can provide full domestic melt and manufacture documentation when required.',
+                a: 'Yes. We stock Buy American / ARRA compliant flanges and can provide full domestic melt and production documentation when required.',
               },
               {
                 q: 'What is your typical lead time?',
-                a: 'Standard carbon and stainless flanges ship from stock in 1-3 business days. Custom machined or exotic alloy flanges typically run 2-6 weeks depending on material availability and complexity.',
+                a: 'We pride ourselves on industry-leading turnaround times. Lead times vary by material and specification, so call us at (281) 484-8325 for project-specific timelines.',
               },
               {
                 q: 'Do you provide mill test reports?',
@@ -853,7 +853,7 @@ export default function HomePage() {
                 <ArrowRight size={20} />
               </Link>
               <a
-                href="tel:8005553800"
+                href="tel:+1-281-484-8325"
                 className="inline-flex items-center gap-2 border-2 border-silver/40 text-silver-light px-8 py-3.5 rounded font-bold text-lg hover:border-brass hover:text-brass transition-colors"
               >
                 <Phone size={20} />

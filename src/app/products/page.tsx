@@ -42,7 +42,7 @@ const productCategories: ProductCategory[] = [
     name: 'Steel Pipe Flanges',
     slug: '/products/flanges',
     description:
-      'Our comprehensive range includes 20 different flange types to meet every industrial piping requirement. From weld neck to RTJ flanges, we deliver precision-engineered solutions for high-pressure, high-temperature, and critical service applications.',
+      'Our comprehensive range includes 20 different flange types to meet every industrial piping requirement. From weld neck to RTJ flanges, we supply solutions for high-pressure, high-temperature, and critical service applications.',
     highlightColor: 'border-blue-500',
   },
   {
@@ -117,7 +117,7 @@ export default function ProductsPage() {
               icon: '🏭',
               title: 'Industrial Grade',
               description:
-                'All products manufactured to ASME, ANSI, API, and DIN standards for guaranteed performance.',
+                'All products supplied to ASME, ANSI, API, and DIN standards for guaranteed performance.',
             },
             {
               icon: '✓',

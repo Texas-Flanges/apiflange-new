@@ -26,7 +26,7 @@ const blogPostsData = {
 
 Weld neck flanges, also known as hub flanges, are forged or cast components designed to be butt-welded directly to pipe ends. Their distinctive design features a tapered hub section that gradually transitions from the pipe bore diameter to the flange face diameter. This unique geometry provides several critical advantages that have made them the industry standard for decades.
 
-The weld neck design offers superior structural integrity compared to other flange types. The gradual transition from the hub to the flange eliminates stress concentration points that could lead to fatigue failure. When subjected to alternating loads, thermal cycling, or vibration—all common in industrial piping—the smooth transition zone distributes stresses evenly, extending component life and enhancing system reliability.
+The weld neck design offers superior structural integrity compared to other flange types. The gradual transition from the hub to the flange eliminates stress concentration points that could lead to fatigue failure. When subjected to alternating loads, thermal cycling, or vibration (all common in industrial piping), the smooth transition zone distributes stresses evenly, extending component life and enhancing system reliability.
 
 ## Key Design Characteristics
 
@@ -242,7 +242,7 @@ Before selecting a standard, verify all applicable regulations:
 
 ## Conclusion
 
-While ASME B16.5 and AWWA C207 address similar components, the distinctions are substantial enough to require careful attention during procurement. Specifying the wrong standard can result in incompatible components, project delays, and costly rework. Understanding the key differences—dimensional specifications, material requirements, pressure ratings, and documentation—ensures proper flange selection for your specific application.`,
+While ASME B16.5 and AWWA C207 address similar components, the distinctions are substantial enough to require careful attention during procurement. Specifying the wrong standard can result in incompatible components, project delays, and costly rework. Understanding the key differences (dimensional specifications, material requirements, pressure ratings, and documentation) ensures proper flange selection for your specific application.`,
     tableOfContents: [
       'Overview of ASME B16.5',
       'Overview of AWWA C207',
@@ -284,7 +284,7 @@ Before any manufacturing operations commence, raw materials undergo chemical ana
 
 Forging represents the critical first step in creating the flange shape and establishing the material's grain structure:
 
-**Heating**: Steel ingots are heated to optimal forging temperatures (typically 2100-2300°F for carbon steel) in controlled furnaces. Temperature precision is critical—too hot and the material becomes brittle; too cold and forging forces become excessive.
+**Heating**: Steel ingots are heated to optimal forging temperatures (typically 2100-2300°F for carbon steel) in controlled furnaces. Temperature precision is critical - too hot and the material becomes brittle; too cold and forging forces become excessive.
 
 **Cogging**: Large ingots undergo preliminary cogging operations to reduce size and establish initial flange geometry. Multiple passes orient the material grain structure favorably for subsequent operations.
 

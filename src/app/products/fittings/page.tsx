@@ -101,7 +101,7 @@ export default function FittingsPage() {
               Comprehensive Fitting Solutions
             </h2>
             <p className="text-gray-700 text-lg mb-4 leading-relaxed">
-              Pipe fittings are essential components that connect piping sections, enable directional changes, distribute flow, and reduce pipe sizes. ApiFlange provides a complete selection of pressure fittings manufactured to ASME B16.9 and other international standards.
+              Pipe fittings are essential components that connect piping sections, enable directional changes, distribute flow, and reduce pipe sizes. ApiFlange provides a complete selection of pressure fittings supplied to ASME B16.9 and other international standards.
             </p>
             <p className="text-gray-700 text-lg mb-6 leading-relaxed">
               All our fittings are engineered with optimized flow paths to minimize pressure drop and turbulence. Available in carbon steel, stainless steel, alloy steel, and specialty materials, our fittings are suitable for low-pressure utilities to high-pressure critical service applications.

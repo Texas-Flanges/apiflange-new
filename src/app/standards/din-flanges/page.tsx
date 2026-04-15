@@ -235,7 +235,7 @@ const faqItems = [
   {
     question: 'How do I convert DIN to NPS sizing?',
     answer:
-      'DN to NPS conversion is approximate since DIN is metric while NPS is imperial. Common conversions: DN 15 ≈ NPS 1/2", DN 25 ≈ NPS 1", DN 40 ≈ NPS 1.5", DN 50 ≈ NPS 2", DN 80 ≈ NPS 3", DN 100 ≈ NPS 4", DN 150 ≈ NPS 6". However, never use these as exact equivalents—always verify specific flange dimensions.',
+      'DN to NPS conversion is approximate since DIN is metric while NPS is imperial. Common conversions: DN 15 ≈ NPS 1/2", DN 25 ≈ NPS 1", DN 40 ≈ NPS 1.5", DN 50 ≈ NPS 2", DN 80 ≈ NPS 3", DN 100 ≈ NPS 4", DN 150 ≈ NPS 6". However, never use these as exact equivalents - always verify specific flange dimensions.',
   },
   {
     question: 'Is DIN EN 1092-1 the same as ISO 7241?',
@@ -415,7 +415,7 @@ export default function DINFlangePage() {
             <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-3xl">
               DIN EN 1092-1 uses DN (Diamètre Nominale) sizing in millimeters, ranging from DN
               10 through DN 4000. The DN number approximately corresponds to the internal diameter
-              in millimeters but should not be treated as an exact measurement—always verify
+              in millimeters but should not be treated as an exact measurement - always verify
               actual bore dimensions.
             </p>
 

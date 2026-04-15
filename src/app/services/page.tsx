@@ -33,9 +33,9 @@ export default function ServicesPage() {
             </div>
 
             <div className="bg-white border-2 border-blue-200 rounded-lg p-8 hover:shadow-lg transition">
-              <h3 className="text-2xl font-bold mb-4">Custom Manufacturing</h3>
+              <h3 className="text-2xl font-bold mb-4">Custom Solutions</h3>
               <p className="mb-4">
-                When standard products don't fit your application, our engineering team designs and manufactures
+                When standard products don't fit your application, our engineering team designs and sources
                 custom solutions to your exact specifications.
               </p>
               <ul className="space-y-2 text-sm">
@@ -64,7 +64,7 @@ export default function ServicesPage() {
           <div className="mt-12 bg-blue-50 p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-4">Rush Order Fulfillment</h3>
             <p className="text-lg">
-              Need it fast? We offer expedited manufacturing and shipping options to keep your projects on schedule.
+              Need it fast? We offer expedited production and shipping options to keep your projects on schedule.
               Call us at <a href="tel:+1-281-484-8325" className="text-blue-600 hover:text-blue-800">281-484-8325</a> to discuss your timeline.
             </p>
           </div>

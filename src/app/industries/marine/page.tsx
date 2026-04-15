@@ -256,7 +256,7 @@ export default function MarinePage() {
       <SectionWrapper padding="lg" variant="gray" heading="Sizes & Pressure Classes">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            ApiFlange manufactures marine flanges in all standard ASME sizes and pressure classes, from instrument connections to large bore subsea jumpers.
+            ApiFlange supplies marine flanges in all standard ASME sizes and pressure classes, from instrument connections to large bore subsea jumpers.
           </p>
 
           <div className="bg-gradient-to-r from-[#1C1C1E] to-[#2A2A2E] rounded-lg p-8 text-white text-center">

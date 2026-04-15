@@ -209,8 +209,8 @@ export function ProcessStepsExample() {
       icon: '✏️',
     },
     {
-      title: 'Manufacturing',
-      description: 'We manufacture your products using precision equipment and quality materials.',
+      title: 'Production',
+      description: 'Your order is fulfilled using precision equipment and quality materials.',
       icon: '⚙️',
     },
     {

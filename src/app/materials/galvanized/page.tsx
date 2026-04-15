@@ -207,7 +207,7 @@ const faqItems = [
   {
     question: 'What maintenance is required for galvanized flanges?',
     answer:
-      'Minimal maintenance is needed. Periodically rinse with fresh water to remove salts, bird droppings, and industrial dust that accelerate corrosion. Do NOT scrub the white zinc oxide patina that forms—this is protective. In coastal or chemical environments, rinse every 6-12 months. Do not apply paint over galvanizing without proper surface prep; the smooth zinc surface causes paint adhesion failure. If painting is desired, use zinc-rich primer specifically designed for galvanized steel.',
+      'Minimal maintenance is needed. Periodically rinse with fresh water to remove salts, bird droppings, and industrial dust that accelerate corrosion. Do NOT scrub the white zinc oxide patina that forms - this is protective. In coastal or chemical environments, rinse every 6-12 months. Do not apply paint over galvanizing without proper surface prep; the smooth zinc surface causes paint adhesion failure. If painting is desired, use zinc-rich primer specifically designed for galvanized steel.',
   },
 ];
 

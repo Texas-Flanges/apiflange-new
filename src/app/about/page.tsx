@@ -52,7 +52,7 @@ const values: Value[] = [
     icon: Award,
     title: 'Quality',
     description:
-      'Every flange meets rigorous specifications. Our commitment to quality means zero compromises on material selection, manufacturing precision, or testing procedures.',
+      'Every flange meets rigorous specifications. Our commitment to quality means zero compromises on material selection, production precision, or testing procedures.',
   },
   {
     icon: Zap,

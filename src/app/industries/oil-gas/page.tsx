@@ -79,7 +79,7 @@ export default function OilGasPage() {
       <SectionWrapper padding="lg" variant="gray" heading="ASME Standards & Pressure Classes">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            ApiFlange manufactures to ASME B16.5 (small bore) and B16.47 (large bore) standards covering the complete pressure range from 150 psi through 2500 psi. Our engineering ensures compatibility with existing systems and compliance with the most stringent API and international standards.
+            ApiFlange supplies flanges to ASME B16.5 (small bore) and B16.47 (large bore) standards covering the complete pressure range from 150 psi through 2500 psi. Our team ensures compatibility with existing systems and compliance with the most stringent API and international standards.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -236,7 +236,7 @@ export default function OilGasPage() {
       <SectionWrapper padding="lg" variant="white" heading="High-Alloy Materials for Extreme Service">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            Temperature and corrosion resistance drive material selection in oil and gas. ApiFlange stocks and fabricates premium alloys engineered for the harshest operating conditions.
+            Temperature and corrosion resistance drive material selection in oil and gas. ApiFlange stocks premium alloys engineered for the harshest operating conditions.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -362,14 +362,14 @@ export default function OilGasPage() {
                 'NACE MR0175 is a material specification, not a visible marking. Compliance comes from material composition, hardness limits, and heat treatment procedures documented in mill test reports. ApiFlange provides complete NACE certification paperwork with every sour service flange. Always request mill test reports and NACE verification when specifying sour service applications.',
             },
             {
-              question: 'Can you fabricate custom flanges outside standard sizes?',
+              question: 'Can you supply custom flanges outside standard sizes?',
               answer:
-                'Yes. We regularly engineer and fabricate custom flanges for unique applications including oversized bores, specialty face designs, and non-standard bolt hole patterns. Custom fabrication requires engineering drawings and lead time. Contact our sales team with your specifications for a detailed quote.',
+                'Yes. We regularly source and supply custom flanges for unique applications including oversized bores, specialty face designs, and non-standard bolt hole patterns. Custom orders require engineering drawings and lead time. Contact our sales team with your specifications for a detailed quote.',
             },
             {
               question: 'What is the typical lead time for oil and gas flanges?',
               answer:
-                'Standard catalog sizes in carbon steel are typically 2-4 weeks. High-alloy materials and custom configurations require additional time, usually 6-12 weeks depending on complexity. We maintain emergency stock for critical replacement needs. Contact us with your timeline requirements.',
+                'We offer industry-leading turnaround on oil and gas flanges. Lead times vary by material, size, and specification. We maintain emergency stock for critical replacement needs. Call (281) 484-8325 for project-specific timelines.',
             },
           ]}
         />

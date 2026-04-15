@@ -231,7 +231,7 @@ export default function PrivacyPolicy() {
             </p>
             <p>
               <strong>Phone:</strong>{' '}
-              <a href="tel:+18885550147" className="text-blue-900 hover:text-orange-500">
+              <a href="tel:+1-281-484-8325" className="text-blue-900 hover:text-orange-500">
                 (281) 484-8325
               </a>
             </p>

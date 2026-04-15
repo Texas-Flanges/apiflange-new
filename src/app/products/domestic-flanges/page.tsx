@@ -10,7 +10,7 @@ import { CheckCircle, Shield, FileCheck, Globe, ArrowRight } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Domestic Flanges - BABA/AIS Certified | API Flange',
   description:
-    'BABA and AIS certified domestic flanges for federally-funded water utility and public works projects. American Iron and Steel compliant manufacturing.',
+    'BABA and AIS certified domestic flanges for federally-funded water utility and public works projects. American Iron and Steel compliant sourcing.',
   keywords: [
     'domestic flanges',
     'BABA certified',
@@ -49,12 +49,12 @@ const complianceItems: ComplianceItem[] = [
   {
     title: 'Buy America Act (BAA)',
     description:
-      'Requires use of American-made materials and components in federally-funded projects. Our flanges qualify as domestically produced under 49 U.S.C. § 31304.',
+      'Requires use of American-made materials and components in federally-funded projects. Our flanges are domestically sourced and qualify under 49 U.S.C. § 31304.',
   },
   {
     title: 'American Iron and Steel (AIS)',
     description:
-      'Ensures that iron, steel, and manufactured products are produced in the United States. We maintain full compliance with AIS requirements for water infrastructure projects.',
+      'Ensures that iron, steel, and related products are produced in the United States. We maintain full compliance with AIS requirements for water infrastructure projects.',
   },
   {
     title: 'BABA Certification',
@@ -104,7 +104,7 @@ const documentationItems: DocumentationItem[] = [
   {
     title: 'Certification of Domestic Sourcing',
     description:
-      'Documented certification confirming all materials and manufacturing are U.S.-based, meeting BABA requirements.',
+      'Documented certification confirming all materials and production are U.S.-based, meeting BABA requirements.',
   },
   {
     title: 'Material Test Reports (MTRs)',
@@ -114,7 +114,7 @@ const documentationItems: DocumentationItem[] = [
   {
     title: 'Manufacturing Traceability',
     description:
-      'Full documentation linking every flange to heat numbers, manufacturing records, and quality testing results.',
+      'Full documentation linking every flange to heat numbers, production records, and quality testing results.',
   },
   {
     title: 'Pressure Testing Documentation',
@@ -155,7 +155,7 @@ export default function DomesticFlangePage() {
                 Federally-funded water utility and infrastructure projects are
                 subject to strict Buy America Act (BAA) and American Iron and
                 Steel (AIS) requirements. These regulations mandate that
-                materials and products used in such projects be manufactured in
+                materials and products used in such projects be produced in
                 the United States using domestic materials and labor. API Flange
                 specializes in supplying flanges that fully comply with these
                 requirements, enabling municipalities, water authorities, and
@@ -477,14 +477,14 @@ export default function DomesticFlangePage() {
                 },
                 {
                   q: 'What documentation do I need to submit to prove BABA/AIS compliance?',
-                  a: 'Generally, you need material certifications (MTRs), manufacturing location documentation, domestic sourcing certification, and pressure test reports. We provide all necessary documentation with every order.',
+                  a: 'Generally, you need material certifications (MTRs), production location documentation, domestic sourcing certification, and pressure test reports. We provide all necessary documentation with every order.',
                 },
                 {
                   q: 'Are there any additional costs for BABA/AIS certified flanges?',
                   a: 'Our domestic flanges are competitively priced. Since these products are sourced from U.S. mills and forging facilities, BABA/AIS compliance is built into the supply chain.',
                 },
                 {
-                  q: 'Can you manufacture custom domestic flanges?',
+                  q: 'Can you supply custom domestic flanges?',
                   a: 'Yes. We can source custom flanges from domestic mills while maintaining BABA/AIS compliance. Contact us to discuss your specifications.',
                 },
                 {

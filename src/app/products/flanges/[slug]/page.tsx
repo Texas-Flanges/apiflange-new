@@ -278,7 +278,7 @@ export default function FlangePage({
                 ))}
               </div>
               <p className="text-gray-600 mt-4 text-sm">
-                All products manufactured to international specifications with
+                All products supplied to international specifications with
                 certifications and test reports provided per applicable standards.
               </p>
             </div>

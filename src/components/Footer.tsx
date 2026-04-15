@@ -45,12 +45,12 @@ export function Footer() {
             <p className="text-gray-300">
               Website: <a href="https://texasflange.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">texasflange.com</a>
             </p>
-            <p className="text-gray-300 mt-2">Baytown, TX</p>
+            <p className="text-gray-300 mt-2">PO Box 2889, Pearland, TX 77588</p>
           </div>
         </div>
 
         <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-          <p>&copy; 2026 Texas Flanges. All rights reserved.</p>
+          <p>&copy; 2026 API Flange. All rights reserved.</p>
         </div>
       </div>
     </footer>

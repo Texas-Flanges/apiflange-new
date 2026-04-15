@@ -42,7 +42,7 @@ const processSteps: ProcessStep[] = [
     number: 1,
     title: 'Design Review',
     description:
-      'Our engineering team analyzes your specifications, drawings, and requirements to ensure manufacturability and optimal design.',
+      'Our engineering team analyzes your specifications, drawings, and requirements to ensure feasibility and optimal design.',
   },
   {
     number: 2,
@@ -52,7 +52,7 @@ const processSteps: ProcessStep[] = [
   },
   {
     number: 3,
-    title: 'Manufacturing',
+    title: 'Production',
     description:
       'Production begins using state-of-the-art CNC equipment with real-time monitoring and quality checkpoints throughout the process.',
   },
@@ -164,7 +164,7 @@ export default function CustomMachiningPage() {
               <p className="text-gray-700 leading-relaxed mb-4">
                 From non-standard flange configurations to specialized industrial
                 components, our advanced CNC equipment and expert engineering team
-                transform your most challenging specifications into reality. Whether
+                handle your most challenging specifications. Whether
                 you need a single prototype or production quantities, we deliver
                 components that meet your exacting standards.
               </p>
@@ -183,7 +183,7 @@ export default function CustomMachiningPage() {
                   icon: CheckCircle,
                   title: 'Tight Tolerances',
                   description:
-                    'Consistently achieve tolerances to ±0.005" or tighter',
+                    'Precision machining to your specified tolerances',
                 },
                 {
                   icon: Cog,

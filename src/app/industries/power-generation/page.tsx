@@ -193,7 +193,7 @@ export default function PowerGenerationPage() {
           </div>
 
           <p className="text-gray-700 leading-relaxed">
-            All ApiFlange power generation flanges are manufactured per ASME Code with complete pressure testing at 1.5 times the design pressure rating. Full mill test reports and ASME Code certificates of compliance are provided.
+            All ApiFlange power generation flanges are supplied per ASME Code with complete pressure testing at 1.5 times the design pressure rating. Full mill test reports and ASME Code certificates of compliance are provided.
           </p>
         </div>
       </SectionWrapper>

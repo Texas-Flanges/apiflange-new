@@ -1,7 +1,7 @@
 export const SITE_NAME = 'API Flange';
 export const SITE_URL = 'https://apiflange.com';
 export const SITE_DESCRIPTION =
-  'Premium flange solutions for the oil, gas, and petrochemical industries. High-quality API standards compliance, custom manufacturing, and expert support.';
+  'Premium flange solutions for the oil, gas, and petrochemical industries. High-quality API standards compliance, custom machining, and expert support.';
 
 // Contact Information
 export const PHONE = '(281) 484-8325';
@@ -10,22 +10,17 @@ export const ADDRESS = 'PO Box 2889, Pearland, TX 77588, USA';
 
 // Business Hours
 export const HOURS = {
-  monday: '8:00 AM - 5:00 PM',
-  tuesday: '8:00 AM - 5:00 PM',
-  wednesday: '8:00 AM - 5:00 PM',
-  thursday: '8:00 AM - 5:00 PM',
-  friday: '8:00 AM - 5:00 PM',
+  monday: '8:00 AM - 5:00 PM CST',
+  tuesday: '8:00 AM - 5:00 PM CST',
+  wednesday: '8:00 AM - 5:00 PM CST',
+  thursday: '8:00 AM - 5:00 PM CST',
+  friday: '8:00 AM - 5:00 PM CST',
   saturday: 'Closed',
   sunday: 'Closed',
 };
 
-// Social Links
-export const SOCIAL_LINKS = {
-  linkedin: 'https://www.linkedin.com/company/texas-flange/',
-  twitter: 'https://twitter.com/TexasFlange',
-  facebook: 'https://www.facebook.com/TexasFlangeandFitting/',
-  youtube: 'https://www.youtube.com/channel/UCHeKP7nuVLBXXEC_qXZ8VVg',
-};
+// Social Links (intentionally empty - pillar sites do not include social links)
+export const SOCIAL_LINKS: Record<string, string> = {};
 
 // Navigation Items
 export const NAV_ITEMS = [
@@ -125,7 +120,7 @@ export const NAV_ITEMS = [
 
 // SEO Meta Defaults
 export const META_DEFAULTS = {
-  twitter: '@TexasFlange',
+  twitter: '',
   ogType: 'website',
   locale: 'en_US',
   robots: 'index, follow',
