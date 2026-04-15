@@ -82,8 +82,8 @@ export default function MarinePage() {
                 {[
                   { grade: '304/304L', temp: 'to 400°F', use: 'Auxiliary water, low-temp' },
                   { grade: '316/316L', temp: 'to 400°F', use: 'General seawater duty' },
-                  { grade: 'Duplex 2205', temp: 'to 500°F', use: 'High-strength seawater' },
-                  { grade: 'Super Duplex 2507', temp: 'to 500°F', use: 'Extreme corrosion' },
+                  { grade: 'Duplex 2205', temp: 'to 250°F', use: 'High-strength seawater' },
+                  { grade: 'Super Duplex 2507', temp: 'to 250°F', use: 'Extreme corrosion' },
                 ].map((item, idx) => (
                   <div key={idx} className="border-l-4 border-brass pl-4 py-1">
                     <p className="font-bold text-gray-900 text-sm">{item.grade}</p>

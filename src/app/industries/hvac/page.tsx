@@ -203,7 +203,7 @@ export default function HVACPage() {
       <SectionWrapper padding="lg" variant="white" heading="Size Range & Specifications">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            ApiFlange stocks and manufactures HVAC flanges in all common building sizes, from small instrument connections to large distribution headers.
+            ApiFlange stocks HVAC flanges in all common building sizes, from small instrument connections to large distribution headers.
           </p>
 
           <div className="bg-gradient-to-r from-[#1C1C1E] to-[#2A2A2E] rounded-lg p-8 text-white text-center">

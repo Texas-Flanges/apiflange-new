@@ -145,7 +145,7 @@ export default function FittingsPage() {
                   All Pressure Classes
                 </p>
                 <p className="text-sm text-gray-300">
-                  150 PSI through 4500 PSI and higher available
+                  Class 150 through Class 2500 per ASME
                 </p>
               </div>
               <div>

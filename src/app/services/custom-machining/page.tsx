@@ -154,10 +154,10 @@ export default function CustomMachiningPage() {
                 Beyond Standard Flanges
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                While we excel at manufacturing standard flanges to ASME B16.5,
+                While we supply standard flanges to ASME B16.5,
                 AWWA C207, and other specifications, many of our customers
                 require custom-engineered solutions that go beyond off-the-shelf
-                products. Our comprehensive custom machining capabilities enable
+                products. Our custom machining capabilities enable
                 us to deliver precision-engineered components tailored to your
                 unique requirements.
               </p>

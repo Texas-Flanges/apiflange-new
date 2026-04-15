@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'Buy America Act',
     'American Iron and Steel',
     'water utility flanges',
-    'domestic manufacturing',
+    'domestic sourcing',
     'government contracts',
   ],
   openGraph: {
@@ -62,9 +62,9 @@ const complianceItems: ComplianceItem[] = [
       'Buy America Brass and Copper Products Certification for applications requiring documented domestic sourcing and compliance.',
   },
   {
-    title: 'Domestic Manufacturing',
+    title: 'Domestic Sourcing',
     description:
-      'All manufacturing, machining, and quality assurance performed at our U.S. facilities with domestic materials and labor.',
+      'All flanges sourced from U.S. mills and forging facilities with domestic materials, full traceability, and quality assurance documentation.',
   },
 ];
 
@@ -157,17 +157,16 @@ export default function DomesticFlangePage() {
                 Steel (AIS) requirements. These regulations mandate that
                 materials and products used in such projects be manufactured in
                 the United States using domestic materials and labor. API Flange
-                specializes in producing flanges that fully comply with these
+                specializes in supplying flanges that fully comply with these
                 requirements, enabling municipalities, water authorities, and
                 contractors to meet federal funding mandates while sourcing
-                quality products from a trusted American manufacturer.
+                quality products from a trusted domestic supplier.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Our commitment to domestic manufacturing goes beyond mere
-                compliance. We're proud to support the American manufacturing
-                industry, maintain high-quality jobs in our facility, and deliver
-                the exceptional quality that has made API Flange the trusted
-                partner for thousands of water utility projects nationwide.
+                Our commitment to domestic sourcing goes beyond mere
+                compliance. We work exclusively with American mills and forging
+                facilities to deliver the quality that has made API Flange a
+                trusted partner for water utility projects nationwide.
               </p>
             </div>
 
@@ -283,9 +282,9 @@ export default function DomesticFlangePage() {
               </h3>
               <p className="text-gray-700 mb-4">
                 Non-standard sizes, materials, or configurations can be
-                manufactured domestically to meet specific project requirements
-                while maintaining BABA/AIS compliance. Contact our engineering
-                team to discuss your custom needs.
+                sourced from domestic mills to meet specific project requirements
+                while maintaining BABA/AIS compliance. Contact our team
+                to discuss your custom needs.
               </p>
               <a href="https://www.texasflange.com/contact-us" target="_blank" rel="noopener noreferrer">
                 <Button variant="primary">Request a Quote</Button>
@@ -429,7 +428,7 @@ export default function DomesticFlangePage() {
                 {
                   title: 'Scheduling Coordination',
                   description:
-                    'Flexible manufacturing schedules to meet your project timelines and delivery requirements.',
+                    'Flexible scheduling to meet your project timelines and delivery requirements.',
                 },
                 {
                   title: 'Technical Assistance',
@@ -482,11 +481,11 @@ export default function DomesticFlangePage() {
                 },
                 {
                   q: 'Are there any additional costs for BABA/AIS certified flanges?',
-                  a: 'Our standard domestic flanges are competitively priced. Since all our manufacturing is U.S.-based, there are no premium charges for BABA/AIS compliance.',
+                  a: 'Our domestic flanges are competitively priced. Since these products are sourced from U.S. mills and forging facilities, BABA/AIS compliance is built into the supply chain.',
                 },
                 {
                   q: 'Can you manufacture custom domestic flanges?',
-                  a: 'Yes. We can manufacture custom flanges domestically while maintaining BABA/AIS compliance. Contact us to discuss your specifications.',
+                  a: 'Yes. We can source custom flanges from domestic mills while maintaining BABA/AIS compliance. Contact us to discuss your specifications.',
                 },
                 {
                   q: 'What are typical lead times for domestic flanges?',

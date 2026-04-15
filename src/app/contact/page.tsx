@@ -32,7 +32,7 @@ const METADATA_CONFIG = {
     'technical support',
     'sales',
     'API Flange',
-    'flange manufacturer',
+    'flange supplier',
   ],
   openGraph: {
     title: 'Contact Us | API Flange',
@@ -419,9 +419,9 @@ export default function ContactPage() {
                     <div>
                       <p className="font-semibold mb-1">Headquarters</p>
                       <p className="text-white/90 text-sm">
-                        500 Industrial Drive
+                        2830 FM 528 Rd
                         <br />
-                        Manufacturing, PA 19301
+                        Pearland, TX 77581
                         <br />
                         USA
                       </p>
@@ -434,7 +434,7 @@ export default function ContactPage() {
                     <div>
                       <p className="font-semibold mb-1">Phone</p>
                       <p className="text-white/90 text-sm">
-                        <a href="tel:+1-610-555-0100" className="hover:text-white transition">
+                        <a href="tel:+1-281-484-8325" className="hover:text-white transition">
                           (281) 484-8325
                         </a>
                       </p>
@@ -463,7 +463,7 @@ export default function ContactPage() {
                     <div>
                       <p className="font-semibold mb-1">Business Hours</p>
                       <p className="text-white/90 text-sm">
-                        Mon - Fri: 8:00 AM - 5:00 PM EST
+                        Mon - Fri: 8:00 AM - 5:00 PM CST
                         <br />
                         Sat - Sun: Closed
                       </p>
@@ -516,86 +516,43 @@ export default function ContactPage() {
           </div>
         </SectionWrapper>
 
-        {/* Regional Sales Section */}
+        {/* Sales Contact Section */}
         <SectionWrapper variant="gray">
           <div className="space-y-8">
             <div className="text-center max-w-2xl mx-auto">
               <h2 className="text-3xl font-bold text-iron mb-4">
-                Regional Sales Contacts
+                Sales Department
               </h2>
               <p className="text-gray-600">
-                Reach out to your regional sales representative for personalized
-                support.
+                Our sales team serves customers nationwide and internationally from our Houston-area headquarters.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {[
-                {
-                  region: 'North America',
-                  name: 'Tom Bradford',
-                  title: 'Regional Manager',
-                  email: 'sales@texasflange.com',
-                  phone: '(281) 484-8325',
-                },
-                {
-                  region: 'Europe',
-                  name: 'Klaus Mueller',
-                  title: 'Regional Manager',
-                  email: 'sales@texasflange.com',
-                  phone: '+49 30 555 0102',
-                },
-                {
-                  region: 'Asia Pacific',
-                  name: 'Wei Chen',
-                  title: 'Regional Manager',
-                  email: 'sales@texasflange.com',
-                  phone: '+86 10 555 0103',
-                },
-                {
-                  region: 'Middle East & Africa',
-                  name: 'Ahmed Hassan',
-                  title: 'Regional Manager',
-                  email: 'sales@texasflange.com',
-                  phone: '+971 4 555 0104',
-                },
-              ].map((contact, idx) => (
-                <div
-                  key={idx}
-                  className="bg-white rounded-lg p-6 border border-gray-200 hover:shadow-lg transition"
-                >
-                  <h4 className="font-bold text-iron mb-4">
-                    {contact.region}
-                  </h4>
-                  <div className="space-y-2">
-                    <p className="text-sm">
-                      <span className="font-semibold text-gray-700">
-                        {contact.name}
-                      </span>
-                      <br />
-                      <span className="text-gray-600 text-xs">
-                        {contact.title}
-                      </span>
-                    </p>
-                    <p className="text-sm">
-                      <a
-                        href={`mailto:${contact.email}`}
-                        className="text-brass hover:text-iron transition"
-                      >
-                        {contact.email}
-                      </a>
-                    </p>
-                    <p className="text-sm">
-                      <a
-                        href={`tel:${contact.phone}`}
-                        className="text-brass hover:text-iron transition"
-                      >
-                        {contact.phone}
-                      </a>
-                    </p>
-                  </div>
+            <div className="max-w-lg mx-auto">
+              <div className="bg-white rounded-lg p-6 border border-gray-200 hover:shadow-lg transition">
+                <h4 className="font-bold text-iron mb-4">ApiFlange Sales</h4>
+                <div className="space-y-2">
+                  <p className="text-sm">
+                    <a
+                      href="mailto:sales@texasflange.com"
+                      className="text-brass hover:text-iron transition"
+                    >
+                      sales@texasflange.com
+                    </a>
+                  </p>
+                  <p className="text-sm">
+                    <a
+                      href="tel:+1-281-484-8325"
+                      className="text-brass hover:text-iron transition"
+                    >
+                      (281) 484-8325
+                    </a>
+                  </p>
+                  <p className="text-sm text-gray-600 mt-3">
+                    Mon - Fri: 8:00 AM - 5:00 PM CST
+                  </p>
                 </div>
-              ))}
+              </div>
             </div>
           </div>
         </SectionWrapper>

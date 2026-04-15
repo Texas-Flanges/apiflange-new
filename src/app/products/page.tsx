@@ -64,9 +64,9 @@ const productCategories: ProductCategory[] = [
   {
     id: 'gaskets',
     name: 'Industrial Gaskets',
-    slug: '/products/flanges',
+    slug: '/products/gaskets',
     description:
-      'Precision-manufactured gaskets in all standard flange sizes and ratings. Materials include PTFE, elastomers, metal composites, and spiral-wound designs for every operating condition.',
+      'Gaskets in all standard flange sizes and ratings. Materials include PTFE, elastomers, metal composites, and spiral-wound designs for every operating condition.',
     highlightColor: 'border-red-500',
   },
 ];

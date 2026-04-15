@@ -77,7 +77,7 @@ export default function WaterworksPage() {
       <SectionWrapper padding="lg" variant="gray" heading="AWWA Standards & Specifications">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            ApiFlange provides comprehensive AWWA C207 flange solutions across all pressure classes. Our products are manufactured to exacting standards for use in municipal water applications, from low-pressure gravity feed systems to high-pressure transmission mains.
+            ApiFlange provides comprehensive AWWA C207 flange solutions across all pressure classes, sourced to exacting standards for use in municipal water applications, from low-pressure gravity feed systems to high-pressure transmission mains.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -225,7 +225,7 @@ export default function WaterworksPage() {
       <SectionWrapper padding="lg" variant="white" heading="Size & Pressure Ranges">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            ApiFlange manufactures water service flanges in all AWWA-standard sizes from 4 inches through 96 inches and beyond, covering the complete spectrum of municipal applications.
+            ApiFlange supplies water service flanges in all AWWA-standard sizes from 4 inches through 96 inches and beyond, covering the complete spectrum of municipal applications.
           </p>
 
           <div className="bg-gradient-to-r from-[#1C1C1E] to-[#2A2A2E] rounded-lg p-8 text-white mb-8">
@@ -249,7 +249,7 @@ export default function WaterworksPage() {
           </div>
 
           <p className="text-gray-700 leading-relaxed">
-            For specialized applications exceeding standard catalogs, ApiFlange fabricates custom AWWA-compliant flanges to your specifications with full documentation and mill certifications.
+            For specialized applications exceeding standard catalogs, ApiFlange sources custom AWWA-compliant flanges to your specifications with full documentation and mill certifications.
           </p>
         </div>
       </SectionWrapper>
@@ -257,7 +257,7 @@ export default function WaterworksPage() {
       <SectionWrapper padding="lg" variant="gray" heading="BABA/Buy America Compliance">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 mb-6 leading-relaxed">
-            All ApiFlange water service products are manufactured domestically to meet Buy America Act (BABA) requirements and CFR Title II standards. This is critical for municipally-funded projects and government-assisted water infrastructure improvements. Our products are eligible for BABA-compliant procurement without additional certifications.
+            ApiFlange water service products are sourced from domestic mills to meet Buy America Act (BABA) requirements and CFR Title II standards. This is critical for municipally-funded projects and government-assisted water infrastructure improvements. Our products are eligible for BABA-compliant procurement without additional certifications.
           </p>
 
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-8">
@@ -266,7 +266,7 @@ export default function WaterworksPage() {
               {[
                 'Simplified procurement without BABA certification delays',
                 'Eligible for SRF and other federally-assisted water funds',
-                'Supports domestic manufacturing and local jobs',
+                'Supports domestic sourcing and local jobs',
                 'Single-source documentation for compliance verification',
                 'No markup or certification fees required',
               ].map((benefit, idx) => (
@@ -346,12 +346,12 @@ export default function WaterworksPage() {
             {
               question: 'Are your water flanges Buy America compliant?',
               answer:
-                'Yes, all ApiFlange water service products are manufactured domestically and meet BABA and CFR Title II requirements. We provide BABA certifications upon request, and our products are automatically eligible for federally-assisted water programs without additional delays.',
+                'Yes, ApiFlange water service products are sourced from domestic mills and meet BABA and CFR Title II requirements. We provide BABA certifications upon request, and our products are eligible for federally-assisted water programs without additional delays.',
             },
             {
               question: 'Can you supply large-diameter flanges for transmission mains?',
               answer:
-                'Absolutely. We regularly fabricate custom AWWA C207-compliant flanges in sizes from 4" through 96" and beyond. Custom sizes are engineered to match your pipe specifications and loading conditions with full mill test reports.',
+                'Absolutely. We regularly supply custom AWWA C207-compliant flanges in sizes from 4" through 96" and beyond. Custom sizes are engineered to match your pipe specifications and loading conditions with full mill test reports.',
             },
             {
               question: 'What coating system should I specify for buried water mains?',
@@ -361,7 +361,7 @@ export default function WaterworksPage() {
             {
               question: 'Do you stock AWWA flanges or is everything custom?',
               answer:
-                'We maintain stock of common AWWA classes (B, D, E, F) in standard sizes from 4" to 36". Larger sizes and specialty configurations can be fabricated on a quoted timeline. Contact our sales team with your specifications for expedited availability.',
+                'We maintain stock of common AWWA classes (B, D, E, F) in standard sizes from 4" to 36". Larger sizes and specialty configurations are available on a quoted timeline. Contact our sales team with your specifications for expedited availability.',
             },
             {
               question: 'What gasket materials do you recommend for water service?',

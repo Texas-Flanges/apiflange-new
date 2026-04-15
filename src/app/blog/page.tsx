@@ -54,7 +54,7 @@ const blogPosts: BlogPost[] = [
     excerpt:
       'Learn everything about weld neck flanges, the most versatile and widely used flange type in industrial piping systems. Discover their design features, manufacturing process, and critical applications.',
     date: '2024-03-15',
-    author: 'David Chen',
+    author: 'ApiFlange Engineering Team',
     category: 'Technical Guides',
     readingTime: 12,
   },
@@ -65,7 +65,7 @@ const blogPosts: BlogPost[] = [
     excerpt:
       'Comprehensive comparison of ASME B16.5 and AWWA standards. Learn which standard applies to your application and why the distinctions matter for safety and compatibility.',
     date: '2024-03-12',
-    author: 'Sarah Mitchell',
+    author: 'ApiFlange Engineering Team',
     category: 'Standards',
     readingTime: 8,
   },
@@ -76,7 +76,7 @@ const blogPosts: BlogPost[] = [
     excerpt:
       'Explore the complete manufacturing process of steel flanges. From raw material selection and forging through CNC machining to rigorous quality testing, understand how precision-engineered flanges are created.',
     date: '2024-03-08',
-    author: 'Michael Rodriguez',
+    author: 'ApiFlange Engineering Team',
     category: 'Technical Guides',
     readingTime: 10,
   },
@@ -87,7 +87,7 @@ const blogPosts: BlogPost[] = [
     excerpt:
       'Examine the properties that make stainless steel ideal for critical applications. Understand grades, passivation requirements, and maintenance practices for optimal performance.',
     date: '2024-03-01',
-    author: 'Lisa Thompson',
+    author: 'ApiFlange Engineering Team',
     category: 'Materials',
     readingTime: 9,
   },
@@ -98,7 +98,7 @@ const blogPosts: BlogPost[] = [
     excerpt:
       'Discover how API 6A and API 16A standards govern flange design for extreme pressure environments. Learn about the specialized requirements and certifications needed for subsea and deepwater operations.',
     date: '2024-02-25',
-    author: 'James Patterson',
+    author: 'ApiFlange Engineering Team',
     category: 'Industry News',
     readingTime: 11,
   },
@@ -109,7 +109,7 @@ const blogPosts: BlogPost[] = [
     excerpt:
       'Navigate the regulatory landscape for water utility applications. Understand AWWA standards, BABA/AIS domestic manufacturing requirements, and certification processes for public works projects.',
     date: '2024-02-18',
-    author: 'Robert Kim',
+    author: 'ApiFlange Engineering Team',
     category: 'Standards',
     readingTime: 8,
   },

@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     'ASME flanges',
     'ANSI flanges',
     'AWWA flanges',
-    'flange manufacturer',
+    'flange supplier',
     'custom flanges',
     'weld neck flanges',
     'blind flanges',

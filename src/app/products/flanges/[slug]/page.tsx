@@ -449,33 +449,30 @@ export default function FlangePage({
       >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center">
-            <div className="text-4xl font-bold text-brass mb-3">20+</div>
+            <div className="text-4xl font-bold text-brass mb-3">6</div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">
-              Years of Industry Experience
+              Pressure Classes
             </h3>
             <p className="text-gray-600">
-              Proven track record supplying critical applications across oil & gas, petrochemical,
-              and power generation industries.
+              Full ASME B16.5 coverage from Class 150 through Class 2500 for any service condition.
             </p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-brass mb-3">100%</div>
+            <div className="text-4xl font-bold text-brass mb-3">30+</div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">
-              Quality Assurance
+              Material Grades
             </h3>
             <p className="text-gray-600">
-              Every flange undergoes rigorous testing and inspection with certified test reports
-              per applicable standards.
+              Carbon steel, stainless, alloy, duplex, and exotic alloys with full mill test reports.
             </p>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-brass mb-3">24/7</div>
+            <div className="text-4xl font-bold text-brass mb-3">Same-Day</div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">
-              Technical Support
+              Quote Turnaround
             </h3>
             <p className="text-gray-600">
-              Expert specialists available to assist with product selection, specifications, and
-              troubleshooting.
+              Fast, accurate quotes from experienced specialists who know flanges inside and out.
             </p>
           </div>
         </div>

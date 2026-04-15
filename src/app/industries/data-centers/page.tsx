@@ -43,7 +43,7 @@ export default function DataCentersPage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-iron mb-8">Data Center Infrastructure</h2>
           <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-            Modern data centers demand reliable, redundant cooling infrastructure to maintain server performance and prevent downtime. ApiFlange supplies precision low-pressure flanges for chiller loops, condenser cooling, pump discharge, and auxiliary systems. With expertise in data center standards and design practices, we deliver flanges that integrate seamlessly with redundant cooling designs, ImmersionCooling systems, and evolving high-density computing environments. Our focus on quality and reliability ensures your mission-critical cooling infrastructure operates flawlessly.
+            Modern data centers demand reliable, redundant cooling infrastructure to maintain server performance and prevent downtime. ApiFlange supplies low-pressure flanges for chiller loops, condenser cooling, pump discharge, and auxiliary systems. We deliver flanges that integrate seamlessly with redundant cooling designs and evolving high-density computing environments, ensuring your mission-critical cooling infrastructure operates without interruption.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">

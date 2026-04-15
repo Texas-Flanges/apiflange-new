@@ -77,6 +77,34 @@ const pnRatingsRows = [
     sizes: 'DN 10-250',
     apps: 'Extreme high-pressure service',
   },
+  {
+    pn: 'PN 160',
+    bar: '160 bar',
+    psi: '2320 PSI',
+    sizes: 'DN 10-200',
+    apps: 'High-pressure hydraulic and process',
+  },
+  {
+    pn: 'PN 250',
+    bar: '250 bar',
+    psi: '3625 PSI',
+    sizes: 'DN 10-150',
+    apps: 'Ultra-high-pressure industrial',
+  },
+  {
+    pn: 'PN 320',
+    bar: '320 bar',
+    psi: '4640 PSI',
+    sizes: 'DN 10-100',
+    apps: 'Specialty high-pressure systems',
+  },
+  {
+    pn: 'PN 400',
+    bar: '400 bar',
+    psi: '5800 PSI',
+    sizes: 'DN 10-100',
+    apps: 'Maximum-pressure industrial service',
+  },
 ];
 
 const flangeTypesData = [
@@ -309,7 +337,7 @@ export default function DINFlangePage() {
             </h2>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-3xl">
-              DIN EN 1092-1 specifies seven pressure ratings based on bar (metric SI unit).
+              DIN EN 1092-1 specifies eleven pressure ratings based on bar (metric SI unit).
               Each PN rating defines the design pressure and is available across a range of
               flange sizes. The pressure rating determines flange thickness and material
               requirements.

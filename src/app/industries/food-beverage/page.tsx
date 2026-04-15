@@ -45,7 +45,7 @@ export default function FoodBeveragePage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-iron mb-8">Food & Beverage Solutions</h2>
           <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-            Food and beverage processing demands the highest standards of sanitation, safety, and reliability. ApiFlange supplies NSF-61 certified, food-grade flanges for dairy processing, beverage production, food ingredient handling, and pharmaceutical applications. Our stainless steel flanges feature hygienic design, smooth surfaces that prevent bacterial growth, and full traceability for food safety compliance. With expertise in FDA regulations, HACCP requirements, and industry best practices, we deliver the purity and reliability that food and beverage processors demand.
+            Food and beverage processing demands the highest standards of sanitation, safety, and reliability. ApiFlange supplies NSF/ANSI 61 certified, food-grade flanges for dairy processing, beverage production, food ingredient handling, and pharmaceutical applications. Our stainless steel flanges feature hygienic design, smooth surfaces that prevent bacterial growth, and full traceability for food safety compliance. With expertise in FDA regulations, HACCP requirements, and industry best practices, we deliver the purity and reliability that food and beverage processors demand.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
@@ -106,7 +106,7 @@ export default function FoodBeveragePage() {
                 {[
                   'Stainless 304 Grade',
                   'Smooth polished surfaces',
-                  'NSF-61 certified coating',
+                  'NSF/ANSI 61 certified coating',
                   'Food contact approved',
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2">

@@ -397,7 +397,7 @@ export default function RequestQuotePage() {
                       <p className="text-xs text-white/90">
                         Call us at{' '}
                         <a
-                          href="tel:+1-610-555-0100"
+                          href="tel:+1-281-484-8325"
                           className="font-medium hover:text-white transition"
                         >
                           (281) 484-8325
@@ -1126,7 +1126,7 @@ export default function RequestQuotePage() {
         heading="Questions About Your RFQ?"
         subtext="Our sales team is ready to help. Contact us for immediate assistance with your quote request."
         primaryCTA={{ label: 'Contact Sales', href: 'https://www.texasflange.com/contact-us' }}
-        secondaryCTA={{ label: 'Call Us', href: 'tel:+1-610-555-0100' }}
+        secondaryCTA={{ label: 'Call Us', href: 'tel:+1-281-484-8325' }}
       />
     </>
   );

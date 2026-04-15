@@ -287,8 +287,8 @@ export default function GalvanizedPage() {
             </p>
             <div className="bg-green-50 border-l-4 border-green-600 p-6 rounded-r-lg">
               <p className="text-gray-800 font-semibold">
-                Key Advantage: Hot-dip galvanized carbon steel delivers stainless steel-like corrosion
-                resistance at 20-30% of the cost. Perfect for budget-conscious projects requiring long
+                Key Advantage: Hot-dip galvanized carbon steel delivers effective corrosion
+                resistance at a fraction of the cost of stainless steel. Well-suited for projects requiring long
                 service life in outdoor or mildly corrosive environments.
               </p>
             </div>
@@ -329,7 +329,7 @@ export default function GalvanizedPage() {
                 <p className="text-gray-700 text-sm">
                   The coating consists of multiple layers: pure zinc outer layer, zinc-iron alloy
                   intermediate layers, and diffusion zone at steel surface. Total thickness is typically
-                  55-100+ mils depending on steel weight. This multilayer structure provides excellent
+                  2-4+ mils (55-100+ microns) depending on steel weight. This multilayer structure provides excellent
                   protection and ductility.
                 </p>
               </div>
@@ -486,7 +486,7 @@ export default function GalvanizedPage() {
                 <ul className="text-gray-700 space-y-1 ml-2">
                   <li>• Not suitable for high chloride</li>
                   <li>• Cannot paint without prep</li>
-                  <li>• Limited to 55-100 mils thick</li>
+                  <li>• Limited to 2-4 mils (55-100 microns) thick</li>
                 </ul>
               </div>
             </div>
