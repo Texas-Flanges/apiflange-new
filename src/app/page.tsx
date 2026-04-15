@@ -201,7 +201,6 @@ export default function HomePage() {
               { label: 'Flange Types in Stock', value: 15, suffix: '+' },
               { label: 'Pressure Classes Covered', value: 6, suffix: '' },
               { label: 'Material Grades Available', value: 30, suffix: '+' },
-              { label: 'Standard Compliance', value: 100, suffix: '%' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl md:text-3xl font-bold text-brass font-display">
@@ -210,6 +209,12 @@ export default function HomePage() {
                 <div className="text-silver-dark text-sm mt-1">{stat.label}</div>
               </div>
             ))}
+            <div>
+              <div className="text-2xl md:text-3xl font-bold text-brass font-display">
+                Same-Day
+              </div>
+              <div className="text-silver-dark text-sm mt-1">Quote Turnaround</div>
+            </div>
           </div>
         </div>
       </section>
