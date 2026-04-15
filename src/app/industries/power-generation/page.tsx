@@ -53,7 +53,7 @@ export default function PowerGenerationPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {[
               { icon: Zap, label: 'High-Temp Alloys', desc: 'F11, F22, F91' },
-              { icon: Flame, label: 'Boiler Ready', desc: '1200°F+' },
+              { icon: Flame, label: 'Boiler Ready', desc: '1100°F+' },
               { icon: Shield, label: 'ASME Code', desc: 'Nuclear grade' },
               { icon: Thermometer, label: 'Pressure Tested', desc: '1.5x rated' },
             ].map((item, idx) => {
@@ -81,10 +81,10 @@ export default function PowerGenerationPage() {
               <h3 className="text-xl font-bold text-iron mb-6">Alloy Steel Grades</h3>
               <div className="space-y-4">
                 {[
-                  { grade: 'F5 (5Cr)', temp: 'to 900°F', use: 'Elevated temp steam lines' },
-                  { grade: 'F11 (1¼Cr)', temp: 'to 1100°F', use: 'Boiler headers & risers' },
-                  { grade: 'F22 (2¼Cr)', temp: 'to 1200°F', use: 'Ultra-high-temp service' },
-                  { grade: 'F91 (9Cr)', temp: 'to 1300°F', use: 'Supercritical systems' },
+                  { grade: 'F5 (5Cr)', temp: 'to 1100°F', use: 'Elevated temp steam lines' },
+                  { grade: 'F11 (1¼Cr)', temp: 'to 900°F', use: 'Boiler headers & risers' },
+                  { grade: 'F22 (2¼Cr)', temp: 'to 1050°F', use: 'High-temp steam service' },
+                  { grade: 'F91 (9Cr)', temp: 'to 1100°F', use: 'Supercritical systems' },
                 ].map((item, idx) => (
                   <div key={idx} className="border-l-4 border-brass pl-4 py-1">
                     <p className="font-bold text-gray-900 text-sm">{item.grade}</p>
@@ -181,7 +181,7 @@ export default function PowerGenerationPage() {
               </div>
               <div>
                 <p className="text-sm opacity-90 mb-2">Design Temperatures</p>
-                <p className="text-3xl font-bold">Up to 1300°F</p>
+                <p className="text-3xl font-bold">Up to 1100°F</p>
                 <p className="text-xs opacity-75 mt-2">F91 alloy rated</p>
               </div>
               <div>
@@ -248,7 +248,7 @@ export default function PowerGenerationPage() {
             {
               question: 'What is the difference between F11 and F22 alloy flanges?',
               answer:
-                'F11 (1¼Cr) is rated to 1100°F and provides moderate cost for elevated temperature service. F22 (2¼Cr) is rated to 1200°F and offers superior creep strength for long-term high-temperature operation. Pressure capacity decreases with temperature rise per ASME Code Section I. Consult design conditions to select the appropriate grade.',
+                'F11 (1¼Cr) is rated for continuous service up to 900°F and provides moderate cost for elevated temperature applications. F22 (2¼Cr) is rated up to 1050°F and offers superior creep strength for long-term high-temperature operation. Pressure capacity decreases with temperature rise per ASME Code Section I. Consult design conditions to select the appropriate grade.',
             },
             {
               question: 'Do I need ASME Code certificate for power generation flanges?',
@@ -263,7 +263,7 @@ export default function PowerGenerationPage() {
             {
               question: 'What pressure rating do F91 flanges have?',
               answer:
-                'F91 flanges are typically manufactured as ASME Class 600 or 900, but actual pressure rating varies with temperature. At room temperature, Class 600 is 600 psi. At 900°F, the rating drops to approximately 270 psi. At 1300°F, the rating is about 40 psi. Always consult ASME tables for your specific design temperature.',
+                'F91 flanges are typically manufactured as ASME Class 600 or 900, but actual pressure rating varies with temperature. At room temperature, Class 600 is rated at 1480 psi. At 900°F, the rating drops to approximately 890 psi. At 1100°F (the practical continuous service limit for F91), the rating drops further. Always consult ASME B16.5 P-T tables for your specific design temperature.',
             },
             {
               question: 'How do I specify nuclear-grade flanges?',

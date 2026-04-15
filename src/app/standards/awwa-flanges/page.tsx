@@ -133,7 +133,7 @@ const asmeVsAwwaRows = [
   {
     spec: 'Pressure Classes',
     asme: '150 to 2500 PSI (7 classes)',
-    awwa: 'C207: 150-350 PSI; C228: 125-200 PSI',
+    awwa: 'C207: 86-300 PSI (Classes B, D, E, F); C228: 125-200 PSI',
   },
   {
     spec: 'Flange Materials',
@@ -236,7 +236,7 @@ const faqItems = [
   {
     question: 'What is the benefit of epoxy coating over galvanizing?',
     answer:
-      'Epoxy coating (AWWA C213) provides superior protection in aggressive water conditions and lasts longer (20+ years typically versus 15-20 for galvanizing). Epoxy protects both interior and exterior surfaces comprehensively. However, epoxy costs more. Galvanizing is adequate for most freshwater systems and is more economical. For coastal areas, high-temperature water, or aggressive chemistry, epoxy is preferred.',
+      'Epoxy coating (AWWA C213) provides superior protection in aggressive water conditions and protects both interior and exterior surfaces comprehensively. However, epoxy costs more than galvanizing. Galvanizing is adequate for most freshwater systems and is more economical. For coastal areas, high-temperature water, or aggressive chemistry, epoxy is the preferred option. Service life for both coatings depends on environmental conditions.',
   },
   {
     question: 'Do AWWA flanges work with standard industrial bolts?',
@@ -269,7 +269,7 @@ const watermarksPoints = [
   {
     title: 'Pressure Optimization',
     description:
-      'Pressure classes (150-350 PSI) are designed for typical water transmission, balancing cost and safety.',
+      'Pressure classes (86-300 PSI) are designed for typical water transmission, balancing cost and safety.',
   },
   {
     title: 'Standardized Gaskets',

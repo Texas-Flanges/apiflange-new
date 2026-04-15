@@ -56,7 +56,7 @@ const standards: StandardCard[] = [
     organization: 'American Society of Mechanical Engineers',
     scope: 'Large diameter steel flanges (NPS 26 and larger)',
     sizeRange: 'NPS 26 through NPS 60',
-    pressureRange: 'Series A: 75, 150 PSI | Series B: 150, 300 PSI',
+    pressureRange: 'Series A (MSS SP-44): 150, 300, 400, 600, 900 | Series B (API 605): 75, 150, 300, 400, 600',
     materials: ['Carbon Steel', 'Forged Steel'],
     applications: [
       'Offshore',

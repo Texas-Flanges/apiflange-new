@@ -99,12 +99,6 @@ const tools: ResourceItem[] = [
     href: '/tools/bolt-torque-calculator',
   },
   {
-    id: 'gasket-selector',
-    title: 'Gasket Selector',
-    description: 'Interactive tool to find the right gasket type based on your application requirements.',
-    href: '/tools/gasket-selector',
-  },
-  {
     id: 'dimension-calc',
     title: 'Flange Dimension Calculator',
     description: 'Look up flange dimensions by size, class, and standard.',

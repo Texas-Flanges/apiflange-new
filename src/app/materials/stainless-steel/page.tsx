@@ -45,7 +45,7 @@ const faqItems = [
   {
     question: 'Why is welding 410ss more difficult than welding 304 or 316?',
     answer:
-      'Martensitic stainless steels like 410ss are more prone to hydrogen cracking and brittleness in the heat-affected zone because the same transformation that gives them strength also occurs during welding. Preheating (typically 200--300°C) and slow cooling are mandatory. Post-weld heat treatment (PWHT) is strongly recommended to relieve residual stress and restore toughness and avoid cracking.',
+      'Martensitic stainless steels like 410ss are more prone to hydrogen cracking and brittleness in the heat-affected zone because the same transformation that gives them strength also occurs during welding. Preheating (typically 200-300°C) and slow cooling are mandatory. Post-weld heat treatment (PWHT) is strongly recommended to relieve residual stress and restore toughness and avoid cracking.',
   },
   {
     question: 'Is 410ss suitable for seawater or highly corrosive environments?',
@@ -60,7 +60,7 @@ export default function StainlessSteelPage() {
     <>
       {/* Hero Section */}
       <PageHero
-        title="AISI 410ss -- Stainless for API Flanges"
+        title="AISI 410ss - Stainless for API Flanges"
         subtitle="ASTM A182 F6a martensitic stainless steel. Heat-treatable, magnetic, and engineered for strength and hardness in oil and gas, valves, and high-performance applications."
         variant="navy"
         breadcrumbs={breadcrumbs}
@@ -103,11 +103,11 @@ export default function StainlessSteelPage() {
             <div className="bg-white p-8 rounded-lg border border-gray-200 space-y-6">
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">Chromium (Cr): 11.5-13.5%</h4>
-                <p className="text-gray-700">Primary element providing the stainless characteristic and corrosion resistance. At 11.5%, it is the minimum to achieve passive film protection, but lower than austenitic 300-series grades (16--18%).</p>
+                <p className="text-gray-700">Primary element providing the stainless characteristic and corrosion resistance. At 11.5%, it is the minimum to achieve passive film protection, but lower than austenitic 300-series grades (16 -18%).</p>
               </div>
 
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">Carbon (C): typically 0.08--0.13%</h4>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">Carbon (C): typically 0.08 -0.13%</h4>
                 <p className="text-gray-700">Controls hardness and strength. Higher carbon enables greater hardness response to heat treatment. In annealed condition, lower carbon increases ductility; in hardened condition, carbon is essential for achieving target hardness around 45 HRC.</p>
               </div>
 
@@ -139,35 +139,35 @@ export default function StainlessSteelPage() {
 
           <div className="max-w-3xl">
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              This is really where 410 shines. Once heat-treated, it can hit hardness levels around 45 HRC and tensile strengths far exceeding what you can get from austenitic stainless steels. In the annealed condition, though, it is much softer and easier to machine -- so whether it is heat-treated or not makes a big difference depending on how it is being used.
+              This is really where 410 shines. Once heat-treated, it can hit hardness levels around 45 HRC and tensile strengths far exceeding what you can get from austenitic stainless steels. In the annealed condition, though, it is much softer and easier to machine, so whether it is heat-treated or not makes a big difference depending on how it is being used.
             </p>
 
             <div className="bg-white p-8 rounded-lg border border-gray-200 space-y-6">
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">Heat-Treated Condition (Hardened)</h4>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">ASTM A182 F6a Flange Requirements</h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li>-- Hardness: approx. 38--45 HRC (depending on tempering level)</li>
-                  <li>-- Tensile Strength: 1650--1900 MPa (240--275 ksi)</li>
-                  <li>-- Yield Strength: 1200--1400 MPa (175--200 ksi)</li>
-                  <li>-- Elongation: 10--15% (lower than annealed)</li>
+                  <li> - Tensile Strength: 70 ksi (485 MPa) minimum per Class 1</li>
+                  <li> - Yield Strength: 40 ksi (275 MPa) minimum per Class 1</li>
+                  <li> - Elongation: 20% minimum</li>
+                  <li> - Hardness: 217 HBW maximum (for flanges in the normalized and tempered condition)</li>
                 </ul>
-                <p className="text-sm text-gray-600 mt-4">Heat-treated 410ss matches or exceeds the strength of many carbon steels and alloy steels, but with superior corrosion resistance.</p>
+                <p className="text-sm text-gray-600 mt-4">These are the ASTM A182 F6a Class 1 requirements for flanges. 410ss is capable of higher hardness when hardened for non-flange applications (valve stems, pump parts), but flanges are supplied in the normalized and tempered condition per specification.</p>
               </div>
 
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
-                <h4 className="text-lg font-bold text-gray-900 mb-3">Annealed Condition (Soft)</h4>
+                <h4 className="text-lg font-bold text-gray-900 mb-3">Annealed Condition</h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li>-- Hardness: typically &lt; 217 HB (approximately 20 HRC max)</li>
-                  <li>-- Tensile Strength: 450--620 MPa (65--90 ksi)</li>
-                  <li>-- Yield Strength: 275--380 MPa (40--55 ksi)</li>
-                  <li>-- Elongation: 25--30% (good machinability)</li>
+                  <li> - Hardness: 217 HBW max</li>
+                  <li> - Tensile Strength: 65-90 ksi typical</li>
+                  <li> - Yield Strength: 40-55 ksi typical</li>
+                  <li> - Elongation: 20%+ (good machinability)</li>
                 </ul>
-                <p className="text-sm text-gray-600 mt-4">Annealed 410ss is easier to machine and weld, making it suitable for applications where final hardening is applied after fabrication.</p>
+                <p className="text-sm text-gray-600 mt-4">Annealed 410ss is easier to machine and weld. This is the typical supply condition for flanges.</p>
               </div>
 
               <div>
                 <h4 className="text-lg font-bold text-gray-900 mb-3">Comparison to Austenitic 304/316</h4>
-                <p className="text-gray-700">304 and 316 achieve only about 70 ksi tensile strength and 30 ksi yield strength (non-magnetic, non-heat-treatable). Heat-treated 410ss is 3--4 times stronger, making it the choice when mechanical strength is paramount.</p>
+                <p className="text-gray-700">304 and 316 austenitic stainless steels are non-magnetic and non-heat-treatable, with tensile strength around 70 ksi and yield around 30 ksi. 410ss offers higher strength potential through heat treatment, making it the choice when mechanical strength is a priority alongside moderate corrosion resistance.</p>
               </div>
             </div>
           </div>
@@ -190,24 +190,24 @@ export default function StainlessSteelPage() {
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">Where 410ss Performs Well</h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li>-- Mild industrial environments (neutral pH, low contamination)</li>
-                  <li>-- Oxidizing service (where chromium passivation is strong)</li>
-                  <li>-- Dry or low-humidity conditions</li>
-                  <li>-- Potable water systems (when chloride levels are controlled)</li>
-                  <li>-- Steam and condensate service (non-corrosive steam)</li>
-                  <li>-- Air at temperatures up to 600°C</li>
+                  <li> - Mild industrial environments (neutral pH, low contamination)</li>
+                  <li> - Oxidizing service (where chromium passivation is strong)</li>
+                  <li> - Dry or low-humidity conditions</li>
+                  <li> - Potable water systems (when chloride levels are controlled)</li>
+                  <li> - Steam and condensate service (non-corrosive steam)</li>
+                  <li> - Air at temperatures up to 600°C</li>
                 </ul>
               </div>
 
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">Where 410ss is NOT Recommended</h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li>-- Seawater or high-chloride exposure</li>
-                  <li>-- Acidic or sulfurous environments (without molybdenum)</li>
-                  <li>-- High-temperature chloride service</li>
-                  <li>-- Harsh chemical processing (caustic, strong acids)</li>
-                  <li>-- Subsea or immersed conditions</li>
-                  <li>-- Food processing with salt or citric acid</li>
+                  <li> - Seawater or high-chloride exposure</li>
+                  <li> - Acidic or sulfurous environments (without molybdenum)</li>
+                  <li> - High-temperature chloride service</li>
+                  <li> - Harsh chemical processing (caustic, strong acids)</li>
+                  <li> - Subsea or immersed conditions</li>
+                  <li> - Food processing with salt or citric acid</li>
                 </ul>
               </div>
 
@@ -235,7 +235,7 @@ export default function StainlessSteelPage() {
             <div className="bg-white p-8 rounded-lg border border-gray-200 space-y-6">
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">Preheat Requirements</h4>
-                <p className="text-gray-700 mb-3">Preheating is mandatory. Typical preheat temperatures are 200--300°C (depending on section thickness and carbon content). The purpose is to reduce the cooling rate and reduce the hardness and brittleness that would otherwise develop in the heat-affected zone.</p>
+                <p className="text-gray-700 mb-3">Preheating is mandatory. Typical preheat temperatures are 200-300°C (depending on section thickness and carbon content). The purpose is to reduce the cooling rate and reduce the hardness and brittleness that would otherwise develop in the heat-affected zone.</p>
               </div>
 
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
@@ -273,41 +273,41 @@ export default function StainlessSteelPage() {
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">Oil & Gas Industry</h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li>-- Valve stems and seats (corrosion + hardness)</li>
-                  <li>-- Pump impellers and shafts</li>
-                  <li>-- Downhole tool components</li>
-                  <li>-- Seals and wear rings</li>
-                  <li>-- API flanges for high-pressure service</li>
+                  <li> - Valve stems and seats (corrosion + hardness)</li>
+                  <li> - Pump impellers and shafts</li>
+                  <li> - Downhole tool components</li>
+                  <li> - Seals and wear rings</li>
+                  <li> - API flanges for high-pressure service</li>
                 </ul>
               </div>
 
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">Turbomachinery</h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li>-- Steam turbine blades and components</li>
-                  <li>-- Gas turbine hardware</li>
-                  <li>-- Compressor impellers</li>
-                  <li>-- Jet engine components (in some applications)</li>
+                  <li> - Steam turbine blades and components</li>
+                  <li> - Gas turbine hardware</li>
+                  <li> - Compressor impellers</li>
+                  <li> - Jet engine components (in some applications)</li>
                 </ul>
               </div>
 
               <div className="border-b border-gray-200 pb-6 last:border-b-0">
                 <h4 className="text-lg font-bold text-gray-900 mb-3">Pump and Valve Applications</h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li>-- Valve balls and stems (hardness + corrosion resistance)</li>
-                  <li>-- Pump impellers</li>
-                  <li>-- Shaft components</li>
-                  <li>-- Bearing sleeves</li>
+                  <li> - Valve balls and stems (hardness + corrosion resistance)</li>
+                  <li> - Pump impellers</li>
+                  <li> - Shaft components</li>
+                  <li> - Bearing sleeves</li>
                 </ul>
               </div>
 
               <div>
                 <h4 className="text-lg font-bold text-gray-900 mb-3">General Industrial</h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li>-- Fasteners and studs (higher strength than austenitic)</li>
-                  <li>-- Bearing races and rolling elements</li>
-                  <li>-- Cutting tools and knives</li>
-                  <li>-- Wear plates and sleeves</li>
+                  <li> - Fasteners and studs (higher strength than austenitic)</li>
+                  <li> - Bearing races and rolling elements</li>
+                  <li> - Cutting tools and knives</li>
+                  <li> - Wear plates and sleeves</li>
                 </ul>
               </div>
             </div>
@@ -326,23 +326,23 @@ export default function StainlessSteelPage() {
             <div className="border-l-4 border-blue-600 pl-6 py-4">
               <h4 className="text-lg font-bold text-gray-900 mb-2">Choose 410ss When:</h4>
               <ul className="space-y-2 text-gray-700">
-                <li>-- Strength and hardness are primary requirements</li>
-                <li>-- Operating environment is mild and non-corrosive or non-chloride</li>
-                <li>-- Magnetic properties are acceptable or beneficial</li>
-                <li>-- Heat treatment is planned and controlled</li>
-                <li>-- Cost efficiency matters (410ss costs less than 304/316)</li>
-                <li>-- API flanges are specified for oil & gas service</li>
+                <li> - Strength and hardness are primary requirements</li>
+                <li> - Operating environment is mild and non-corrosive or non-chloride</li>
+                <li> - Magnetic properties are acceptable or beneficial</li>
+                <li> - Heat treatment is planned and controlled</li>
+                <li> - Cost efficiency matters (410ss costs less than 304/316)</li>
+                <li> - API flanges are specified for oil & gas service</li>
               </ul>
             </div>
 
             <div className="border-l-4 border-orange-600 pl-6 py-4">
               <h4 className="text-lg font-bold text-gray-900 mb-2">Do NOT Choose 410ss When:</h4>
               <ul className="space-y-2 text-gray-700">
-                <li>-- Seawater or high-chloride exposure is expected</li>
-                <li>-- Non-magnetic properties are required</li>
-                <li>-- Extensive post-fabrication welding is planned without PWHT</li>
-                <li>-- Superior general corrosion resistance is the primary driver</li>
-                <li>-- You would use 304 or 316 in the same application</li>
+                <li> - Seawater or high-chloride exposure is expected</li>
+                <li> - Non-magnetic properties are required</li>
+                <li> - Extensive post-fabrication welding is planned without PWHT</li>
+                <li> - Superior general corrosion resistance is the primary driver</li>
+                <li> - You would use 304 or 316 in the same application</li>
               </ul>
             </div>
 

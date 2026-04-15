@@ -44,9 +44,9 @@ const a105ChemicalColumns = [
 const a105ChemicalData = [
   {
     element: 'Carbon (C)',
-    min: '0.20',
+    min: '-',
     max: '0.35',
-    notes: 'Core requirement for strength',
+    notes: 'Primary strengthening element',
   },
   {
     element: 'Manganese (Mn)',
@@ -144,51 +144,63 @@ const a350ChemicalColumns = [
 const a350ChemicalData = [
   {
     element: 'Carbon (C)',
-    min: '0.24',
-    max: '0.35',
-    notes: 'Lower carbon for improved toughness',
+    min: '-',
+    max: '0.30',
+    notes: 'Lower max than A105 for improved toughness',
   },
   {
     element: 'Manganese (Mn)',
     min: '0.60',
     max: '1.35',
-    notes: 'Higher manganese for low-temperature toughness',
+    notes: 'Higher range than A105 for low-temperature toughness',
   },
   {
     element: 'Silicon (Si)',
     min: '0.15',
-    max: '0.40',
+    max: '0.30',
     notes: 'Deoxidation and strength',
   },
   {
     element: 'Phosphorus (P)',
     min: '-',
-    max: '0.025',
-    notes: 'Stricter control than A105',
+    max: '0.035',
+    notes: 'Controlled for ductility',
   },
   {
     element: 'Sulfur (S)',
     min: '-',
-    max: '0.025',
-    notes: 'Stricter control than A105',
+    max: '0.040',
+    notes: 'Controlled for workability',
+  },
+  {
+    element: 'Chromium (Cr)',
+    min: '-',
+    max: '0.30',
+    notes: 'Optional, same limit as A105',
   },
   {
     element: 'Nickel (Ni)',
-    min: '0.40',
-    max: '0.80',
-    notes: 'Required for low-temperature toughness',
+    min: '-',
+    max: '0.40',
+    notes: 'Optional for toughness',
   },
   {
     element: 'Molybdenum (Mo)',
-    min: '0.15',
-    max: '0.30',
-    notes: 'Required for strength and toughness',
+    min: '-',
+    max: '0.12',
+    notes: 'Optional for strength',
   },
   {
-    element: 'Aluminum (Al)',
+    element: 'Copper (Cu)',
     min: '-',
-    max: '0.04',
-    notes: 'Deoxidation element',
+    max: '0.40',
+    notes: 'Optional',
+  },
+  {
+    element: 'Niobium (Nb)',
+    min: '-',
+    max: '0.02',
+    notes: 'Trace element control',
   },
 ];
 
@@ -196,39 +208,45 @@ const a350ChemicalData = [
 const a350MechanicalData = [
   {
     property: 'Tensile Strength',
-    value: '70 - 100 ksi',
+    value: '70 - 95 ksi',
     astmMin: '70 ksi (485 MPa)',
-    notes: 'Same as A105',
+    notes: 'Per ASTM A350 Class 1',
   },
   {
     property: 'Yield Strength (0.2% offset)',
-    value: '40 ksi typical',
-    astmMin: '40 ksi (275 MPa)',
-    notes: 'Slightly higher than A105',
+    value: '36 ksi typical',
+    astmMin: '36 ksi (250 MPa)',
+    notes: 'Per ASTM A350 Class 1',
   },
   {
     property: 'Elongation in 2 inches',
-    value: '24% - 35%',
-    astmMin: '24%',
-    notes: 'Improved ductility for low-temp service',
+    value: '22% minimum',
+    astmMin: '22%',
+    notes: 'Measured at room temperature',
+  },
+  {
+    property: 'Reduction of Area',
+    value: '30% minimum',
+    astmMin: '30%',
+    notes: 'Same requirement as A105',
   },
   {
     property: 'Charpy Impact (-50°F)',
-    value: '15 ft-lbs minimum',
-    astmMin: '15 ft-lbs',
-    notes: 'Critical for cryogenic applications',
+    value: '20 J (15 ft-lbs) minimum',
+    astmMin: '20 J',
+    notes: 'Mandatory for low-temperature qualification',
   },
   {
-    property: 'Notch Toughness',
-    value: 'Excellent',
-    astmMin: '-',
-    notes: 'Superior to A105 at low temperatures',
+    property: 'Hardness',
+    value: '197 HBW max',
+    astmMin: '197 HBW max',
+    notes: 'Per ASTM A350',
   },
   {
     property: 'Service Temperature Limit',
     value: 'Down to -50°F',
     astmMin: '-',
-    notes: 'Rated for cryogenic service',
+    notes: 'Rated for low-temperature service',
   },
 ];
 
@@ -242,7 +260,7 @@ const comparisonColumns = [
 const comparisonData = [
   {
     feature: 'Carbon Content',
-    a105: '0.20-0.35%',
+    a105: '0.35% max',
     a350lf2: '0.30% max',
   },
   {
@@ -253,12 +271,12 @@ const comparisonData = [
   {
     feature: 'Nickel Content',
     a105: 'Optional (max 0.40%)',
-    a350lf2: 'Required (0.40-0.80%)',
+    a350lf2: 'Optional (max 0.40%)',
   },
   {
     feature: 'Molybdenum Content',
     a105: 'Optional (max 0.12%)',
-    a350lf2: '0.12% max',
+    a350lf2: 'Optional (max 0.12%)',
   },
   {
     feature: 'Phosphorus Maximum',
@@ -272,8 +290,8 @@ const comparisonData = [
   },
   {
     feature: 'Tensile Strength',
-    a105: '70-100 ksi',
-    a350lf2: '78-95 ksi',
+    a105: '70 ksi min',
+    a350lf2: '70-95 ksi',
   },
   {
     feature: 'Yield Strength',
@@ -283,7 +301,7 @@ const comparisonData = [
   {
     feature: 'Min Service Temp',
     a105: '-20°F (ambient)',
-    a350lf2: '-50°F (cryogenic)',
+    a350lf2: '-50°F (low-temperature)',
   },
   {
     feature: 'Charpy Impact Testing',
@@ -293,12 +311,7 @@ const comparisonData = [
   {
     feature: 'Primary Application',
     a105: 'General purpose up to 800°F',
-    a350lf2: 'Low-temperature/cryogenic service',
-  },
-  {
-    feature: 'Cost Position',
-    a105: 'Standard (baseline)',
-    a350lf2: '10-15% premium',
+    a350lf2: 'Low-temperature service',
   },
 ];
 
@@ -348,29 +361,29 @@ const coatingOptions = [
     name: 'Bare (No Coating)',
     standard: 'ASTM A105',
     use: 'Indoor, neutral environments',
-    life: '5-10 years outdoor',
+    life: 'Varies by environment',
     cost: 'Baseline',
   },
   {
     name: 'Hot-Dip Galvanized',
     standard: 'ASTM A153',
     use: 'Outdoor, waterworks, moderate corrosion',
-    life: '20-50 years outdoor',
-    cost: '+15-20%',
+    life: 'Extended outdoor service',
+    cost: 'Contact for pricing',
   },
   {
     name: 'Zinc Plated',
     standard: 'ASTM B633',
     use: 'Indoor light corrosion protection',
-    life: '3-7 years',
-    cost: '+5-10%',
+    life: 'Light-duty protection',
+    cost: 'Contact for pricing',
   },
   {
     name: 'Epoxy Coated (FBE)',
     standard: 'AWWA C550',
     use: 'Potable water, waterworks',
-    life: '15-25 years',
-    cost: '+20-30%',
+    life: 'Extended service in water applications',
+    cost: 'Contact for pricing',
   },
 ];
 
@@ -413,7 +426,7 @@ const faqItems = [
   {
     question: 'What is the difference between ASTM A105 and A350 LF2?',
     answer:
-      'ASTM A105 is the standard carbon steel specification for ambient and elevated temperature applications up to 800°F. ASTM A350 LF2 is specifically designed for low-temperature and cryogenic service down to -50°F. The key differences are higher nickel and molybdenum content in A350, stricter impurity limits (P and S), and mandatory Charpy impact testing at -50°F. A105 is more economical while A350 LF2 provides superior toughness at low temperatures.',
+      'ASTM A105 is the standard carbon steel specification for ambient and elevated temperature applications up to 800°F. ASTM A350 LF2 is specifically designed for low-temperature service down to -50°F. The key difference is that A350 LF2 requires mandatory Charpy V-notch impact testing at -50°F, ensuring the material maintains toughness at low temperatures. A105 is the default choice for general service while A350 LF2 is specified when low-temperature impact resistance is a design requirement.',
   },
   {
     question: 'Can I use ASTM A105 for cold weather applications?',
@@ -493,9 +506,8 @@ export default function CarbonSteelPage() {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Chemical Composition (%)</h3>
             <SpecTable columns={a105ChemicalColumns} data={a105ChemicalData} />
             <p className="text-sm text-gray-600 mt-4">
-              All values are weight percentages. Chemical composition is verified by ladle analysis and
-              checked by composition testing. Target: 0.32% C, 0.80% Mn for optimal balance of strength and
-              workability.
+              All values are weight percentages per ASTM A105 specification. The sum of Cu, Ni, Cr, Mo, and V
+              shall not exceed 1.00%, and the sum of Cr and Mo shall not exceed 0.32%.
             </p>
           </div>
 
@@ -577,9 +589,8 @@ export default function CarbonSteelPage() {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Chemical Composition (%)</h3>
             <SpecTable columns={a350ChemicalColumns} data={a350ChemicalData} />
             <p className="text-sm text-gray-600 mt-4">
-              Note the higher nickel (0.40-0.80%) and molybdenum (0.15-0.30%) content compared to A105.
-              Stricter impurity limits (P and S) ensure superior low-temperature toughness. Aluminum
-              required for controlled deoxidation.
+              Per ASTM A350 Class 1 (LF2). The sum of Cu, Ni, Cr, Mo, and V shall not exceed 1.00%.
+              A350 LF2 requires Charpy V-notch impact testing at -50°F, which is the key differentiator from A105.
             </p>
           </div>
 

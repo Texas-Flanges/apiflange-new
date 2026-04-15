@@ -64,7 +64,7 @@ const materialGroupRows = [
   {
     group: 'Group 1',
     composition: 'Carbon Steel (ASTM A105)',
-    temp: '-20°F to 750°F',
+    temp: '-20°F to 800°F',
     applications: 'General industrial piping, cost-effective',
   },
   {
@@ -107,7 +107,7 @@ const faqItems = [
   {
     question: 'What is the maximum operating temperature for each pressure class?',
     answer:
-      'Temperature limits vary by material grade and pressure class. Carbon steel (A105) flanges are rated to 750°F at design pressure, but this deration applies. Chromium-molybdenum (Cr-Mo) steels support higher temperatures up to 1100-1200°F depending on the specific grade. Stainless steels can go even higher. Always verify temperature ratings for your specific material grade in the ASME standard or material datasheet.',
+      'Temperature limits vary by material grade and pressure class. Carbon steel (A105) flanges are rated to 800°F per ASME B16.5, with pressure deration above approximately 500°F. Chromium-molybdenum (Cr-Mo) steels support higher continuous service temperatures up to 900-1100°F depending on the specific grade. Stainless steels can go even higher. Always verify temperature ratings for your specific material grade in the ASME standard or material datasheet.',
   },
   {
     question: 'What does "raised face" mean, and should I use it?',

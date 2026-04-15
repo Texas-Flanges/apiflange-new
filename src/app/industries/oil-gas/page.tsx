@@ -245,10 +245,10 @@ export default function OilGasPage() {
               <div className="space-y-3">
                 {[
                   { grade: 'A105/A350 LF2', temp: 'to 800°F', use: 'Standard carbon steel' },
-                  { grade: 'F5 (5Cr)', temp: 'to 900°F', use: 'Elevated temperature' },
-                  { grade: 'F11 (1¼Cr)', temp: 'to 1100°F', use: 'High-temperature steams' },
-                  { grade: 'F22 (2¼Cr)', temp: 'to 1200°F', use: 'Boiler service' },
-                  { grade: 'F91 (9Cr)', temp: 'to 1300°F', use: 'Ultra high-temperature' },
+                  { grade: 'F5 (5Cr)', temp: 'to 1100°F', use: 'Elevated temperature' },
+                  { grade: 'F11 (1¼Cr)', temp: 'to 900°F', use: 'Moderate high-temperature' },
+                  { grade: 'F22 (2¼Cr)', temp: 'to 1050°F', use: 'Boiler & steam service' },
+                  { grade: 'F91 (9Cr)', temp: 'to 1100°F', use: 'High-temperature steam' },
                 ].map((grade, idx) => (
                   <div key={idx} className="border-l-4 border-brass pl-4 py-1">
                     <p className="font-bold text-gray-900 text-sm">{grade.grade}</p>

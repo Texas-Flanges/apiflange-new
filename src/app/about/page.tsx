@@ -17,22 +17,22 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About API Flange | Industrial Flange Manufacturer',
+  title: 'About API Flange | Steel Pipe Flange Supplier',
   description:
-    'Learn about API Flange, a leading manufacturer of precision-engineered steel flanges for industrial applications. Discover our commitment to quality, innovation, and customer partnership.',
+    'API Flange supplies steel pipe flanges for oil and gas, waterworks, power generation, and industrial applications. Deep inventory, fast turnaround, and full documentation from Pearland, TX.',
   keywords: [
-    'flange manufacturer',
+    'flange supplier',
     'API Flange',
     'industrial flanges',
-    'quality assurance',
-    'precision engineering',
-    'ASME standards',
-    'custom machining',
+    'steel pipe flanges',
+    'API 6A flanges',
+    'ASME B16.5',
+    'Houston flanges',
   ],
   openGraph: {
-    title: 'About API Flange | Industrial Flange Manufacturer',
+    title: 'About API Flange | Steel Pipe Flange Supplier',
     description:
-      'Learn about API Flange, a leading manufacturer of precision-engineered steel flanges for industrial applications.',
+      'API Flange supplies steel pipe flanges for oil and gas, waterworks, power generation, and industrial applications.',
     url: 'https://www.apiflange.com/about',
     type: 'website',
   },
@@ -56,9 +56,9 @@ const values: Value[] = [
   },
   {
     icon: Zap,
-    title: 'Precision',
+    title: 'Accuracy',
     description:
-      'Tolerances measured in thousandths of an inch. Advanced CNC machining and rigorous quality control ensure flanges that perform flawlessly in critical applications.',
+      'Every spec, every dimension, every material grade verified. We take technical accuracy seriously because our customers depend on it.',
   },
   {
     icon: Users,
@@ -68,9 +68,9 @@ const values: Value[] = [
   },
   {
     icon: Cog,
-    title: 'Innovation',
+    title: 'Speed',
     description:
-      'Continuous improvement drives everything we do. We invest in advanced manufacturing technology and stay ahead of industry standards and best practices.',
+      'Fast quotes, fast shipping, fast answers. In this industry, time is money and we do not waste yours.',
   },
 ];
 
@@ -81,34 +81,34 @@ interface Capability {
 
 const capabilities: Capability[] = [
   {
-    title: 'Precision Forging',
+    title: 'Deep Stock Inventory',
     description:
-      'State-of-the-art forging equipment produces flange forgings with optimal grain structure and dimensional consistency.',
+      'Extensive inventory across standard and non-standard sizes, pressure classes, and material grades. When we say we have it, we have it.',
   },
   {
-    title: 'Advanced CNC Machining',
+    title: 'Fast Turnaround',
     description:
-      'Multi-axis machining centers deliver tight tolerances on complex geometries, from simple carbon steel to exotic alloys.',
+      'Stock items ship in 1-3 business days. Custom and specialty orders quoted the same day with clear lead times.',
   },
   {
-    title: 'Custom Engineering',
+    title: 'Technical Expertise',
     description:
-      'Our engineering team develops custom solutions for non-standard applications, pressure ratings, and material requirements.',
+      'We know flanges. Our team speaks the language of specs, pressure classes, and material grades. Ask us the hard questions.',
   },
   {
-    title: 'Quality Assurance',
+    title: 'Full Documentation',
     description:
-      'Comprehensive testing including hydrostatic pressure testing, radiographic inspection, and dimensional verification.',
+      'MTRs, Certificates of Conformance, and full traceability documentation available with every order.',
   },
   {
-    title: 'Material Expertise',
+    title: 'Material Range',
     description:
       'Carbon steel, stainless steel, duplex, alloy steel, and specialty materials for any service condition.',
   },
   {
-    title: 'Global Supply Chain',
+    title: 'Reliable Delivery',
     description:
-      'Reliable delivery worldwide with logistics partnerships ensuring your flanges arrive on time, every time.',
+      'Domestic and international shipping with logistics support to get flanges where they need to be, on time.',
   },
 ];
 
@@ -119,34 +119,34 @@ interface Certification {
 
 const certifications: Certification[] = [
   {
-    name: 'ISO 9001:2015 (Upon Request.)',
+    name: 'ASME B16.5 / B16.47',
     description:
-      'Quality management system certification ensuring consistent processes and continuous improvement.',
-  },
-  {
-    name: 'PED Certification (Upon Request.)',
-    description:
-      'Pressure Equipment Directive compliance for European applications and international markets.',
-  },
-  {
-    name: 'BABA/AIS Certified (Upon Request.)',
-    description:
-      'Buy America Act and American Iron and Steel certified for federally-funded infrastructure projects.',
-  },
-  {
-    name: 'ASME B16.5',
-    description:
-      'Full compliance with American Society of Mechanical Engineers standards for pipe flanges.',
-  },
-  {
-    name: 'AWWA C207',
-    description:
-      'American Water Works Association certification for municipal water utility applications.',
+      'Full compliance with ASME standards for pipe flanges and fittings, NPS 1/2 through NPS 60.',
   },
   {
     name: 'API 6A / 16A',
     description:
-      'American Petroleum Institute certification for high-pressure oil and gas applications.',
+      'American Petroleum Institute standards for high-pressure oil and gas flange applications.',
+  },
+  {
+    name: 'AWWA C207 / C228',
+    description:
+      'American Water Works Association standards for municipal water utility flange applications.',
+  },
+  {
+    name: 'BABA/AIS Compliance',
+    description:
+      'Buy America Act and American Iron and Steel compliant flanges available for federally-funded infrastructure projects.',
+  },
+  {
+    name: 'Full Material Traceability',
+    description:
+      'Mill Test Reports (MTRs), Certificates of Conformance, and heat/lot traceability with every order.',
+  },
+  {
+    name: 'DIN EN 1092-1',
+    description:
+      'European standard metric flanges available for international and ISO system applications.',
   },
 ];
 
@@ -169,26 +169,23 @@ export default function AboutPage() {
                 Our Story
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                For decades, API Flange has been a trusted partner in industrial
-                piping systems, serving the world's most demanding applications.
-                From municipal water utilities to offshore oil platforms, from
-                power generation facilities to pharmaceutical plants, our
-                precision-engineered flanges keep critical systems operating
-                safely and reliably.
+                API Flange provides steel pipe flanges for the industries that
+                keep infrastructure running. Oil and gas, waterworks, power
+                generation, petrochemical, and general industrial piping systems
+                all depend on flanges that meet spec and show up on time.
+                That is what we do.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Our foundation is built on an unwavering commitment to quality
-                and precision. We understand that our flanges aren't just
-                components—they're critical safety elements that protect people,
-                equipment, and the environment. Every flange that leaves our
-                facility has undergone rigorous testing and inspection to ensure
-                it meets or exceeds the most stringent standards.
+                We carry an extensive inventory of API 6A, ASME B16.5, ASME B16.47,
+                and AWWA flanges across a wide range of sizes, pressure classes,
+                and material grades. When you need something specific, we quote
+                fast and ship faster. Stock items move in 1-3 business days.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                What sets us apart is our dedication to partnership. We don't
-                just sell flanges; we collaborate with customers to understand
-                their unique requirements, develop engineered solutions, and
-                provide technical support throughout the product lifecycle.
+                Our customers are procurement engineers, project managers, and
+                plant operators who already know what they need. We speak the
+                same language and respect your time. You will get a price, a lead
+                time, and an honest answer on the first call.
               </p>
             </div>
 
@@ -196,11 +193,10 @@ export default function AboutPage() {
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 mt-8">
               <h3 className="text-2xl font-bold text-iron mb-4">Our Mission</h3>
               <p className="text-lg leading-relaxed text-gray-700">
-                To manufacture the world's most reliable precision-engineered
-                flanges, enabling our customers to build safer, more efficient
-                industrial systems. We achieve this through uncompromising
-                quality, continuous innovation, and genuine partnership with our
-                customers.
+                To be the most reliable source for steel pipe flanges in the
+                industry. Fast quotes, deep inventory, technical expertise, and
+                documentation you can trust. We succeed when our customers get
+                exactly what they need, when they need it.
               </p>
             </div>
           </div>
@@ -256,11 +252,11 @@ export default function AboutPage() {
           <div className="space-y-12">
             <div className="text-center max-w-2xl mx-auto">
               <h2 className="text-3xl font-bold text-iron mb-4">
-                Manufacturing Capabilities
+                What We Bring to the Table
               </h2>
               <p className="text-gray-600">
-                Comprehensive capabilities from raw material procurement through
-                final inspection and delivery.
+                Deep inventory, fast turnaround, and the technical knowledge to
+                match the right flange to your application.
               </p>
             </div>
 
@@ -285,26 +281,41 @@ export default function AboutPage() {
           </div>
         </SectionWrapper>
 
-        {/* Facility Showcase */}
+        {/* Location & Logistics */}
         <SectionWrapper>
           <div className="space-y-12">
             <div className="text-center max-w-2xl mx-auto">
               <h2 className="text-3xl font-bold text-iron mb-4">
-                State-of-the-Art Facilities
+                Based in Houston. Ships Everywhere.
               </h2>
               <p className="text-gray-600">
-                Advanced manufacturing centers combine traditional
-                craftsmanship with cutting-edge technology.
+                Headquartered in Pearland, TX in the heart of the Houston industrial
+                corridor. Direct access to major shipping lanes and proximity to the
+                Gulf Coast energy sector.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* Facility Image Placeholder 1 */}
-              <div className="rounded-lg overflow-hidden border border-gray-300 bg-gradient-to-br from-gray-100 to-gray-200 h-80 flex items-center justify-center">
-                <div className="text-center">
-                  <Globe className="w-16 h-16 mx-auto text-gray-400 mb-4" />
-                  <p className="text-gray-600 font-medium">
-                    [IMAGE PLACEHOLDER: Company facility exterior]
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-xl font-bold text-iron mb-3">
+                    Pearland, Texas
+                  </h3>
+                  <p className="text-gray-700 mb-4">
+                    Located in the Greater Houston area, we are positioned at the
+                    center of the U.S. energy and industrial market. Quick access
+                    to the Port of Houston, major highway systems, and air freight
+                    facilities means your flanges move fast.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-iron mb-3">
+                    Documentation & Traceability
+                  </h3>
+                  <p className="text-gray-700">
+                    Every flange ships with full documentation. Mill Test Reports
+                    (MTRs), Certificates of Conformance, and heat/lot traceability
+                    are standard. Third-party inspection available on request.
                   </p>
                 </div>
               </div>
@@ -312,62 +323,21 @@ export default function AboutPage() {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-xl font-bold text-iron mb-3">
-                    Headquarters & Manufacturing
+                    Domestic & International Shipping
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    State-of-the-art manufacturing facilities spanning 150,000
-                    square feet and houses advanced forging, machining, and
-                    testing equipment. Climate-controlled precision measurement
-                    labs ensure dimensional accuracy to specifications. Complete
-                    in-house capabilities eliminate dependency on external
-                    suppliers for critical operations.
+                    Stock items typically ship in 1-3 business days. Domestic and
+                    international logistics support with clear freight terms and
+                    delivery tracking. We handle ExWorks, FOB, and delivered pricing.
                   </p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-iron mb-3">
-                    Quality Assurance Laboratory
+                    Responsive Quoting
                   </h3>
                   <p className="text-gray-700">
-                    Equipped with CMM (Coordinate Measuring Machines),
-                    spectrographic analysis equipment, hydrostatic testing
-                    chambers, and materials testing apparatus. Every flange
-                    undergoes comprehensive quality verification before shipment.
-                  </p>
-                </div>
-              </div>
-
-              {/* Facility Image Placeholder 2 */}
-              <div className="rounded-lg overflow-hidden border border-gray-300 bg-gradient-to-br from-gray-100 to-gray-200 h-80 flex items-center justify-center md:col-start-2">
-                <div className="text-center">
-                  <Cog className="w-16 h-16 mx-auto text-gray-400 mb-4" />
-                  <p className="text-gray-600 font-medium">
-                    [IMAGE PLACEHOLDER: Manufacturing floor with CNC machines]
-                  </p>
-                </div>
-              </div>
-
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-bold text-iron mb-3">
-                    Equipment & Technology
-                  </h3>
-                  <p className="text-gray-700 mb-4">
-                    Multi-axis CNC machining centers capable of complex
-                    geometries and tight tolerances. Advanced forging equipment
-                    with precise temperature control. Automated material handling
-                    systems for efficiency and safety. Real-time production
-                    tracking systems for complete visibility.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-iron mb-3">
-                    Global Distribution Network
-                  </h3>
-                  <p className="text-gray-700">
-                    Strategic partnerships with logistics providers ensure
-                    reliable, on-time delivery worldwide. Inventory management
-                    systems optimize stock levels across multiple warehouses.
-                    Direct shipping capabilities to major industrial hubs.
+                    Most quotes returned the same day. Price, lead time, and
+                    availability upfront. No runaround, no waiting for callbacks.
                   </p>
                 </div>
               </div>

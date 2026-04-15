@@ -12,7 +12,7 @@ import { ArrowRight, Droplets, Flame, Zap, Wind, Ship, Mountain, Leaf, Hammer, D
 const metadata: Metadata = {
   title: 'Industries | ApiFlange',
   description:
-    'ApiFlange serves 120+ unique markets with precision flanges and piping solutions. Explore industry-specific applications in waterworks, oil & gas, petrochemical, power generation, HVAC, marine, mining, agriculture, and more.',
+    'ApiFlange serves a wide range of industries with precision flanges and piping solutions. Explore industry-specific applications in waterworks, oil & gas, petrochemical, power generation, HVAC, marine, mining, agriculture, and more.',
   keywords: [
     'industry solutions',
     'flanges for various industries',
@@ -27,7 +27,7 @@ const metadata: Metadata = {
   openGraph: {
     title: 'Industries | ApiFlange',
     description:
-      'ApiFlange serves 120+ unique markets with precision flanges and piping solutions for demanding industrial applications.',
+      'ApiFlange serves a wide range of industries with precision flanges and piping solutions for demanding industrial applications.',
     url: 'https://www.apiflange.com/industries',
     type: 'website',
   },
@@ -146,7 +146,7 @@ export default function IndustriesPage() {
     <>
       <PageHero
         title="Industry Solutions"
-        subtitle="Serving 120+ unique markets with precision-engineered flanges and piping systems tailored to the most demanding industrial applications."
+        subtitle="Serving a wide range of industries with precision-engineered flanges and piping systems tailored to the most demanding industrial applications."
         variant="navy"
         breadcrumbs={[{ label: 'Industries', href: '/industries' }]}
       />
@@ -299,7 +299,7 @@ export default function IndustriesPage() {
             '@context': 'https://schema.org',
             '@type': 'WebPage',
             name: 'Industries | ApiFlange',
-            description: 'Industry-specific flange and piping solutions for 120+ unique markets',
+            description: 'Industry-specific flange and piping solutions for a wide range of industries',
             url: 'https://www.apiflange.com/industries',
             publisher: {
               '@type': 'Organization',

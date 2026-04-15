@@ -20,7 +20,7 @@ const tools = [
   {
     id: 'flange-dimension-calculator',
     name: 'Flange Dimension Calculator',
-    description: 'Calculate ASME B16.5 and AWWA C207 flange dimensions including OD, bore, thickness, bolt circle, and weight.',
+    description: 'Look up ASME B16.5 and AWWA C207 flange dimensions including OD, bore, thickness, and bolt circle.',
     icon: '📐',
     color: 'from-blue-50 to-blue-100',
   },
@@ -37,27 +37,6 @@ const tools = [
     description: 'Find allowable pressures at various temperatures for different materials and pressure classes per ASME B16.5.',
     icon: '🌡️',
     color: 'from-red-50 to-red-100',
-  },
-  {
-    id: 'flange-weight-calculator',
-    name: 'Flange Weight Calculator',
-    description: 'Calculate flange weights for planning, shipping, and handling. Includes packing and freight weight estimates.',
-    icon: '⚖️',
-    color: 'from-gray-50 to-gray-100',
-  },
-  {
-    id: 'gasket-selector',
-    name: 'Gasket Selector Tool',
-    description: 'Find the right gasket material and type for your flange application based on service conditions.',
-    icon: '🔧',
-    color: 'from-purple-50 to-purple-100',
-  },
-  {
-    id: 'friction-loss-calculator',
-    name: 'Fluid Friction Loss Calculator',
-    description: 'Calculate pressure drop and friction losses in piping systems with flanged connections.',
-    icon: '💧',
-    color: 'from-cyan-50 to-cyan-100',
   },
 ];
 

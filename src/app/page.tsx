@@ -198,7 +198,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center">
             {[
-              { label: 'Flange Types in Stock', value: 20, suffix: '+' },
+              { label: 'Flange Types in Stock', value: 15, suffix: '+' },
               { label: 'Pressure Classes Covered', value: 6, suffix: '' },
               { label: 'Material Grades Available', value: 30, suffix: '+' },
               { label: 'Standard Compliance', value: 100, suffix: '%' },

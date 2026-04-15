@@ -92,7 +92,6 @@ const gradeComparisonColumns = [
   { key: 'grade', label: 'Grade', unit: '' },
   { key: 'composition', label: 'Composition', unit: '' },
   { key: 'tempUse', label: 'Temperature Use', unit: '' },
-  { key: 'cost', label: 'Relative Cost', unit: '' },
 ];
 
 const gradeComparisonData = [
@@ -100,31 +99,26 @@ const gradeComparisonData = [
     grade: 'F11',
     composition: '1.25Cr-0.5Mo',
     tempUse: 'Up to 900°F',
-    cost: 'Baseline + 10%',
   },
   {
     grade: 'F22',
     composition: '2.25Cr-1Mo',
     tempUse: 'Up to 1050°F',
-    cost: 'Baseline + 20%',
   },
   {
     grade: 'F5',
     composition: '5Cr-0.5Mo',
     tempUse: 'Up to 1100°F',
-    cost: 'Baseline + 30%',
   },
   {
     grade: 'F9',
     composition: '9Cr-1Mo',
     tempUse: 'Up to 1100°F',
-    cost: 'Baseline + 40%',
   },
   {
     grade: 'F91',
     composition: '9Cr-1MoVNb',
     tempUse: 'Up to 1100°F',
-    cost: 'Baseline + 50%',
   },
 ];
 
