@@ -181,7 +181,7 @@ export default function BlogPage() {
               <p className="text-gray-600 text-sm mb-4">
                 Request a detailed quote for your specific flange requirements and specifications.
               </p>
-              <Link href="https://www.texasflange.com/contact-us">
+              <Link href="https://www.texasflange.com/contact-us/?ref=apiflange-new">
                 <Button variant="primary" className="w-full">
                   Request a Quote
                 </Button>

@@ -314,7 +314,7 @@ export default function RequestQuotePage() {
         <CTABanner
           heading="Questions While You Wait?"
           subtext="Our customer support team is available to help. Reach out anytime."
-          primaryCTA={{ label: 'Contact Support', href: 'https://www.texasflange.com/contact-us' }}
+          primaryCTA={{ label: 'Contact Support', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
         />
       </>
     );
@@ -1125,7 +1125,7 @@ export default function RequestQuotePage() {
       <CTABanner
         heading="Questions About Your RFQ?"
         subtext="Our sales team is ready to help. Contact us for immediate assistance with your quote request."
-        primaryCTA={{ label: 'Contact Sales', href: 'https://www.texasflange.com/contact-us' }}
+        primaryCTA={{ label: 'Contact Sales', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
         secondaryCTA={{ label: 'Call Us', href: 'tel:+1-281-484-8325' }}
       />
     </>

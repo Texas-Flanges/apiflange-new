@@ -2,11 +2,6 @@
 
 import Link from 'next/link';
 import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Twitter,
-  Youtube,
   Phone,
   Mail,
   MapPin,
@@ -37,26 +32,7 @@ export default function SiteFooter() {
               </p>
             </div>
 
-            <div className="flex gap-3 mt-6">
-              {[
-                { icon: Facebook, href: 'https://www.facebook.com/TexasFlangeandFitting/', label: 'Facebook' },
-                { icon: Linkedin, href: 'https://www.linkedin.com/company/texas-flange/', label: 'LinkedIn' },
-                { icon: Twitter, href: 'https://twitter.com/TexasFlange', label: 'Twitter' },
-                { icon: Instagram, href: 'https://www.instagram.com/texasflange/', label: 'Instagram' },
-                { icon: Youtube, href: 'https://www.youtube.com/channel/UCHeKP7nuVLBXXEC_qXZ8VVg', label: 'YouTube' },
-              ].map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-iron-light border border-iron-mid p-2 rounded hover:border-brass hover:text-brass transition-colors"
-                  aria-label={social.label}
-                >
-                  <social.icon size={18} />
-                </a>
-              ))}
-            </div>
+            {/* Social links intentionally removed - pillar sites do not include social media links */}
           </div>
 
           {/* Column 2: Products */}

@@ -88,7 +88,7 @@ const capabilities: Capability[] = [
   {
     title: 'Fast Turnaround',
     description:
-      'Stock items ship in 1-3 business days. Custom and specialty orders quoted the same day with clear lead times.',
+      'Industry-leading turnaround on stock and custom orders. Call (281) 484-8325 for project-specific timelines.',
   },
   {
     title: 'Technical Expertise',
@@ -326,7 +326,7 @@ export default function AboutPage() {
                     Domestic & International Shipping
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Stock items typically ship in 1-3 business days. Domestic and
+                    Industry-leading turnaround on stock and custom orders. Domestic and
                     international logistics support with clear freight terms and
                     delivery tracking. We handle ExWorks, FOB, and delivered pricing.
                   </p>
@@ -381,8 +381,8 @@ export default function AboutPage() {
       <CTABanner
         heading="Ready to Partner With Us?"
         subtext="Experience the API Flange difference. Contact our team to discuss your flange requirements and discover how we can support your success."
-        primaryCTA={{ label: 'Request a Quote', href: 'https://www.texasflange.com/contact-us' }}
-        secondaryCTA={{ label: 'Contact Us', href: 'https://www.texasflange.com/contact-us' }}
+        primaryCTA={{ label: 'Request a Quote', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
+        secondaryCTA={{ label: 'Contact Us', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
       />
     </>
   );

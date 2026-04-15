@@ -203,7 +203,7 @@ export default function ProductsPage() {
         }}
         secondaryCTA={{
           label: 'Request Quote',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
       />
 

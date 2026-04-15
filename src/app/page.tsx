@@ -173,7 +173,7 @@ export default function HomePage() {
               className="flex flex-wrap gap-4"
             >
               <Link
-                href="https://www.texasflange.com/contact-us"
+                href="https://www.texasflange.com/contact-us/?ref=apiflange-new"
                 className="inline-flex items-center gap-2 bg-brass text-iron px-8 py-3.5 rounded font-bold text-lg hover:bg-brass-light transition-colors"
               >
                 Request a Quote
@@ -846,7 +846,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
-                href="https://www.texasflange.com/contact-us"
+                href="https://www.texasflange.com/contact-us/?ref=apiflange-new"
                 className="inline-flex items-center gap-2 bg-brass text-iron px-8 py-3.5 rounded font-bold text-lg hover:bg-brass-light transition-colors"
               >
                 Request a Quote

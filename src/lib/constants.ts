@@ -114,7 +114,7 @@ export const NAV_ITEMS = [
   },
   {
     label: 'Contact',
-    href: 'https://www.texasflange.com/contact-us',
+    href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
   },
 ];
 

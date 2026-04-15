@@ -510,7 +510,7 @@ export default function StandardsPage() {
           subtext="Our technical experts are ready to guide you through the selection process and ensure you get the perfect flanges for your application."
           primaryCTA={{
             label: 'Request Technical Support',
-            href: 'https://www.texasflange.com/contact-us',
+            href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
           }}
           secondaryCTA={{
             label: 'Download Specifications',

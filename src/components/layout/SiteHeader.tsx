@@ -73,7 +73,7 @@ const navItems: NavItem[] = [
     ],
   },
   { label: 'About', href: '/about' },
-  { label: 'Contact', href: 'https://www.texasflange.com/contact-us' },
+  { label: 'Contact', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' },
 ];
 
 export default function SiteHeader() {
@@ -121,7 +121,7 @@ export default function SiteHeader() {
               </a>
             </div>
             <Link
-              href="https://www.texasflange.com/contact-us"
+              href="https://www.texasflange.com/contact-us/?ref=apiflange-new"
               className="text-brass font-semibold hover:text-brass-light transition-colors"
             >
               Request Quote
@@ -166,7 +166,7 @@ export default function SiteHeader() {
               </button>
 
               <Link
-                href="https://www.texasflange.com/contact-us"
+                href="https://www.texasflange.com/contact-us/?ref=apiflange-new"
                 className="hidden md:inline-block bg-brass text-iron px-6 py-2 rounded font-bold hover:bg-brass-light transition-colors"
               >
                 Request Quote
@@ -209,7 +209,7 @@ export default function SiteHeader() {
 
                 <div className="pt-4 border-t border-brass/20 mt-4">
                   <Link
-                    href="https://www.texasflange.com/contact-us"
+                    href="https://www.texasflange.com/contact-us/?ref=apiflange-new"
                     className="block w-full bg-brass text-iron px-4 py-3 rounded font-bold hover:bg-brass-light transition-colors text-center"
                   >
                     Request Quote

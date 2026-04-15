@@ -446,7 +446,7 @@ export default function AWWAFlangePage() {
           subtext="Our team specializes in water system flanges. We can help you select the right pressure class, coating, and material for your waterworks application."
           primaryCTA={{
             label: 'Get a Quote',
-            href: 'https://www.texasflange.com/contact-us',
+            href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
           }}
           secondaryCTA={{
             label: 'View Water Flanges',

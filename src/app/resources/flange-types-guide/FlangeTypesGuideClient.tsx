@@ -1308,11 +1308,11 @@ export default function FlangeTypesGuideClient() {
         subtext="Our engineering team can help you choose the perfect flange type for your specific application and requirements."
         primaryCTA={{
           label: 'Request Technical Support',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
         secondaryCTA={{
           label: 'Contact Us',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
       />
 

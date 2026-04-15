@@ -630,7 +630,7 @@ export default function BlogPostPage({
                 <p className="mb-6">
                   Apply the insights from this article to your specific requirements. Our experts can help you select the right flanges for your application.
                 </p>
-                <Link href="https://www.texasflange.com/contact-us">
+                <Link href="https://www.texasflange.com/contact-us/?ref=apiflange-new">
                   <Button variant="secondary">
                     Start Your RFQ
                     <ArrowRight className="w-4 h-4 ml-2" />
@@ -664,7 +664,7 @@ export default function BlogPostPage({
                   <p className="text-sm mb-4">
                     Our technical team is ready to discuss your specific requirements.
                   </p>
-                  <Link href="https://www.texasflange.com/contact-us">
+                  <Link href="https://www.texasflange.com/contact-us/?ref=apiflange-new">
                     <Button variant="secondary" className="w-full">
                       Contact Us
                     </Button>
@@ -711,8 +711,8 @@ export default function BlogPostPage({
       <CTABanner
         heading="Need Expert Guidance?"
         subtext="Our technical team can help you select the perfect flanges for your application. Request a quote today."
-        primaryCTA={{ label: 'Request a Quote', href: 'https://www.texasflange.com/contact-us' }}
-        secondaryCTA={{ label: 'Contact Technical Support', href: 'https://www.texasflange.com/contact-us' }}
+        primaryCTA={{ label: 'Request a Quote', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
+        secondaryCTA={{ label: 'Contact Technical Support', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
       />
     </>
   );

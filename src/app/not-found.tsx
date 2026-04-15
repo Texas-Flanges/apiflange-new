@@ -49,7 +49,7 @@ export default function NotFound() {
             View Resources
           </Link>
           <Link
-            href="https://www.texasflange.com/contact-us"
+            href="https://www.texasflange.com/contact-us/?ref=apiflange-new"
             className="inline-block px-6 py-3 bg-slate-200 text-slate-900 font-semibold rounded-lg hover:bg-slate-300 transition-colors"
           >
             Contact Us

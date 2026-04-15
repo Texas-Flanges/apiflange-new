@@ -549,10 +549,10 @@ export default function CustomMachiningPage() {
               specifications to reality.
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
-              <Link href="https://www.texasflange.com/contact-us">
+              <Link href="https://www.texasflange.com/contact-us/?ref=apiflange-new">
                 <Button variant="secondary">Start Your RFQ</Button>
               </Link>
-              <Link href="https://www.texasflange.com/contact-us">
+              <Link href="https://www.texasflange.com/contact-us/?ref=apiflange-new">
                 <Button variant="secondary">Contact Engineering</Button>
               </Link>
             </div>
@@ -564,8 +564,8 @@ export default function CustomMachiningPage() {
       <CTABanner
         heading="Custom Engineering Expertise"
         subtext="Our team of experienced machinists and engineers can tackle virtually any custom machining project. Let us know how we can help."
-        primaryCTA={{ label: 'Request a Quote', href: 'https://www.texasflange.com/contact-us' }}
-        secondaryCTA={{ label: 'Schedule a Consultation', href: 'https://www.texasflange.com/contact-us' }}
+        primaryCTA={{ label: 'Request a Quote', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
+        secondaryCTA={{ label: 'Schedule a Consultation', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
       />
     </>
   );

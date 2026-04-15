@@ -163,11 +163,11 @@ export default function FlangesPage() {
         subtext="Our technical specialists are ready to assist with product selection, specifications, and custom solutions."
         primaryCTA={{
           label: 'Contact Sales',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
         secondaryCTA={{
           label: 'Request RFQ',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
       />
 

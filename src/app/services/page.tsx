@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Services | API Flange Pro',
-  description: 'Explore our range of services and products for api certified.',
+  title: 'Services | API Flange',
+  description: 'Comprehensive flange services including custom machining, technical support, and rush order fulfillment. API standards compliance with expert engineering support.',
 };
 
 export default function ServicesPage() {

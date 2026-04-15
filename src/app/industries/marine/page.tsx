@@ -293,12 +293,12 @@ export default function MarinePage() {
             {
               question: 'What is the lead time for marine-grade stainless flanges?',
               answer:
-                'Standard duplex 2205 flanges in common sizes are typically 6-10 weeks. Super duplex, Monel, and Inconel require 10-16 weeks. Custom subsea configurations may require 16+ weeks. Contact us with your schedule for expedited availability.',
+                'Lead times vary by alloy grade, size, and configuration. We offer industry-leading turnaround on marine-grade flanges and can expedite for critical schedules. Call (281) 484-8325 for project-specific timelines.',
             },
             {
               question: 'Can you supply subsea jumper flanges with RTJ face?',
               answer:
-                'Yes. We fabricate subsea jumper flanges in duplex, super duplex, and exotic alloys with RTJ, large bore male/female, and other specialty face designs. Custom engineering and pressure testing are available.',
+                'Yes. We supply subsea jumper flanges in duplex, super duplex, and exotic alloys with RTJ, large bore male/female, and other specialty face designs. Custom engineering and pressure testing are available.',
             },
           ]}
         />

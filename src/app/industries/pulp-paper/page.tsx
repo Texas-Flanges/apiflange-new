@@ -143,7 +143,7 @@ export default function PulpPaperPage() {
         }}
         secondaryCTA={{
           label: 'Contact Sales',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
       />
 

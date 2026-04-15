@@ -575,11 +575,11 @@ export default function MaterialGradesPage() {
         subtext="Our engineers can guide you to the optimal material for your application, temperature, and budget."
         primaryCTA={{
           label: 'Request Technical Support',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
         secondaryCTA={{
           label: 'Contact Us',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
       />
 

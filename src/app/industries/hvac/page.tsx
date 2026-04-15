@@ -245,7 +245,7 @@ export default function HVACPage() {
             {
               question: 'What is your typical lead time for HVAC flanges?',
               answer:
-                'Standard carbon steel flanges in common sizes are typically in stock or 2-4 weeks from order. Larger sizes or specialty configurations may require 4-8 weeks. Contact us with your delivery timeline.',
+                'We maintain stock on common HVAC flange sizes and offer industry-leading turnaround on all orders. Call (281) 484-8325 for project-specific timelines.',
             },
           ]}
         />

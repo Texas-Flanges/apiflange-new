@@ -360,11 +360,11 @@ export default function PressureRatingsPage() {
         subtext="Our engineers can help you select the right flange for your specific pressure and temperature requirements."
         primaryCTA={{
           label: 'Request Technical Support',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
         secondaryCTA={{
           label: 'Contact Us',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
       />
 

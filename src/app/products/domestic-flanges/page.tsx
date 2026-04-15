@@ -286,7 +286,7 @@ export default function DomesticFlangePage() {
                 while maintaining BABA/AIS compliance. Contact our team
                 to discuss your custom needs.
               </p>
-              <a href="https://www.texasflange.com/contact-us" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.texasflange.com/contact-us/?ref=apiflange-new" target="_blank" rel="noopener noreferrer">
                 <Button variant="primary">Request a Quote</Button>
               </a>
             </div>
@@ -513,8 +513,8 @@ export default function DomesticFlangePage() {
       <CTABanner
         heading="Ready to Specify Domestic Flanges?"
         subtext="Contact API Flange to discuss BABA/AIS compliance, obtain pricing, and ensure your federally-funded project meets all domestic sourcing requirements."
-        primaryCTA={{ label: 'Request a Quote', href: 'https://www.texasflange.com/contact-us' }}
-        secondaryCTA={{ label: 'Contact Us', href: 'https://www.texasflange.com/contact-us' }}
+        primaryCTA={{ label: 'Request a Quote', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
+        secondaryCTA={{ label: 'Contact Us', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
       />
     </>
   );

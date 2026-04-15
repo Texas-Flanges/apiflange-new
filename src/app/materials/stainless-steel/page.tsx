@@ -374,10 +374,10 @@ export default function StainlessSteelPage() {
               Our team can recommend the optimal heat treatment and specification for your API flanges, turbomachinery components, or high-strength industrial applications.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="https://www.apiflange.com/contact" variant="secondary" size="lg" className="border-white text-blue-900">
+              <Button href="https://www.texasflange.com/contact-us/?ref=apiflange-new" variant="secondary" size="lg" className="border-white text-blue-900">
                 Request Quote
               </Button>
-              <Button href="https://www.apiflange.com/contact" variant="ghost" size="lg" className="text-white hover:text-orange-200">
+              <Button href="https://www.texasflange.com/contact-us/?ref=apiflange-new" variant="ghost" size="lg" className="text-white hover:text-orange-200">
                 Technical Consultation
               </Button>
             </div>

@@ -580,11 +580,11 @@ export default function CorrosionPreventionPage() {
         subtext="Our engineers can help you select the right materials and protection methods for your specific environment."
         primaryCTA={{
           label: 'Request Technical Support',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
         secondaryCTA={{
           label: 'Contact Us',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
       />
 

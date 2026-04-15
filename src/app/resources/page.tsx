@@ -421,10 +421,10 @@ export default function ResourcesPage() {
               Contact us with your specifications and requirements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="https://www.texasflange.com/contact-us" variant="secondary" size="lg" className="border-white text-blue-900">
+              <Button href="https://www.texasflange.com/contact-us/?ref=apiflange-new" variant="secondary" size="lg" className="border-white text-blue-900">
                 Request Technical Support
               </Button>
-              <Button href="https://www.texasflange.com/contact-us" variant="ghost" size="lg" className="text-white hover:text-orange-200">
+              <Button href="https://www.texasflange.com/contact-us/?ref=apiflange-new" variant="ghost" size="lg" className="text-white hover:text-orange-200">
                 Contact Us
               </Button>
             </div>

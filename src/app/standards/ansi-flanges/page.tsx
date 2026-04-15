@@ -586,7 +586,7 @@ export default function ANSIFlangePage() {
           subtext="Whether you're specifying ANSI B16.5 for legacy equipment or ASME B16.5 for new projects, our technical team can help ensure you get the right flanges for your application."
           primaryCTA={{
             label: 'Request a Quote',
-            href: 'https://www.texasflange.com/contact-us',
+            href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
           }}
           secondaryCTA={{
             label: 'Explore Flange Catalog',

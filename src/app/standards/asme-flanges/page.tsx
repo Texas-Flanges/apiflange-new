@@ -671,7 +671,7 @@ export default function ASMEFlangePage() {
           subtext="Our technical team can help you select the right flange type, material, and pressure class for your application."
           primaryCTA={{
             label: 'Contact Our Engineers',
-            href: 'https://www.texasflange.com/contact-us',
+            href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
           }}
           secondaryCTA={{
             label: 'View Our Catalog',

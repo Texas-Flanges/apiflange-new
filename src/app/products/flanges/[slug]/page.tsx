@@ -341,7 +341,7 @@ export default function FlangePage({
                   </select>
                 </div>
                 <Button
-                  href="https://www.texasflange.com/contact-us"
+                  href="https://www.texasflange.com/contact-us/?ref=apiflange-new"
                   variant="primary"
                   size="lg"
                   className="w-full justify-center"
@@ -516,11 +516,11 @@ export default function FlangePage({
         subtext="Contact our sales team or submit an RFQ for competitive pricing and fast delivery."
         primaryCTA={{
           label: 'Request RFQ',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
         secondaryCTA={{
           label: 'Contact Sales',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
       />
 

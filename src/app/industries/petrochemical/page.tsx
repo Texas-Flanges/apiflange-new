@@ -307,7 +307,7 @@ export default function PetrochemicalPage() {
             {
               question: 'What is the lead time for exotic alloy flanges?',
               answer:
-                'Standard catalog sizes in common materials like 316L or duplex are typically 4-8 weeks. Inconel, Monel, and Hastelloy require 8-16 weeks depending on size and complexity. Custom configurations may extend timelines further. Contact us with your delivery requirements.',
+                'Lead times vary by material grade, size, and specification. We offer industry-leading turnaround and can accommodate urgent project schedules. Call (281) 484-8325 for project-specific timelines.',
             },
             {
               question: 'Do you perform material testing or certification?',
@@ -327,7 +327,7 @@ export default function PetrochemicalPage() {
         }}
         secondaryCTA={{
           label: 'Get a Quote',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
       />
 

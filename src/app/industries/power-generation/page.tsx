@@ -273,7 +273,7 @@ export default function PowerGenerationPage() {
             {
               question: 'What is your lead time for high-temperature alloy flanges?',
               answer:
-                'Standard sizes in F11 and F22 require 6-10 weeks depending on size and quantity. F91 and nuclear-grade materials require 10-16 weeks. Custom configurations may extend timelines. Contact us with your schedule requirements.',
+                'Lead times depend on material grade, size, and quantity. We offer industry-leading turnaround on power generation flanges. Call (281) 484-8325 for project-specific timelines.',
             },
           ]}
         />

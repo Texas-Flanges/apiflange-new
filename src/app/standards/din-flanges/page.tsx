@@ -583,7 +583,7 @@ export default function DINFlangePage() {
           subtext="We supply metric flanges for international projects. Our team can help you select the right PN rating, DN size, and material for your application."
           primaryCTA={{
             label: 'Request a Quote',
-            href: 'https://www.texasflange.com/contact-us',
+            href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
           }}
           secondaryCTA={{
             label: 'View Metric Flange Catalog',

@@ -487,7 +487,7 @@ export default function ContactPage() {
                 <h4 className="font-bold text-iron mb-4">Quick Links</h4>
                 <div className="space-y-3">
                   <Link
-                    href="https://www.texasflange.com/contact-us"
+                    href="https://www.texasflange.com/contact-us/?ref=apiflange-new"
                     className="block text-brass hover:text-iron font-medium text-sm transition"
                   >
                     Request a Quote
@@ -530,7 +530,7 @@ export default function ContactPage() {
 
             <div className="max-w-lg mx-auto">
               <div className="bg-white rounded-lg p-6 border border-gray-200 hover:shadow-lg transition">
-                <h4 className="font-bold text-iron mb-4">ApiFlange Sales</h4>
+                <h4 className="font-bold text-iron mb-4">API Flange Sales</h4>
                 <div className="space-y-2">
                   <p className="text-sm">
                     <a
@@ -562,7 +562,7 @@ export default function ContactPage() {
       <CTABanner
         heading="Need a Quick Quote?"
         subtext="Use our request for quote form to get detailed pricing and specifications for your project."
-        primaryCTA={{ label: 'Start RFQ', href: 'https://www.texasflange.com/contact-us' }}
+        primaryCTA={{ label: 'Start RFQ', href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new' }}
         secondaryCTA={{ label: 'View Products', href: '/products/flanges' }}
       />
     </>

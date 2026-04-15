@@ -222,7 +222,7 @@ export default function GlossaryClient({
               <Button href="/resources" variant="secondary" size="lg" className="border-white text-blue-900">
                 View All Resources
               </Button>
-              <Button href="https://www.texasflange.com/contact-us" variant="ghost" size="lg" className="text-white hover:text-orange-200">
+              <Button href="https://www.texasflange.com/contact-us/?ref=apiflange-new" variant="ghost" size="lg" className="text-white hover:text-orange-200">
                 Contact Our Engineers
               </Button>
             </div>

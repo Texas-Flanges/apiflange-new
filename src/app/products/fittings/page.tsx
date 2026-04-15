@@ -370,11 +370,11 @@ export default function FittingsPage() {
         subtext="Contact our sales team for quotations, technical support, and fast delivery on standard and custom fitting solutions."
         primaryCTA={{
           label: 'Request Quote',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
         secondaryCTA={{
           label: 'Contact Sales',
-          href: 'https://www.texasflange.com/contact-us',
+          href: 'https://www.texasflange.com/contact-us/?ref=apiflange-new',
         }}
       />
 
