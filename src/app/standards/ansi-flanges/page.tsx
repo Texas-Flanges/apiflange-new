@@ -337,10 +337,10 @@ export default function ANSIFlangePage() {
                   NPS 1 (Class 150)
                 </h3>
                 <div className="space-y-2 text-sm text-gray-700">
-                  <p><strong>OD:</strong> 3.50 inches</p>
-                  <p><strong>Bolt Circle:</strong> 2.75 inches</p>
+                  <p><strong>OD:</strong> 4.25 inches</p>
+                  <p><strong>Bolt Circle:</strong> 3.12 inches</p>
                   <p><strong>Thickness (RF):</strong> 0.44 inches</p>
-                  <p><strong>Bolts:</strong> 4 × 3/8 inch</p>
+                  <p><strong>Bolts:</strong> 4 × 1/2 inch</p>
                 </div>
               </div>
 

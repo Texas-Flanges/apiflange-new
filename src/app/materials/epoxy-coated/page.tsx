@@ -248,7 +248,7 @@ const qcData = [
   {
     test: 'Dry Film Thickness',
     standard: 'ASTM B499 (magnetic gage)',
-    acceptance: '125-150 mils everywhere',
+    acceptance: '8-12 mils (FBE per AWWA C550)',
     frequency: 'Every 2 feet (minimum 5 tests)',
   },
   {

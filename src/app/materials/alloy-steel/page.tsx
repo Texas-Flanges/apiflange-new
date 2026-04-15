@@ -62,7 +62,7 @@ const chemicalData = [
   },
   {
     grade: 'F5 (5Cr-0.5Mo)',
-    c: '0.12-0.20',
+    c: '0.15 max',
     cr: '4.5-5.5',
     mo: '0.4-0.65',
     v: '-',

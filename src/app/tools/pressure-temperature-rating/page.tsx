@@ -50,94 +50,10 @@ const ptRatingsData = {
       ],
     },
   },
-  'A182 F304 (Stainless)': {
-    '150': {
-      temperatures: [
-        { temp: '-20 to 100°F', pressure: 285 },
-        { temp: '200°F', pressure: 285 },
-        { temp: '300°F', pressure: 280 },
-        { temp: '400°F', pressure: 175 },
-        { temp: '500°F', pressure: 270 },
-        { temp: '600°F', pressure: 215 },
-        { temp: '700°F', pressure: 155 },
-        { temp: '800°F', pressure: 240 },
-        { temp: '900°F', pressure: 220 },
-        { temp: '1000°F', pressure: 185 },
-      ],
-    },
-    '300': {
-      temperatures: [
-        { temp: '-20 to 100°F', pressure: 740 },
-        { temp: '200°F', pressure: 740 },
-        { temp: '300°F', pressure: 730 },
-        { temp: '400°F', pressure: 715 },
-        { temp: '500°F', pressure: 700 },
-        { temp: '600°F', pressure: 655 },
-        { temp: '700°F', pressure: 865 },
-        { temp: '800°F', pressure: 630 },
-        { temp: '900°F', pressure: 585 },
-        { temp: '1000°F', pressure: 490 },
-      ],
-    },
-    '600': {
-      temperatures: [
-        { temp: '-20 to 100°F', pressure: 1480 },
-        { temp: '200°F', pressure: 1480 },
-        { temp: '300°F', pressure: 1460 },
-        { temp: '400°F', pressure: 1430 },
-        { temp: '500°F', pressure: 1110 },
-        { temp: '600°F', pressure: 1070 },
-        { temp: '700°F', pressure: 1335 },
-        { temp: '800°F', pressure: 1260 },
-        { temp: '900°F', pressure: 1170 },
-        { temp: '1000°F', pressure: 980 },
-      ],
-    },
-  },
-  'A182 F316 (Stainless)': {
-    '150': {
-      temperatures: [
-        { temp: '-20 to 100°F', pressure: 285 },
-        { temp: '200°F', pressure: 285 },
-        { temp: '300°F', pressure: 280 },
-        { temp: '400°F', pressure: 275 },
-        { temp: '500°F', pressure: 270 },
-        { temp: '600°F', pressure: 215 },
-        { temp: '700°F', pressure: 155 },
-        { temp: '800°F', pressure: 245 },
-        { temp: '900°F', pressure: 225 },
-        { temp: '1000°F', pressure: 190 },
-      ],
-    },
-    '300': {
-      temperatures: [
-        { temp: '-20 to 100°F', pressure: 740 },
-        { temp: '200°F', pressure: 740 },
-        { temp: '300°F', pressure: 730 },
-        { temp: '400°F', pressure: 715 },
-        { temp: '500°F', pressure: 700 },
-        { temp: '600°F', pressure: 655 },
-        { temp: '700°F', pressure: 465 },
-        { temp: '800°F', pressure: 630 },
-        { temp: '900°F', pressure: 585 },
-        { temp: '1000°F', pressure: 500 },
-      ],
-    },
-    '600': {
-      temperatures: [
-        { temp: '-20 to 100°F', pressure: 1480 },
-        { temp: '200°F', pressure: 1480 },
-        { temp: '300°F', pressure: 1460 },
-        { temp: '400°F', pressure: 1430 },
-        { temp: '500°F', pressure: 1100 },
-        { temp: '600°F', pressure: 1370 },
-        { temp: '700°F', pressure: 1335 },
-        { temp: '800°F', pressure: 1260 },
-        { temp: '900°F', pressure: 1170 },
-        { temp: '1000°F', pressure: 1000 },
-      ],
-    },
-  },
+  // F304 and F316 stainless steel P-T data removed - contained fabricated values
+  // that violated thermodynamic principles (pressure increasing with temperature).
+  // Verified A105 carbon steel data retained. Stainless data to be added from
+  // verified ASME B16.5 Table 2 source.
 };
 
 type PTData = {
@@ -208,8 +124,6 @@ export default function PressureTemperatureRating() {
                     </select>
                     <p className="text-xs text-gray-600 mt-2">
                       {material === 'A105 (Carbon Steel)' && 'Most common. Good for general service.'}
-                      {material === 'A182 F304 (Stainless)' && 'Stainless 304. Corrosion resistant.'}
-                      {material === 'A182 F316 (Stainless)' && 'Stainless 316. Better corrosion resistance.'}
                     </p>
                   </div>
 

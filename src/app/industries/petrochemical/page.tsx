@@ -292,7 +292,7 @@ export default function PetrochemicalPage() {
             {
               question: 'What is the cost difference between stainless and exotic alloy flanges?',
               answer:
-                'Exotic alloy flanges cost 3-10x more than carbon steel depending on material. Inconel and Monel are typically 3-4x carbon steel cost, while Hastelloy can be 8-10x or more. However, the extended service life and elimination of corrosion-related downtime often justify the higher initial cost in aggressive applications.',
+                'Exotic alloy flanges cost significantly more than carbon steel, with price varying by material grade, market conditions, and size. The extended service life and elimination of corrosion-related downtime often justify the higher initial cost in aggressive chemical applications. Contact us for current pricing on specific alloy grades.',
             },
             {
               question: 'Can I use stainless steel in hydrochloric acid service?',

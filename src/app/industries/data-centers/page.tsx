@@ -48,7 +48,7 @@ export default function DataCentersPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             {[
-              { label: 'Mission-Critical', desc: '99.99% uptime' },
+              { label: 'Mission-Critical', desc: 'Built for zero downtime' },
               { label: 'Reliable Design', desc: 'Redundant systems' },
               { label: 'Proven Quality', desc: 'Industry standard' },
             ].map((item, idx) => (

@@ -44,19 +44,19 @@ const thicknessColumns = [
 const thicknessData = [
   {
     weight: 'Less than 1.4',
-    thickness: '86 mils (2.18 mm)',
+    thickness: '3.4 mils (86 microns)',
     area: '95%',
     notes: '15-20 years outdoor',
   },
   {
     weight: '1.4 - 6.0',
-    thickness: '70 mils (1.78 mm)',
+    thickness: '2.8 mils (70 microns)',
     area: '95%',
     notes: '20-30 years outdoor',
   },
   {
     weight: 'Greater than 6.0',
-    thickness: '55 mils (1.40 mm)',
+    thickness: '2.2 mils (55 microns)',
     area: '95%',
     notes: '30-50 years outdoor',
   },

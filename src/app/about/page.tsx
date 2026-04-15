@@ -207,28 +207,8 @@ export default function AboutPage() {
         </SectionWrapper>
 
         {/* Key Statistics */}
-        <SectionWrapper variant="gray">
-          <div className="space-y-12">
-            <div className="text-center max-w-2xl mx-auto">
-              <h2 className="text-3xl font-bold text-iron mb-4">
-                By The Numbers
-              </h2>
-              <p className="text-gray-600">
-                Our track record speaks for itself. These metrics reflect our
-                commitment to excellence and customer satisfaction.
-              </p>
-            </div>
-
-            <StatsCounter
-              stats={[
-                { value: '35+', label: 'Years of Excellence' },
-                { value: '5000+', label: 'Customers Worldwide' },
-                { value: '98%', label: 'On-Time Delivery' },
-                { value: '99.2%', label: 'Quality Assurance' },
-              ]}
-            />
-          </div>
-        </SectionWrapper>
+        {/* Stats section removed - contained fabricated metrics (35+ years, 5000+ customers,
+            98% on-time, 99.2% QA) with no verifiable source for a pillar brand */}
 
         {/* Core Values */}
         <SectionWrapper>

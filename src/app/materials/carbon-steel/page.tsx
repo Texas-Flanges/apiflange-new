@@ -150,8 +150,8 @@ const a350ChemicalData = [
   },
   {
     element: 'Manganese (Mn)',
-    min: '0.70',
-    max: '1.15',
+    min: '0.60',
+    max: '1.35',
     notes: 'Higher manganese for low-temperature toughness',
   },
   {
