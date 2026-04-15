@@ -6,7 +6,7 @@ export const SITE_DESCRIPTION =
 // Contact Information
 export const PHONE = '(281) 484-8325';
 export const EMAIL = 'sales@texasflange.com';
-export const ADDRESS = 'Pearland, TX 77581, USA';
+export const ADDRESS = 'PO Box 2889, Pearland, TX 77588, USA';
 
 // Business Hours
 export const HOURS = {

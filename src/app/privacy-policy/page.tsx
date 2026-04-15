@@ -236,7 +236,7 @@ export default function PrivacyPolicy() {
               </a>
             </p>
             <p>
-              <strong>Address:</strong> Pearland, TX 77581, USA
+              <strong>Address:</strong> PO Box 2889, Pearland, TX 77588, USA
             </p>
           </div>
         </section>

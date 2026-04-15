@@ -111,7 +111,7 @@ export default function SiteFooter() {
               <li className="flex gap-3">
                 <MapPin size={20} className="text-brass flex-shrink-0" />
                 <span className="text-silver-dark text-sm">
-                  Pearland, TX 77581
+                  PO Box 2889, Pearland, TX 77588
                 </span>
               </li>
               <li className="flex gap-3 items-start">

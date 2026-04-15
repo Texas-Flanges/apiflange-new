@@ -13,9 +13,9 @@ const blogPostsData = {
   'what-is-a-weld-neck-flange': {
     title: 'Complete Guide to Weld Neck Flanges: Design, Manufacturing, and Application',
     date: '2024-03-15',
-    author: 'ApiFlange Engineering Team',
+    author: 'API Flange Team',
     authorBio:
-      'The ApiFlange Engineering Team brings decades of combined experience in industrial piping systems, flange design, and ASME standards compliance.',
+      'The API Flange team brings decades of combined experience in industrial piping systems, flange design, and ASME standards compliance.',
     category: 'Technical Guides',
     readingTime: 12,
     excerpt:
@@ -117,9 +117,9 @@ Weld neck flanges remain the industry standard for reliable, long-lasting pipe c
   'asme-vs-awwa-flanges': {
     title: 'ASME vs AWWA Standards: Understanding the Key Differences',
     date: '2024-03-12',
-    author: 'ApiFlange Engineering Team',
+    author: 'API Flange Team',
     authorBio:
-      'The ApiFlange Engineering Team brings decades of combined experience in industrial piping systems, standards compliance, and water utility engineering.',
+      'The API Flange team brings decades of combined experience in industrial piping systems, standards compliance, and water utility engineering.',
     category: 'Standards',
     readingTime: 8,
     excerpt:
@@ -259,9 +259,9 @@ While ASME B16.5 and AWWA C207 address similar components, the distinctions are 
   'how-steel-flanges-are-manufactured': {
     title: 'Steel Flange Manufacturing: From Forging to Final Inspection',
     date: '2024-03-08',
-    author: 'ApiFlange Engineering Team',
+    author: 'API Flange Team',
     authorBio:
-      'The ApiFlange Engineering Team brings decades of combined experience in precision forging, machining, and quality control for critical industrial applications.',
+      'The API Flange team brings decades of combined experience in precision forging, machining, and quality control for critical industrial applications.',
     category: 'Technical Guides',
     readingTime: 10,
     excerpt:

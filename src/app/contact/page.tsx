@@ -419,9 +419,9 @@ export default function ContactPage() {
                     <div>
                       <p className="font-semibold mb-1">Headquarters</p>
                       <p className="text-white/90 text-sm">
-                        2830 FM 528 Rd
+                        PO Box 2889
                         <br />
-                        Pearland, TX 77581
+                        Pearland, TX 77588
                         <br />
                         USA
                       </p>

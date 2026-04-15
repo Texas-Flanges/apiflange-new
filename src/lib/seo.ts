@@ -235,10 +235,10 @@ export function generateOrganizationSchema(): Record<string, any> {
     },
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'API Flange HQ',
+      streetAddress: 'PO Box 2889',
       addressLocality: 'Pearland',
       addressRegion: 'TX',
-      postalCode: '77581',
+      postalCode: '77588',
       addressCountry: 'US',
     },
     foundingDate: '2010',
@@ -261,10 +261,10 @@ export function generateLocalBusinessSchema(): Record<string, any> {
     email: 'sales@texasflange.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'API Flange HQ',
+      streetAddress: 'PO Box 2889',
       addressLocality: 'Pearland',
       addressRegion: 'TX',
-      postalCode: '77581',
+      postalCode: '77588',
       addressCountry: 'US',
     },
     openingHoursSpecification: [
