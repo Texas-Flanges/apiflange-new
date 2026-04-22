@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import SiteHeader from '@/components/layout/SiteHeader';
 import SiteFooter from '@/components/layout/SiteFooter';
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -95,6 +96,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#1C1C1E" />
       </head>
       <body className="antialiased">
+        <GoogleAnalytics />
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
