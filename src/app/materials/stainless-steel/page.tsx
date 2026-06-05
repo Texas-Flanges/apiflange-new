@@ -195,7 +195,7 @@ export default function StainlessSteelPage() {
                   <li> - Dry or low-humidity conditions</li>
                   <li> - Potable water systems (when chloride levels are controlled)</li>
                   <li> - Steam and condensate service (non-corrosive steam)</li>
-                  <li> - Air at temperatures up to 600°C</li>
+                  <li> - Air at temperatures up to approximately 1100 F (~600 C)</li>
                 </ul>
               </div>
 
@@ -330,7 +330,7 @@ export default function StainlessSteelPage() {
                 <li> - Operating environment is mild and non-corrosive or non-chloride</li>
                 <li> - Magnetic properties are acceptable or beneficial</li>
                 <li> - Heat treatment is planned and controlled</li>
-                <li> - Cost efficiency matters (410ss costs less than 304/316)</li>
+                <li> - The job calls for an API-permitted stainless (F6a / 410ss is permitted, 304/316 is not)</li>
                 <li> - API flanges are specified for oil & gas service</li>
               </ul>
             </div>

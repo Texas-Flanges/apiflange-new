@@ -109,7 +109,8 @@ export default function OilGasPage() {
                 {[
                   'ASME B16.5 - Steel Pipe Flanges',
                   'ASME B16.47 - Large Diameter Steel Flanges',
-                  'API 6A - Wellhead Equipment',
+                  'API 6A - Wellhead Equipment (PSL-1 through PSL-4 product spec levels)',
+                  'API 6BX - High-Pressure Wellhead Flanges (10K, 15K, 20K)',
                   'API 605 - Large Diameter Carbon Steel Flanges',
                   'NACE MR0175 - Sour Service Materials',
                   'API 579 - Fitness-for-Service',

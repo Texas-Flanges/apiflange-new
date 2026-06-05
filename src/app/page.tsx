@@ -243,8 +243,7 @@ export default function HomePage() {
                 </p>
                 <p>
                   Dimensionally, API 6A flanges look similar to their ASME counterparts, but the
-                  pressure requirements start where most ASME flanges top out. The baseline is the
-                  2000# class (similar to the ASME 600# class), and from there the classes climb:
+                  pressure requirements start where most ASME flanges top out. The pressure floor is the 2000# class (roughly equivalent to ASME 600#), and from there the classes climb:
                   3000#, 5000# - up to the 6BX 10,000#, 20,000# and 25,000# for the most
                   demanding applications.
                 </p>
@@ -261,6 +260,12 @@ export default function HomePage() {
                   On the upstream side, you&apos;ll find API flanges on wellheads, blowout
                   preventers, and drilling equipment. Downstream in refining and processing, they
                   handle the conditions involved in turning crude oil into finished products.
+                </p>
+                <p>
+                  API blind flanges in the higher pressure classes (6BX 10K and up) carry a hub
+                  on the back to add metal in the bolt-circle region and resist deflection under
+                  end load. If your spec calls out an API blind, expect the hubbed version, not
+                  the flat ASME-style disc.
                 </p>
               </div>
 
@@ -307,7 +312,7 @@ export default function HomePage() {
               {
                 icon: CircleDot,
                 title: 'Flanges',
-                desc: 'Weld neck, blind, slip-on, threaded, socket weld, lap joint, reducing, orifice, spectacle blind, plate, and long weld neck. Carbon, stainless, alloy. 1/2" to 60"+ NPS. Class 150 through 2500.',
+                desc: 'Weld neck, blind, slip-on, threaded, socket weld, lap joint, reducing, orifice, spectacle blind, plate, and long weld neck. Carbon, stainless, alloy. 1/2" through 24" per ASME B16.5; 26" through 60" per ASME B16.47. Class 150 through 2500.',
                 href: '/products/flanges',
                 features: ['ASME B16.5 & B16.47', 'AWWA C207 & C228', 'DIN & EN 1092-1', 'Custom OD/ID machining'],
               },
@@ -321,7 +326,7 @@ export default function HomePage() {
               {
                 icon: Cog,
                 title: 'Custom Machining',
-                desc: 'Non-standard bores, overbore flanges, special facings, tight-tolerance work. If the catalog does not have it, we machine it. Drawings or specs -- either works.',
+                desc: 'Non-standard bores, overbore flanges, special facings, tight-tolerance work. If the catalog does not have it, we machine it. Drawings or specs (either works).',
                 href: '/services/custom-machining',
                 features: ['CNC turning & milling', 'Ring-type joint grooves', 'Weld overlay & hard facing', 'MTR documentation'],
               },
@@ -473,7 +478,7 @@ export default function HomePage() {
               {
                 icon: Ruler,
                 title: 'Dimensional Accuracy',
-                desc: 'Bolt holes, raised faces, bore tolerances -- measured and documented. Our QC catches problems before they reach the field.',
+                desc: 'Bolt holes, raised faces, bore tolerances (measured and documented). Our QC catches problems before they reach the field.',
               },
               {
                 icon: Clock,

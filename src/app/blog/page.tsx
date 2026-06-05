@@ -96,7 +96,7 @@ const blogPosts: BlogPost[] = [
     slug: 'high-pressure-flange-applications-oil-gas',
     title: 'High-Pressure Flanges in Oil and Gas: Industry Requirements and Solutions',
     excerpt:
-      'Discover how API 6A and API 16A standards govern flange design for extreme pressure environments. Learn about the specialized requirements and certifications needed for subsea and deepwater operations.',
+      'Discover how API 6A and API 6BX standards govern flange design for high-pressure wellhead and oilfield environments. (API 16A is for drill-through equipment, not flanges; the correct flange certifications are 6A and 6BX.) Learn the specialized requirements and certifications needed for high-pressure and subsea service.',
     date: '2024-02-25',
     author: 'API Flange Team',
     category: 'Industry News',

@@ -121,12 +121,12 @@ const certifications: Certification[] = [
   {
     name: 'ASME B16.5 / B16.47',
     description:
-      'Full compliance with ASME standards for pipe flanges and fittings, NPS 1/2 through NPS 60.',
+      'Full compliance with ASME B16.5 for NPS 1/2 through 24 and ASME B16.47 (Series A and B) for NPS 26 through 60.',
   },
   {
-    name: 'API 6A / 16A',
+    name: 'API 6A / 6BX',
     description:
-      'American Petroleum Institute standards for high-pressure oil and gas flange applications.',
+      'API 6A covers wellhead and Christmas tree equipment. API 6BX covers the high-pressure (10K, 15K, 20K) flange dimensions. PSL-3 and PSL-4 product specification levels available for strict procurement.',
   },
   {
     name: 'AWWA C207 / C228',
@@ -156,7 +156,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <PageHero
         title="About API Flange"
-        subtitle="Precision-engineered flanges for the world's most critical piping systems."
+        subtitle="Pressure-rated flanges for industrial, oilfield, and waterworks piping systems."
         variant="navy"
       />
 
@@ -179,7 +179,7 @@ export default function AboutPage() {
                 We carry an extensive inventory of API 6A, ASME B16.5, ASME B16.47,
                 and AWWA flanges across a wide range of sizes, pressure classes,
                 and material grades. When you need something specific, we quote
-                fast and ship faster. Stock items move in 1-3 business days.
+                fast and turn quotes around the same day. Call (281) 484-8325 for project-specific lead times.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Our customers are procurement engineers, project managers, and

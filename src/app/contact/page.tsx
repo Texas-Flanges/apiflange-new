@@ -472,16 +472,6 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Map Placeholder */}
-              <div className="rounded-lg overflow-hidden border border-gray-300 bg-gradient-to-br from-gray-100 to-gray-200 h-64 flex items-center justify-center">
-                <div className="text-center">
-                  <Globe className="w-12 h-12 mx-auto text-gray-400 mb-3" />
-                  <p className="text-gray-600 font-medium">
-                    [MAP PLACEHOLDER: Google Maps embed]
-                  </p>
-                </div>
-              </div>
-
               {/* Quick Links */}
               <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
                 <h4 className="font-bold text-iron mb-4">Quick Links</h4>

@@ -35,7 +35,7 @@ export default function FlangesPage() {
   return (
     <>
       <PageHero
-        title="Flanges Beyond API 6A Specs"
+        title="Flange Types We Supply"
         subtitle="Complete range of industrial-grade flanges engineered for every pressure class, temperature range, and application requirement"
         variant="navy"
         breadcrumbs={[
@@ -46,24 +46,42 @@ export default function FlangesPage() {
 
       <FlangesClient />
 
+      {/* API Discipline Note */}
+      <SectionWrapper padding="md" variant="white">
+        <div className="max-w-4xl mx-auto bg-blue-50 border-l-4 border-brass p-6 rounded">
+          <h3 className="text-lg font-bold text-iron mb-3">A Note on API Material Discipline</h3>
+          <p className="text-gray-700 text-sm leading-relaxed mb-2">
+            API 6A and 6BX flanges have stricter material rules than ASME B16.5. Austenitic
+            stainless grades (A182 F304, F316, F321, F347) are not permitted for API 6A pressure-containing
+            flange bodies. The standard stainless variant under API is A182 F6a (AISI 410ss), a
+            martensitic grade that survives sour service when supplied to NACE MR0175 / ISO 15156.
+          </p>
+          <p className="text-gray-700 text-sm leading-relaxed">
+            For strict procurement (domestic mill, PSL-3 or PSL-4, API monogram stamp), state those
+            requirements on the RFQ. The catalog cards above show ASME-compatible material options;
+            API material restrictions are applied at quote time.
+          </p>
+        </div>
+      </SectionWrapper>
+
       {/* Standards Section */}
       <SectionWrapper
         padding="lg"
         variant="gray"
         heading="Standards We Cover"
-        subheading="All products engineered to meet international specifications"
+        subheading="ASME / ANSI B16.5 cover general industrial flanges. API 6A / 6BX covers wellhead and high-pressure oilfield service - the API floor of 2000# class is roughly equivalent to ASME 600#."
         centered
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             {
               standard: 'ASME B16.5',
-              description: 'Steel Pipe Flanges and Flanged Fittings',
+              description: 'Steel pipe flanges, NPS 1/2 through 24. Use API 6A / 6BX for oilfield wellhead service above 600# class.',
               link: '/standards/asme-flanges',
             },
             {
               standard: 'ANSI',
-              description: 'American National Standards for Flanges',
+              description: 'ANSI B16.5 is identical to ASME B16.5. API 6A / 6BX is the petroleum equivalent for wellhead and high-pressure service.',
               link: '/standards/ansi-flanges',
             },
             {
@@ -108,34 +126,29 @@ export default function FlangesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             {
-              material: 'Carbon Steel',
-              description: 'Standard for general industrial applications',
+              material: 'Carbon Steel (A105 / A350 LF2)',
+              description: 'Standard for general industrial applications and low-temp service. A105 ambient to elevated temp; A350 LF2 for service down to -50 F.',
               link: '/materials/carbon-steel',
             },
             {
-              material: 'Stainless Steel',
-              description: 'Corrosion resistance for harsh environments',
+              material: '410ss / A182 F6a',
+              description: 'Martensitic stainless. The API-permitted stainless grade for API 6A / 6BX flange service.',
               link: '/materials/stainless-steel',
             },
             {
-              material: 'Alloy Steel',
-              description: 'High-temperature and high-pressure service',
+              material: 'Alloy Steel (F11 / F22 / F91)',
+              description: 'Chrome-moly grades for elevated-temperature and high-pressure service.',
               link: '/materials/alloy-steel',
             },
             {
-              material: 'Duplex Steel',
-              description: 'Superior corrosion resistance and strength',
-              link: '/materials/alloy-steel',
-            },
-            {
-              material: 'Nickel Alloys',
-              description: 'Extreme temperature and corrosion applications',
-              link: '/materials/stainless-steel',
-            },
-            {
-              material: 'Titanium',
-              description: 'Lightweight high-strength corrosion resistance',
+              material: 'Galvanized Carbon Steel',
+              description: 'Hot-dip galvanized A105 for outdoor and waterworks service per AWWA C207.',
               link: '/materials/galvanized',
+            },
+            {
+              material: 'Epoxy Coated (FBE)',
+              description: 'Fusion-bonded epoxy coating for water transmission and corrosive duty (AWWA C213 / C116 exterior).',
+              link: '/materials/epoxy-coated',
             },
           ].map((item) => (
             <div

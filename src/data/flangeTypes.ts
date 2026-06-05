@@ -23,7 +23,7 @@ export const flangeTypes: FlangeType[] = [
     description:
       "Tapered hub design reduces stress concentration in the weld. Most common flange type for high-pressure applications and thermal cycling conditions. Superior strength compared to slip-on flanges.",
     standards: ["ASME B16.5", "ASME B16.47", "AWWA C207"],
-    materials: ["A105", "A182 F304", "A182 F316"],
+    materials: ["A105", "A350 LF2", "A182 F6a (410ss)"],
     sizeRange: { min: "1/2\"", max: "24\"" },
     pressureClasses: ["150", "300", "600", "900", "1500", "2500"],
     applications: [
@@ -49,7 +49,7 @@ export const flangeTypes: FlangeType[] = [
     description:
       "Pipe slides over flange hub then welded on both sides. Lower cost than weld neck flanges. Suitable for low-pressure and non-critical applications. Easier installation but slightly weaker design.",
     standards: ["ASME B16.5", "ASME B16.47"],
-    materials: ["A105", "A182 F304", "A182 F316"],
+    materials: ["A105", "A350 LF2", "A182 F6a (410ss)"],
     sizeRange: { min: "1/2\"", max: "24\"" },
     pressureClasses: ["150", "300", "600"],
     applications: [
@@ -74,7 +74,7 @@ export const flangeTypes: FlangeType[] = [
     description:
       "Internal threads engage with pipe threads. No welding required, simplifying installation. Limited to low and medium pressure applications. Common in small-diameter piping systems.",
     standards: ["ASME B16.5"],
-    materials: ["A105", "A182 F304"],
+    materials: ["A105", "A182 F6a (410ss)"],
     sizeRange: { min: "1/2\"", max: "4\"" },
     pressureClasses: ["150", "300", "600"],
     applications: ["Small Bore Piping", "Process Plants", "Instrumentation"],
@@ -94,7 +94,7 @@ export const flangeTypes: FlangeType[] = [
     description:
       "Pipe socket into flange hub and fillet welded. Compact design ideal for small-diameter, high-pressure piping. Single fillet weld at the pipe OD. Superior to threaded for higher pressures.",
     standards: ["ASME B16.5"],
-    materials: ["A105", "A182 F304", "A182 F316"],
+    materials: ["A105", "A350 LF2", "A182 F6a (410ss)"],
     sizeRange: { min: "1/2\"", max: "4\"" },
     pressureClasses: ["150", "300", "600", "900", "1500", "2500"],
     applications: [
@@ -119,7 +119,7 @@ export const flangeTypes: FlangeType[] = [
     description:
       "Solid disc flange with no bore hole. Used to close pipe ends and create removable caps. Common in isolation, testing, and future expansion connections.",
     standards: ["ASME B16.5", "ASME B16.47"],
-    materials: ["A105", "A182 F304", "A182 F316"],
+    materials: ["A105", "A350 LF2", "A182 F6a (410ss)"],
     sizeRange: { min: "1/2\"", max: "24\"" },
     pressureClasses: ["150", "300", "600", "900", "1500", "2500"],
     applications: [
@@ -164,7 +164,7 @@ export const flangeTypes: FlangeType[] = [
     description:
       "Flange with bore size smaller than nominal flange size. Used to connect different pipe sizes while providing bolted connection. Combines reduction with flange coupling.",
     standards: ["ASME B16.5"],
-    materials: ["A105", "A182 F304"],
+    materials: ["A105", "A182 F6a (410ss)"],
     sizeRange: { min: "1/2\" to 3/4\"", max: "12\" to 14\"" },
     pressureClasses: ["150", "300", "600"],
     applications: ["Pipe Transitions", "Size Changes", "System Modifications"],
@@ -248,7 +248,7 @@ export const flangeTypes: FlangeType[] = [
     description:
       "Octagonal or oval metal ring seals between flange faces instead of flat gasket. Provides superior sealing for high pressure and high temperature applications. Requires precision groove machining.",
     standards: ["ASME B16.5", "ASME B16.47"],
-    materials: ["A105", "A182 F304", "A182 F316", "A182 F91"],
+    materials: ["A105", "A182 F6a (410ss)", "A182 F91"],
     sizeRange: { min: "1/2\"", max: "24\"" },
     pressureClasses: ["900", "1500", "2500"],
     applications: [
@@ -337,7 +337,7 @@ export const flangeTypes: FlangeType[] = [
     description:
       "Forged outlet fitting that welds to main pipe. Provides branch connection without cutting main pipe. Available in various types (eldobelt, latrolet, etc.). Used for branch takeoffs.",
     standards: ["MSS SP-97"],
-    materials: ["A105", "A182 F304"],
+    materials: ["A105", "A182 F6a (410ss)"],
     sizeRange: { min: "1/2\" x 1/2\"", max: "24\" x 12\"" },
     pressureClasses: ["150", "300", "600", "900"],
     applications: [
@@ -362,7 +362,7 @@ export const flangeTypes: FlangeType[] = [
     description:
       "Matching flange bolted to threaded or socketweld hub flanges. Used with equipment nozzles and specialty connections. Provides a standard connection interface.",
     standards: ["ASME B16.5"],
-    materials: ["A105", "A182 F304"],
+    materials: ["A105", "A182 F6a (410ss)"],
     sizeRange: { min: "1/2\"", max: "24\"" },
     pressureClasses: ["150", "300", "600"],
     applications: [
@@ -437,7 +437,7 @@ export const flangeTypes: FlangeType[] = [
     description:
       "European standard flange for industrial applications. Different face forms and pressure classes. Used globally in process and utility systems. Metric sizing standard.",
     standards: ["DIN EN 1092-1"],
-    materials: ["A105", "A182 F304", "A182 F316"],
+    materials: ["A105", "A350 LF2", "A182 F6a (410ss)"],
     sizeRange: { min: "DN10", max: "DN600" },
     pressureClasses: ["PN6", "PN10", "PN16", "PN25", "PN40"],
     applications: [

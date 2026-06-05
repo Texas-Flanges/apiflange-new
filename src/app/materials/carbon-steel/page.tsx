@@ -379,9 +379,16 @@ const coatingOptions = [
     cost: 'Contact for pricing',
   },
   {
-    name: 'Epoxy Coated (FBE)',
+    name: 'Epoxy Coated (FBE) - exterior',
+    standard: 'AWWA C116 / C213',
+    use: 'Buried or wet service flanges in water systems',
+    life: 'Extended service in water applications',
+    cost: 'Contact for pricing',
+  },
+  {
+    name: 'Liquid Epoxy Interior Lining',
     standard: 'AWWA C550',
-    use: 'Potable water, waterworks',
+    use: 'Interior valve and fitting linings in potable water',
     life: 'Extended service in water applications',
     cost: 'Contact for pricing',
   },
@@ -431,7 +438,7 @@ const faqItems = [
   {
     question: 'Can I use ASTM A105 for cold weather applications?',
     answer:
-      'ASTM A105 is generally suitable down to -20°F in most applications. For temperatures below -20°F, impact testing becomes critical due to brittle failure risk. For service below -20°F, ASTM A350 LF2 is recommended as it includes mandatory Charpy impact testing at -50°F and contains nickel and molybdenum for enhanced low-temperature toughness. Always consult ASME B16.5 or API standards for your specific pressure class and temperature combination.',
+      'ASTM A105 is used in many ambient and warm-service applications. ASME B31.3 and the relevant codes set the minimum design metal temperature; below approximately -20°F, A105 is generally not the right choice because impact testing is not part of A105 acceptance. For service below -20°F, specify A350 LF2 instead, which includes mandatory Charpy impact testing at -50°F and contains nickel for low-temperature toughness. Always check the code (B31.3, B31.1) for the exact minimum design metal temperature curve.',
   },
   {
     question: 'What is the maximum operating pressure for carbon steel flanges?',
@@ -446,7 +453,7 @@ const faqItems = [
   {
     question: 'What certifications and traceability can you provide with carbon steel flanges?',
     answer:
-      'All our carbon steel flanges include full ASTM A105 or A350 LF2 certification with mill test reports (MTR) showing actual chemical composition and mechanical test results. We provide 3.1 Certificates of Conformance, material traceability codes, and full compliance with ASME B16.5, API 6D, and pressure vessel codes. Optional third-party inspection (AWS, TÜV, etc.) and NACE certification available upon request.',
+      'All our carbon steel flanges include full ASTM A105 or A350 LF2 certification with mill test reports (MTR) showing actual chemical composition and mechanical test results. We provide 3.1 Certificates of Conformance, material traceability codes, and full compliance with ASME B16.5, API 6A / 6BX (where applicable), and pressure vessel codes. (Note: API 6D is the pipeline valve spec, not a flange standard.) Optional third-party inspection (AWS, TÜV, etc.) and NACE certification available upon request.',
   },
 ];
 
@@ -472,7 +479,7 @@ export default function CarbonSteelPage() {
               Carbon steel flanges are the most widely used flange material in the global industry,
               providing an optimal balance of mechanical properties, cost-effectiveness, and versatility.
               ASTM A105 carbon steel is the default material specification in most engineering codes
-              and standards, including ASME B16.5, API 6D, and AWWA.
+              and standards, including ASME B16.5 and AWWA C207. (API 6A / 6BX is the petroleum equivalent for wellhead service; API 6D is the pipeline-valve standard and is not a flange spec.)
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Our carbon steel flanges are forged from premium steel stock and heat-treated to ensure
@@ -482,7 +489,7 @@ export default function CarbonSteelPage() {
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
               <p className="text-gray-800 font-semibold">
                 Key Advantage: Carbon steel combines proven reliability, broad availability, competitive
-                pricing, and excellent engineering support. Perfect for 95% of general industrial applications.
+                pricing, and broad engineering support. Carbon steel is the default material across most ASME / ANSI flange service.
               </p>
             </div>
           </div>

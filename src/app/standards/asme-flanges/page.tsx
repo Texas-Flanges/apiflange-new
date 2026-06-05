@@ -31,7 +31,7 @@ const faceTypeRows = [
     face: 'Flat Face (FF)',
     designation: 'FF',
     description:
-      'Completely flat sealing surface. Used with rubber gaskets. Typical for low pressure applications.',
+      'Completely flat sealing surface, used with full-face gaskets. The critical rule: when a steel flange mates to a cast-iron Class 125 or 250 flange, the steel flange must be flat face. A raised face steel flange against a flat cast-iron flange will crack the cast iron when bolted up. Low and moderate pressure service.',
   },
   {
     face: 'Raised Face (RF)',
@@ -62,34 +62,34 @@ const materialGroupData = [
 
 const materialGroupRows = [
   {
-    group: 'Group 1',
-    composition: 'Carbon Steel (ASTM A105)',
-    temp: '-20°F to 800°F',
-    applications: 'General industrial piping, cost-effective',
+    group: '1.1',
+    composition: 'C-Mn-Si carbon steel - A105 forgings, A350 LF2 / LF6 Cl.1, A216 WCB castings, A516 Gr.70 plate',
+    temp: '-20°F up to ~800°F (deration above 500°F)',
+    applications: 'General industrial piping, most common forged carbon flange group',
   },
   {
-    group: 'Group 2',
-    composition: 'C-0.5Mo Steel (ASTM A182)',
-    temp: '-20°F to 1100°F',
-    applications: 'Higher temperature piping, improved strength',
+    group: '1.5',
+    composition: '1.25Cr-0.5Mo low alloy - A182 F11, A217 WC6, A387 Gr.11',
+    temp: 'Elevated temperature service, up to ~1100°F',
+    applications: 'Power, refining, mild high-temperature service',
   },
   {
-    group: 'Group 3',
-    composition: 'Cr-Mo Steel (ASTM A182 Grade F11, F22)',
-    temp: '-20°F to 1200°F',
-    applications: 'Power generation, petrochemical, high-temp',
+    group: '1.9',
+    composition: '2.25Cr-1Mo low alloy - A182 F22, A217 WC9, A387 Gr.22',
+    temp: 'High-temperature creep service, up to ~1100°F',
+    applications: 'Power generation, hydrocracker, hot hydrogen service',
   },
   {
-    group: 'Group 4',
-    composition: 'Stainless Steel (ASTM A182 Grade F304, F316)',
-    temp: '-325°F to 1000°F',
-    applications: 'Corrosion resistance, sanitary applications',
+    group: '2.1',
+    composition: 'Austenitic stainless - A182 F304, A240 304 (carbon ~0.08 max)',
+    temp: '-425°F to ~1500°F (per group P-T table)',
+    applications: 'General corrosion service. Not permitted for API 6A flange bodies.',
   },
   {
-    group: 'Group 5',
-    composition: 'Duplex/Super-Duplex Stainless',
-    temp: '-325°F to 600°F',
-    applications: 'Extremely corrosive environments, offshore',
+    group: '2.3',
+    composition: 'Austenitic stainless low-carbon - A182 F316L, A182 F317L, A240 316L',
+    temp: '-425°F to ~850°F',
+    applications: 'Chloride and acidic service, sanitary, food / pharma',
   },
 ];
 
@@ -192,7 +192,7 @@ export default function ASMEFlangePage() {
                   <li className="flex gap-3">
                     <Check className="w-6 h-6 flex-shrink-0 text-brass" />
                     <span>
-                      <strong>Temperature Range:</strong> -20°F to 850°F (material dependent)
+                      <strong>Temperature Range:</strong> -20°F to roughly 850°F for carbon steel (Group 1.1). Cr-Mo grades (1.5 / 1.9) extend higher; consult the relevant ASME B16.5 P-T table for the exact group.
                     </span>
                   </li>
                   <li className="flex gap-3">
@@ -363,8 +363,7 @@ export default function ASMEFlangePage() {
                 </h3>
                 <p className="text-gray-700 mb-4">
                   Raised face is the standard in ASME B16.5 and is used in the majority of
-                  industrial applications. The raised ring (typically 1/16 inch high) concentrates
-                  the gasket load in a smaller area.
+                  industrial applications. The raised ring is 1/16 inch high on Class 150 and 300 flanges, and 1/4 inch high on Class 400 and above. The raised ring concentrates the gasket load in a smaller area.
                 </p>
                 <div className="space-y-2 text-sm text-gray-700">
                   <p><strong>Advantages:</strong></p>
@@ -417,7 +416,7 @@ export default function ASMEFlangePage() {
             <p className="text-lg text-gray-700 leading-relaxed mb-8 max-w-3xl">
               ASME B16.5 defines material groups based on chemical composition and mechanical
               properties. Each group accommodates different temperature ranges and operating
-              conditions. Material selection affects both cost and performance.
+              conditions. Material selection affects both cost and performance. The groups listed below are sourced from ASME B16.5 Mandatory Appendix II via wermac.org. For pressure-temperature lookups, use the group number that matches the actual forging spec on the MTR, not the family name.
             </p>
 
             <div className="bg-white rounded-lg overflow-hidden border border-gray-200 mb-8">
@@ -427,7 +426,7 @@ export default function ASMEFlangePage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white rounded-lg p-6 border border-gray-200">
                 <h3 className="text-lg font-bold text-primary mb-3">
-                  Group 1 (Carbon Steel)
+                  Group 1.1 (Carbon Steel)
                 </h3>
                 <p className="text-gray-700 text-sm mb-4">
                   ASTM A105 is the most economical choice for moderate temperature applications.
@@ -441,10 +440,10 @@ export default function ASMEFlangePage() {
 
               <div className="bg-white rounded-lg p-6 border border-gray-200">
                 <h3 className="text-lg font-bold text-primary mb-3">
-                  Group 3 (Cr-Mo Steel)
+                  Group 1.9 (2.25Cr-1Mo)
                 </h3>
                 <p className="text-gray-700 text-sm mb-4">
-                  Grades F11/F22 support higher temperatures with superior creep resistance.
+                  Grade F22 (2.25Cr-1Mo) supports high-temperature creep service. Group 1.5 (F11 / 1.25Cr) is the lighter-alloy cousin.
                   Cost-effective for elevated-temp service.
                 </p>
                 <p className="text-sm text-gray-600">
@@ -455,11 +454,11 @@ export default function ASMEFlangePage() {
 
               <div className="bg-white rounded-lg p-6 border border-gray-200">
                 <h3 className="text-lg font-bold text-primary mb-3">
-                  Group 4 (Stainless Steel)
+                  Group 2.3 (316L stainless)
                 </h3>
                 <p className="text-gray-700 text-sm mb-4">
-                  304/316L offer corrosion resistance. 316L preferred for chloride and acidic
-                  media.
+                  316L (Group 2.3) is the workhorse for chloride and acidic service. 304L sits in Group 2.1.
+                  Note that austenitic stainless is not permitted for API 6A flange bodies - F6a (410ss) is the API stainless variant.
                 </p>
                 <p className="text-sm text-gray-600">
                   <strong>Best for:</strong> Food processing, pharmaceutical, coastal, sanitary

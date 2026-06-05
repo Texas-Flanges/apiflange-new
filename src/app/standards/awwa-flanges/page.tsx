@@ -37,10 +37,10 @@ const awwaC207ClassesRows = [
   },
   {
     class: 'Class D',
-    pressure: '175 PSI',
-    sizes: 'up to 144"',
+    pressure: '175 PSI (NPS 4-12); 150 PSI (above NPS 12)',
+    sizes: '4" to 144"',
     face: 'Flat Face',
-    uses: 'Standard water distribution (most common)',
+    uses: 'Standard water distribution (most common). Pressure deration at larger sizes per AWWA C207.',
   },
   {
     class: 'Class E',
@@ -241,7 +241,7 @@ const faqItems = [
   {
     question: 'Do AWWA flanges work with standard industrial bolts?',
     answer:
-      'AWWA C207 and C228 typically specify stainless steel bolts and fasteners to avoid galvanic corrosion where dissimilar metals contact. Using regular carbon steel bolts on galvanized AWWA C207 flanges can create corrosion problems over time. Always use fasteners meeting AWWA requirements. If substituting bolts, verify material compatibility with your engineer.',
+      'AWWA C207 does not itself mandate stainless steel fasteners - bolt material is typically called out by the project specification. Standard practice for buried or wet-service C207 flanges is to use a corrosion-resistant fastener (galvanized A307 or stainless) to avoid galvanic and crevice issues against zinc-coated flanges. AWWA C228 stainless flanges typically take stainless fasteners. Always confirm bolt material against the project spec.',
   },
   {
     question: 'What temperature range are AWWA C207/C228 flanges rated for?',
@@ -269,7 +269,7 @@ const watermarksPoints = [
   {
     title: 'Pressure Optimization',
     description:
-      'Pressure classes (86-300 PSI) are designed for typical water transmission, balancing cost and safety.',
+      'Pressure classes (86 to 300 PSI in C207, 125 to 200 PSI in C228) are designed for typical water transmission. Class D derates from 175 PSI at NPS 4-12 to 150 PSI above NPS 12.',
   },
   {
     title: 'Standardized Gaskets',
@@ -343,7 +343,7 @@ export default function AWWAFlangePage() {
                   <li>• Ensures long-term corrosion resistance in water environments</li>
                   <li>• Guarantees potable water safety of all materials and coatings</li>
                   <li>• Optimizes cost for typical water operating pressures (100-350 PSI)</li>
-                  <li>• Specifies stainless steel fasteners to prevent galvanic corrosion</li>
+                  <li>• Allows stainless or other corrosion-resistant fasteners where galvanic compatibility matters. AWWA C207 does not mandate stainless bolting - confirm against the project spec.</li>
                 </ul>
               </div>
             </div>
@@ -381,9 +381,7 @@ export default function AWWAFlangePage() {
                   Class D (Most Common)
                 </h3>
                 <p className="text-gray-700 text-sm mb-4">
-                  Class D at 175 PSI is the industry standard for most water distribution systems.
-                  It represents the optimal balance between pressure capability and cost for typical
-                  municipal water operations.
+                  Class D is the standard pressure rating for most water distribution systems. The design pressure is 175 PSI for NPS 4 through 12, and 150 PSI for sizes larger than NPS 12 (per AWWA C207). This split lets utilities use a single material spec across the size range while staying within hoop-stress limits at the large diameters.
                 </p>
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li className="flex gap-2">
