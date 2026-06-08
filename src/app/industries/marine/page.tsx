@@ -298,7 +298,7 @@ export default function MarinePage() {
             {
               question: 'Can you supply subsea jumper flanges with RTJ face?',
               answer:
-                'Yes. We supply subsea jumper flanges in duplex, super duplex, and exotic alloys with RTJ, large bore male/female, and other specialty face designs. Custom engineering and pressure testing are available.',
+                'Yes. We supply subsea jumper flanges in duplex, super duplex, and exotic alloys with RTJ, large bore male/female, and other specialty face designs. Custom solutions and pressure testing are available.',
             },
           ]}
         />
