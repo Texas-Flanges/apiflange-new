@@ -191,7 +191,7 @@ export default function OilGasPage() {
       <SectionWrapper padding="lg" variant="gray" heading="Flange Types & Face Designations">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 mb-8 leading-relaxed">
-            Oil and gas applications demand precision engineering. ApiFlange provides all standard flange types with industry-specific face configurations to ensure optimal sealing and reliability.
+            Oil and gas applications demand technical expertise. ApiFlange provides all standard flange types with industry-specific face configurations to ensure optimal sealing and reliability.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -311,7 +311,7 @@ export default function OilGasPage() {
         </div>
       </SectionWrapper>
 
-      <SectionWrapper padding="lg" variant="white" heading="Sizes & Custom Engineering">
+      <SectionWrapper padding="lg" variant="white" heading="Sizes & Custom Solutions">
         <div className="max-w-4xl mx-auto">
           <p className="text-gray-700 mb-8 leading-relaxed">
             From 0.5-inch instrument flanges to 60-inch+ large-bore designs, ApiFlange engineers solutions for every application. Custom configurations, specialty materials, and pressure testing are standard offerings.
