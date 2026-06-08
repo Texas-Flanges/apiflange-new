@@ -284,7 +284,7 @@ export default function AlloySteelPage() {
               Alloy Steel: Engineered for Extreme Temperatures
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Alloy steel flanges are precision engineered for demanding applications where elevated
+              Alloy steel flanges are pressure-rated for demanding applications where elevated
               temperature is a primary design constraint. The chromium and molybdenum additions create a
               material matrix that maintains strength, ductility, and creep resistance at temperatures
               where carbon steel simply cannot perform.
