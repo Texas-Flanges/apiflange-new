@@ -18,6 +18,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "./",
+  },
   title: {
     template: '%s | API Flange',
     default: 'API Flange | Industrial Steel Flanges & Pipe Fittings',
