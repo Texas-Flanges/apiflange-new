@@ -102,7 +102,7 @@ const faqItems = [
   {
     question: 'How do I determine the correct pressure class for my application?',
     answer:
-      'The pressure class should be selected based on the maximum operating pressure and temperature conditions. The flange must have a design pressure rating (typically 1.5 times the maximum working pressure) that exceeds all peak operating conditions. Consult your system design specifications and ASME steam tables for appropriate temperature deration. When in doubt, select a higher class for safety and reliability.',
+      'The pressure class should be selected based on the maximum operating pressure and temperature conditions. The flange must have a design pressure rating that exceeds all peak operating conditions. Consult your system design specifications and ASME steam tables for appropriate temperature deration. When in doubt, select a higher class for safety and reliability.',
   },
   {
     question: 'What is the maximum operating temperature for each pressure class?',
