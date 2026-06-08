@@ -146,7 +146,7 @@ export default function IndustriesPage() {
     <>
       <PageHero
         title="Industry Solutions"
-        subtitle="Serving a wide range of industries with precision-engineered flanges and piping systems tailored to the most demanding industrial applications."
+        subtitle="Serving a wide range of industries with pressure-rated flanges and piping systems tailored to the most demanding industrial applications."
         variant="navy"
         breadcrumbs={[{ label: 'Industries', href: '/industries' }]}
       />
