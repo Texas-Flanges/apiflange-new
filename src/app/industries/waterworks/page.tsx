@@ -51,7 +51,7 @@ export default function WaterworksPage() {
             Reliable Flanges for Critical Water Infrastructure
           </h2>
           <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-            ApiFlange supplies precision-engineered flanges for the complete spectrum of municipal water systems. From intake facilities and treatment plants to distribution mains and pump stations, our AWWA-compliant products ensure leak-free, corrosion-resistant performance. Whether you're managing cast iron water mains, upgrading transmission lines, or constructing new treatment facilities, our flanges meet the stringent demands of potable water applications with NSF-61 certification and full BABA/Buy America compliance.
+            ApiFlange supplies pressure-rated flanges for the complete spectrum of municipal water systems. From intake facilities and treatment plants to distribution mains and pump stations, our AWWA-compliant products ensure leak-free, corrosion-resistant performance. Whether you're managing cast iron water mains, upgrading transmission lines, or constructing new treatment facilities, our flanges meet the stringent demands of potable water applications with NSF-61 certification and full BABA/Buy America compliance.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
