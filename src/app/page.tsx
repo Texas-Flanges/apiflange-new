@@ -245,7 +245,9 @@ export default function HomePage() {
                   Dimensionally, API 6A flanges look similar to their ASME counterparts, but the
                   pressure requirements start where most ASME flanges top out. The pressure floor is the 2000# class (roughly equivalent to ASME 600#), and from there the classes climb:
                   3000#, 5000# - up to the 6BX 10,000#, 20,000# and 25,000# for the most
-                  demanding applications.
+                  demanding applications. Dimensions by size and class are on the
+                  Texas Flange{' '}
+                  <a href="https://texasflange.com/products/flange-dims-weights/api-flange-slide-rule/?ref=apiflange-new" className="text-brass underline">API flange slide rule</a>.
                 </p>
                 <p>
                   Most jobs fall in the 5000# range and below; the extreme high-pressure classes
