@@ -6,8 +6,8 @@ import Image from 'next/image';
 
 const metadata: Metadata = {
   title: 'API Flange Calculation Tools & Calculators | API Flange',
-  description: 'Free online flange calculators and tools. Calculate flange dimensions, bolt torque, pressure-temperature ratings, weights, and find the right gaskets for your application.',
-  keywords: 'flange calculator, bolt torque calculator, pressure temperature rating, gasket selector, flange dimension calculator',
+  description: 'Free online flange calculators and tools. Calculate flange dimensions, bolt torque, weights, and find the right gaskets for your application.',
+  keywords: 'flange calculator, bolt torque calculator, gasket selector, flange dimension calculator',
   openGraph: {
     title: 'API Flange Tools & Calculators',
     description: 'Professional flange calculation tools for engineers and technicians',
@@ -30,13 +30,6 @@ const tools = [
     description: 'Determine proper bolt torque values for different materials, sizes, and lubrication conditions.',
     icon: '⚙️',
     color: 'from-orange-50 to-orange-100',
-  },
-  {
-    id: 'pressure-temperature-rating',
-    name: 'Pressure-Temperature Rating Lookup',
-    description: 'Find allowable pressures at various temperatures for different materials and pressure classes per ASME B16.5.',
-    icon: '🌡️',
-    color: 'from-red-50 to-red-100',
   },
 ];
 

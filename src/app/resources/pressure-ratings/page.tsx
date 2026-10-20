@@ -328,25 +328,6 @@ export default function PressureRatingsPage() {
         </Container>
       </SectionWrapper>
 
-      {/* P-T Rating Calculator Tool */}
-      <SectionWrapper className="py-16 md:py-24 bg-gray-50">
-        <Container>
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              P-T Rating Calculator Tool
-            </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Use our interactive calculator to quickly determine allowable pressure at any temperature for standard
-              ASME B16.5 flanges. Select your flange class and material, enter the operating temperature, and get the
-              maximum allowable pressure instantly.
-            </p>
-            <Button href="/tools/pressure-temperature-rating" variant="primary" size="lg">
-              Open P-T Rating Calculator
-            </Button>
-          </div>
-        </Container>
-      </SectionWrapper>
-
       {/* FAQ Section */}
       <SectionWrapper className="py-16 md:py-24 bg-white">
         <Container>

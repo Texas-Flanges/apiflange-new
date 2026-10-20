@@ -87,12 +87,6 @@ const guides: ResourceItem[] = [
 
 const tools: ResourceItem[] = [
   {
-    id: 'pressure-calc',
-    title: 'P-T Rating Calculator',
-    description: 'Calculate allowable pressure at any temperature using ASME B16.5 rating tables.',
-    href: '/tools/pressure-temperature-rating',
-  },
-  {
     id: 'bolt-torque',
     title: 'Bolt Torque Calculator',
     description: 'Determine proper bolt torque values for standard ASME flange classes.',
