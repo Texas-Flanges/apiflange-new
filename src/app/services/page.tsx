@@ -14,6 +14,84 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      <section className="pt-16">
+        <div className="container-wide">
+          <h2 className="text-3xl font-bold mb-8 text-center">ANSI to API - Cross Reference</h2>
+          <h3 className="text-2xl font-bold mb-2">API vs. ASME/ANSI flanges</h3>
+          <p className="text-lg text-gray-600 mb-6">Compatibility between pressure classes and size</p>
+          <p className="mb-4">
+            API and ASME/ANSI flanges are not necessarily interchangeable, however some of the RTJ styles from ASME B16.5 do match up dimensionally with existing API flanges. API 6A flanges in 5000# class and below are often made from A105 carbon steel with a 45K minimum yield strength, whereas the API 6BX flanges of 10000# class and above require a steel with an even higher yield strength. The most common of those is AISI 4130 with a 75K yield.
+          </p>
+          <p className="mb-4">
+            You are more likely to find ASME/ANSI flanges in general pipeline assembly work and vessel service, whereas API flanges are often found in oilfield equipment as originally intended. B16.5 flanges will typically deal with materials such as air and high flow liquids, whereas API will handle primarily unrefined crude oil, refined petrochemicals, and high energy gases.
+          </p>
+          <p className="mb-6">
+            The flanges per standards API 6A and ASME/ANSI B16.5 which share dimensions are listed below:
+          </p>
+          <div className="w-full overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="bg-primary text-white">
+                  <th rowSpan={2} className="px-4 py-3 whitespace-nowrap text-left font-semibold text-sm align-bottom">Flange</th>
+                  <th colSpan={2} className="px-4 py-3 whitespace-nowrap text-left font-semibold text-sm">Pressure Class Rating</th>
+                  <th colSpan={2} className="px-4 py-3 whitespace-nowrap text-left font-semibold text-sm">Nominal Size Range (inches)</th>
+                </tr>
+                <tr className="bg-primary text-white">
+                  <th className="px-4 py-3 whitespace-nowrap text-left font-semibold text-sm">ASME/ANSI B16.5</th>
+                  <th className="px-4 py-3 whitespace-nowrap text-left font-semibold text-sm">API 6A</th>
+                  <th className="px-4 py-3 whitespace-nowrap text-left font-semibold text-sm">ASME/ANSI B16.5</th>
+                  <th className="px-4 py-3 whitespace-nowrap text-left font-semibold text-sm">API 6A</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-200 bg-white">
+                  <td className="px-4 py-3 whitespace-nowrap text-sm font-semibold text-primary">Weld neck</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">600</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">2000</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1/2 - 24</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1 13/16 - 11</td>
+                </tr>
+                <tr className="border-b border-gray-200 bg-gray-50">
+                  <td className="px-4 py-3 whitespace-nowrap text-sm font-semibold text-primary">Weld neck</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">900</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">3000</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1/2 - 24</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1 13/16 - 11</td>
+                </tr>
+                <tr className="border-b border-gray-200 bg-white">
+                  <td className="px-4 py-3 whitespace-nowrap text-sm font-semibold text-primary">Weld neck</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1500</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">5000</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1/2 - 24</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1 13/16 - 11</td>
+                </tr>
+                <tr className="border-b border-gray-200 bg-gray-50">
+                  <td className="px-4 py-3 whitespace-nowrap text-sm font-semibold text-primary">Threaded companion and blind</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">600</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">2000</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1/2 - 24</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1 13/16 - 21 1/4</td>
+                </tr>
+                <tr className="border-b border-gray-200 bg-white">
+                  <td className="px-4 py-3 whitespace-nowrap text-sm font-semibold text-primary">Threaded companion and blind</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">900</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">3000</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1/2 - 24</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1 13/16 - 20 3/4</td>
+                </tr>
+                <tr className="border-b border-gray-200 bg-gray-50">
+                  <td className="px-4 py-3 whitespace-nowrap text-sm font-semibold text-primary">Threaded companion and blind</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1500</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">5000</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1/2 - 24</td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-700 font-mono">1 13/16 - 11</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       <section className="py-16">
         <div className="container-wide">
           <h2 className="text-3xl font-bold mb-12 text-center">What We Offer</h2>

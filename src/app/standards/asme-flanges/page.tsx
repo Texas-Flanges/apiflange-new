@@ -31,7 +31,7 @@ const faceTypeRows = [
     face: 'Flat Face (FF)',
     designation: 'FF',
     description:
-      'Completely flat sealing surface, used with full-face gaskets. The critical rule: when a steel flange mates to a cast-iron Class 125 or 250 flange, the steel flange must be flat face. A raised face steel flange against a flat cast-iron flange will crack the cast iron when bolted up. Low and moderate pressure service.',
+      'Completely flat sealing surface. Used with rubber gaskets. The critical rule: when a steel flange mates to a cast-iron Class 125 or 250 flange, the steel flange must be flat face. A raised face steel flange against a flat cast-iron flange will crack the cast iron when bolted up. Most common in low pressure applications.',
   },
   {
     face: 'Raised Face (RF)',
@@ -128,7 +128,7 @@ const faqItems = [
 
 const sizeRanges = [
   { label: 'Small Bore', range: 'NPS 1/2 to 2', use: 'Instrumentation, small systems' },
-  { label: 'Medium', range: 'NPS 3 to 8', use: 'General industrial piping' },
+  { label: 'Medium Bore', range: 'NPS 3 to 8', use: 'General industrial piping' },
   { label: 'Large Bore', range: 'NPS 10 to 24', use: 'Major process systems, waterworks' },
 ];
 
