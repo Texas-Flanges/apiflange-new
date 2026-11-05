@@ -315,18 +315,18 @@ export default function AWWAFlangePage() {
               </p>
 
               <div className="bg-gradient-to-r from-[#1C1C1E] to-[#B5873A] text-white rounded-lg p-8 mb-8">
-                <h3 className="text-2xl font-bold mb-4">Two Standards for Different Needs</h3>
+                <h3 className="text-2xl font-bold mb-4 text-white">Two Standards for Different Needs</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="text-lg font-bold mb-2">AWWA C207</h4>
-                    <p className="text-sm opacity-90">
+                    <h4 className="text-lg font-bold mb-2 text-white">AWWA C207</h4>
+                    <p className="text-sm opacity-90 text-white">
                       Steel pipe flanges with galvanized or epoxy coating for general water systems.
                       Sizes 4" to 144", Classes B/D/E/F.
                     </p>
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold mb-2">AWWA C228</h4>
-                    <p className="text-sm opacity-90">
+                    <h4 className="text-lg font-bold mb-2 text-white">AWWA C228</h4>
+                    <p className="text-sm opacity-90 text-white">
                       Stainless steel pipe flanges for corrosive or brackish water environments.
                       Sizes 2" to 72", Classes 125/150/200 PSI.
                     </p>

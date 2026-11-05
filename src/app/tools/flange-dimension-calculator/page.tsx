@@ -150,7 +150,7 @@ export default function FlangeDimensionCalculator() {
         {/* Header */}
         <div className="bg-gradient-to-r from-iron to-iron-light text-white py-12">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl font-bold mb-4">Flange Dimension Calculator</h1>
+            <h1 className="text-4xl font-bold mb-4 text-white">Flange Dimension Calculator</h1>
             <p className="text-lg text-gray-200">
               Calculate ASME B16.5 and AWWA C207 flange dimensions instantly
             </p>
@@ -446,7 +446,7 @@ export default function FlangeDimensionCalculator() {
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-iron to-iron-light text-white py-12">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-6">Need Custom Flange Specifications?</h2>
+            <h2 className="text-3xl font-bold mb-6 text-white">Need Custom Flange Specifications?</h2>
             <p className="text-lg text-gray-200 mb-8">
               Our engineering team can provide custom dimensions, materials, and certifications for specialized applications.
             </p>

@@ -175,19 +175,19 @@ export default function PowerGenerationPage() {
           <div className="bg-gradient-to-r from-[#1C1C1E] to-[#2A2A2E] rounded-lg p-8 text-white mb-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
-                <p className="text-sm opacity-90 mb-2">Design Pressures</p>
-                <p className="text-3xl font-bold">600-1500 psi</p>
-                <p className="text-xs opacity-75 mt-2">All ASME classes</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Design Pressures</p>
+                <p className="text-3xl font-bold text-white">600-1500 psi</p>
+                <p className="text-xs opacity-75 mt-2 text-white">All ASME classes</p>
               </div>
               <div>
-                <p className="text-sm opacity-90 mb-2">Design Temperatures</p>
-                <p className="text-3xl font-bold">Up to 1100°F</p>
-                <p className="text-xs opacity-75 mt-2">F91 alloy rated</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Design Temperatures</p>
+                <p className="text-3xl font-bold text-white">Up to 1100°F</p>
+                <p className="text-xs opacity-75 mt-2 text-white">F91 alloy rated</p>
               </div>
               <div>
-                <p className="text-sm opacity-90 mb-2">Service Factor</p>
-                <p className="text-3xl font-bold">1.5x Testing</p>
-                <p className="text-xs opacity-75 mt-2">Pressure tested</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Service Factor</p>
+                <p className="text-3xl font-bold text-white">1.5x Testing</p>
+                <p className="text-xs opacity-75 mt-2 text-white">Pressure tested</p>
               </div>
             </div>
           </div>

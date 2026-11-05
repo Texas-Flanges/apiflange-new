@@ -67,7 +67,7 @@ export default function Breadcrumbs({ items, className = '' }: BreadcrumbsProps)
             <li key={`${item.label}-${index}`} className="flex items-center gap-2">
               <ChevronRight size={16} className="text-gray-400" />
               {isLast ? (
-                <span className="text-gray-800 font-semibold" aria-current="page">
+                <span className="text-white font-semibold" aria-current="page">
                   {item.label}
                 </span>
               ) : (

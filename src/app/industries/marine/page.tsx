@@ -260,9 +260,9 @@ export default function MarinePage() {
           </p>
 
           <div className="bg-gradient-to-r from-[#1C1C1E] to-[#2A2A2E] rounded-lg p-8 text-white text-center">
-            <p className="text-sm opacity-90 mb-2">Standard & Custom Sizes</p>
-            <p className="text-4xl font-bold">½" to 60"+</p>
-            <p className="text-xs opacity-75 mt-3">Pressure classes 150 through 2500 psi</p>
+            <p className="text-sm opacity-90 mb-2 text-white">Standard & Custom Sizes</p>
+            <p className="text-4xl font-bold text-white">½" to 60"+</p>
+            <p className="text-xs opacity-75 mt-3 text-white">Pressure classes 150 through 2500 psi</p>
           </div>
         </div>
       </SectionWrapper>

@@ -320,19 +320,19 @@ export default function OilGasPage() {
           <div className="bg-gradient-to-r from-[#1C1C1E] to-[#2A2A2E] rounded-lg p-8 text-white mb-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
-                <p className="text-sm opacity-90 mb-2">Standard Sizes</p>
-                <p className="text-3xl font-bold">½" to 60"</p>
-                <p className="text-xs opacity-75 mt-2">ASME B16.5/B16.47</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Standard Sizes</p>
+                <p className="text-3xl font-bold text-white">½" to 60"</p>
+                <p className="text-xs opacity-75 mt-2 text-white">ASME B16.5/B16.47</p>
               </div>
               <div>
-                <p className="text-sm opacity-90 mb-2">Custom Sizes</p>
-                <p className="text-3xl font-bold">Unlimited</p>
-                <p className="text-xs opacity-75 mt-2">Engineer to spec</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Custom Sizes</p>
+                <p className="text-3xl font-bold text-white">Unlimited</p>
+                <p className="text-xs opacity-75 mt-2 text-white">Engineer to spec</p>
               </div>
               <div>
-                <p className="text-sm opacity-90 mb-2">Pressure Testing</p>
-                <p className="text-3xl font-bold">Available</p>
-                <p className="text-xs opacity-75 mt-2">1.5x working pressure</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Pressure Testing</p>
+                <p className="text-3xl font-bold text-white">Available</p>
+                <p className="text-xs opacity-75 mt-2 text-white">1.5x working pressure</p>
               </div>
             </div>
           </div>

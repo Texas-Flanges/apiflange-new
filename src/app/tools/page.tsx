@@ -40,7 +40,7 @@ export default function ToolsPage() {
         {/* Header */}
         <div className="bg-gradient-to-r from-[#1C1C1E] to-[#1a3d5f] text-white py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Flange Calculation Tools</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Flange Calculation Tools</h1>
             <p className="text-xl text-gray-200 max-w-2xl">
               Professional-grade calculators and selection tools for flange engineering. Powered by ASME B16.5 and industry standards.
             </p>
@@ -109,7 +109,7 @@ export default function ToolsPage() {
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-[#1C1C1E] to-[#1a3d5f] text-white py-12">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-6">Need Help Selecting the Right Flange?</h2>
+            <h2 className="text-3xl font-bold mb-6 text-white">Need Help Selecting the Right Flange?</h2>
             <p className="text-lg text-gray-200 mb-8">
               Our engineering team is ready to assist with custom specifications and quotations.
             </p>

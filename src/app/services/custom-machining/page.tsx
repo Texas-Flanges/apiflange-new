@@ -550,10 +550,10 @@ export default function CustomMachiningPage() {
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
               <Link href="https://www.texasflange.com/contact-us/?ref=apiflange-new">
-                <Button variant="secondary">Start Your RFQ</Button>
+                <Button variant="secondary" className="!text-white">Start Your RFQ</Button>
               </Link>
               <Link href="https://www.texasflange.com/contact-us/?ref=apiflange-new">
-                <Button variant="secondary">Contact Engineering</Button>
+                <Button variant="secondary" className="!text-white">Contact Engineering</Button>
               </Link>
             </div>
           </div>

@@ -410,14 +410,14 @@ export default function ContactPage() {
             <div className="lg:col-span-1 space-y-6">
               {/* Main Contact Info */}
               <div className="bg-gradient-to-br from-iron to-iron-light rounded-lg p-6 text-white">
-                <h3 className="text-xl font-bold mb-6">Get in Touch</h3>
+                <h3 className="text-xl font-bold mb-6 text-white">Get in Touch</h3>
 
                 <div className="space-y-6">
                   {/* Address */}
                   <div className="flex gap-4">
                     <MapPin className="w-5 h-5 flex-shrink-0 mt-1" />
                     <div>
-                      <p className="font-semibold mb-1">Headquarters</p>
+                      <p className="font-semibold mb-1 text-white">Headquarters</p>
                       <p className="text-white/90 text-sm">
                         PO Box 2889
                         <br />
@@ -432,7 +432,7 @@ export default function ContactPage() {
                   <div className="flex gap-4">
                     <Phone className="w-5 h-5 flex-shrink-0 mt-1" />
                     <div>
-                      <p className="font-semibold mb-1">Phone</p>
+                      <p className="font-semibold mb-1 text-white">Phone</p>
                       <p className="text-white/90 text-sm">
                         <a href="tel:+1-281-484-8325" className="hover:text-white transition">
                           (281) 484-8325
@@ -445,7 +445,7 @@ export default function ContactPage() {
                   <div className="flex gap-4">
                     <Mail className="w-5 h-5 flex-shrink-0 mt-1" />
                     <div>
-                      <p className="font-semibold mb-1">Email</p>
+                      <p className="font-semibold mb-1 text-white">Email</p>
                       <p className="text-white/90 text-sm">
                         <a
                           href="mailto:sales@texasflange.com"
@@ -461,7 +461,7 @@ export default function ContactPage() {
                   <div className="flex gap-4">
                     <Clock className="w-5 h-5 flex-shrink-0 mt-1" />
                     <div>
-                      <p className="font-semibold mb-1">Business Hours</p>
+                      <p className="font-semibold mb-1 text-white">Business Hours</p>
                       <p className="text-white/90 text-sm">
                         Mon - Fri: 8:00 AM - 5:00 PM CST
                         <br />

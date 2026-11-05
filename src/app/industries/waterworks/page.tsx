@@ -231,19 +231,19 @@ export default function WaterworksPage() {
           <div className="bg-gradient-to-r from-[#1C1C1E] to-[#2A2A2E] rounded-lg p-8 text-white mb-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
-                <p className="text-sm opacity-90 mb-2">Standard Sizes</p>
-                <p className="text-3xl font-bold">4" to 96"</p>
-                <p className="text-xs opacity-75 mt-2">All AWWA classes</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Standard Sizes</p>
+                <p className="text-3xl font-bold text-white">4" to 96"</p>
+                <p className="text-xs opacity-75 mt-2 text-white">All AWWA classes</p>
               </div>
               <div>
-                <p className="text-sm opacity-90 mb-2">Pressure Classes</p>
-                <p className="text-3xl font-bold">100-250 psi</p>
-                <p className="text-xs opacity-75 mt-2">Class B through F</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Pressure Classes</p>
+                <p className="text-3xl font-bold text-white">100-250 psi</p>
+                <p className="text-xs opacity-75 mt-2 text-white">Class B through F</p>
               </div>
               <div>
-                <p className="text-sm opacity-90 mb-2">Larger Sizes</p>
-                <p className="text-3xl font-bold">Custom Available</p>
-                <p className="text-xs opacity-75 mt-2">Up to 120"+ diameter</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Larger Sizes</p>
+                <p className="text-3xl font-bold text-white">Custom Available</p>
+                <p className="text-xs opacity-75 mt-2 text-white">Up to 120"+ diameter</p>
               </div>
             </div>
           </div>
