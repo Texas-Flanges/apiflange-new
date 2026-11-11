@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, useInView } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react';
 import {
@@ -269,6 +270,19 @@ export default function HomePage() {
                   end load. If your spec calls out an API blind, expect the hubbed version, not
                   the flat ASME-style disc.
                 </p>
+                <p>
+                  API flange manufacturers are available worldwide. For many lower pressure API 6A applications, a container of 3000# and 5000# flanges can fulfill your requirements. For adherence to the strictest standards (PSL-3 or PSL-4), usually a domestic provider with an API stamp would be more suited to meet your safety and operational conditions, as most of these materials will be per API 6BX with higher pressure.
+                </p>
+              </div>
+
+              <div className="mt-8 flex justify-center">
+                <Image
+                  src="/rod-review/rod-companion-threaded-buttweld-neck-drawing.png"
+                  alt="Line drawing of a companion/threaded flange and a buttweld neck flange in cross-section"
+                  width={403}
+                  height={552}
+                  style={{ maxWidth: '100%', height: 'auto' }}
+                />
               </div>
 
               <div className="mt-8 pt-6 border-t border-silver/30">

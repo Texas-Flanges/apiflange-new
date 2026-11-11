@@ -188,19 +188,19 @@ export default function PetrochemicalPage() {
           <div className="bg-gradient-to-r from-[#1C1C1E] to-[#2A2A2E] rounded-lg p-8 text-white">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
-                <p className="text-sm opacity-90 mb-2">Pressure Range</p>
-                <p className="text-3xl font-bold">150-2500 psi</p>
-                <p className="text-xs opacity-75 mt-2">All ASME classes</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Pressure Range</p>
+                <p className="text-3xl font-bold text-white">150-2500 psi</p>
+                <p className="text-xs opacity-75 mt-2 text-white">All ASME classes</p>
               </div>
               <div>
-                <p className="text-sm opacity-90 mb-2">Temperature Range</p>
-                <p className="text-3xl font-bold">-50°F to 1500°F</p>
-                <p className="text-xs opacity-75 mt-2">Material dependent</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Temperature Range</p>
+                <p className="text-3xl font-bold text-white">-50°F to 1500°F</p>
+                <p className="text-xs opacity-75 mt-2 text-white">Material dependent</p>
               </div>
               <div>
-                <p className="text-sm opacity-90 mb-2">Sealing Options</p>
-                <p className="text-3xl font-bold">RTJ/RF/FF</p>
-                <p className="text-xs opacity-75 mt-2">Full range available</p>
+                <p className="text-sm opacity-90 mb-2 text-white">Sealing Options</p>
+                <p className="text-3xl font-bold text-white">RTJ/RF/FF</p>
+                <p className="text-xs opacity-75 mt-2 text-white">Full range available</p>
               </div>
             </div>
           </div>

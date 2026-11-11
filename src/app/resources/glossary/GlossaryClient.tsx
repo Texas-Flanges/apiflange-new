@@ -212,14 +212,14 @@ export default function GlossaryClient({
       <SectionWrapper className="py-16 md:py-24 bg-gradient-to-r from-blue-900 to-orange-600">
         <Container>
           <div className="max-w-3xl mx-auto text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
               Need More Technical Information?
             </h2>
             <p className="text-lg text-white/90 mb-8">
               Visit our complete resource library for comprehensive guides, technical specifications, and engineering support.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="/resources" variant="secondary" size="lg" className="border-white text-blue-900">
+              <Button href="/resources" variant="secondary" size="lg" className="border-white !text-white">
                 View All Resources
               </Button>
               <Button href="https://www.texasflange.com/contact-us/?ref=apiflange-new" variant="ghost" size="lg" className="text-white hover:text-orange-200">

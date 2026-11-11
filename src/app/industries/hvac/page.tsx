@@ -207,9 +207,9 @@ export default function HVACPage() {
           </p>
 
           <div className="bg-gradient-to-r from-[#1C1C1E] to-[#2A2A2E] rounded-lg p-8 text-white text-center">
-            <p className="text-sm opacity-90 mb-2">Standard Available Sizes</p>
-            <p className="text-4xl font-bold">½" to 36"</p>
-            <p className="text-xs opacity-75 mt-3">Slip-on, companion, blind configurations</p>
+            <p className="text-sm opacity-90 mb-2 text-white">Standard Available Sizes</p>
+            <p className="text-4xl font-bold text-white">½" to 36"</p>
+            <p className="text-xs opacity-75 mt-3 text-white">Slip-on, companion, blind configurations</p>
           </div>
         </div>
       </SectionWrapper>

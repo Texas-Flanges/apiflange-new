@@ -267,9 +267,9 @@ export default function MaterialGradesPage() {
                 <div>
                   <h4 className="font-bold text-gray-900 mb-3">Specification</h4>
                   <ul className="text-sm text-gray-700 space-y-2">
-                    <li><strong>Common Grades:</strong> LF2, LF3, LF4, LF5, LF6, LF787</li>
+                    <li><strong>Common Grades:</strong> LF2, LF3, LF5, LF6, LF787</li>
                     <li><strong>LF2:</strong> Most common (carbon-manganese)</li>
-                    <li><strong>LF3/LF4:</strong> Colder service</li>
+                    <li><strong>LF3:</strong> Colder service</li>
                     <li><strong>LF787:</strong> Very low carbon</li>
                   </ul>
                 </div>
@@ -452,7 +452,7 @@ export default function MaterialGradesPage() {
                   <td className="border border-gray-300 p-3 text-center">0.10-0.20%</td>
                   <td className="border border-gray-300 p-3 text-center">0.30-0.80%</td>
                   <td className="border border-gray-300 p-3 text-center">0.50-1.00%</td>
-                  <td className="border border-gray-300 p-3 text-center">0.50-1.00%</td>
+                  <td className="border border-gray-300 p-3 text-center">1.00-1.50%</td>
                   <td className="border border-gray-300 p-3 text-center">-</td>
                   <td className="border border-gray-300 p-3 text-center">0.44-0.65%</td>
                 </tr>

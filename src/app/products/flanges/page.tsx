@@ -8,7 +8,7 @@ import FlangesClient from './FlangesClient';
 
 // Export metadata for static generation
 export const metadata: Metadata = {
-  title: 'Steel Pipe Flanges | ApiFlange',
+  title: 'Flanges Beyond API 6A Specs | ApiFlange',
   description:
     'Comprehensive range of 20 flange types including weld neck, slip-on, socket weld, threaded, and RTJ flanges. ASME B16.5, API 6A, and DIN compliant for industrial piping systems.',
   keywords: [
@@ -35,7 +35,7 @@ export default function FlangesPage() {
   return (
     <>
       <PageHero
-        title="Flange Types We Supply"
+        title="Flanges Beyond API 6A Specs"
         subtitle="Complete range of industrial-grade flanges engineered for every pressure class, temperature range, and application requirement"
         variant="navy"
         breadcrumbs={[

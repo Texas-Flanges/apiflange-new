@@ -400,10 +400,10 @@ export default function ANSIFlangePage() {
               </p>
 
               <div className="bg-gradient-to-r from-[#1C1C1E] to-[#B5873A] rounded-lg p-8 text-white mb-8">
-                <h3 className="text-2xl font-bold mb-4">
+                <h3 className="text-2xl font-bold mb-4 text-white">
                   Want the Technical Deep Dive?
                 </h3>
-                <p className="mb-6">
+                <p className="mb-6 text-white">
                   For comprehensive information about flange specifications, materials, pressure
                   classes, face types, and design guidance, visit our detailed ASME B16.5 page.
                 </p>
