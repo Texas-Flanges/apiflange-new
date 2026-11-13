@@ -496,6 +496,38 @@ export default function CarbonSteelPage() {
         </Container>
       </SectionWrapper>
 
+      {/* AISI 4130 Section */}
+      <SectionWrapper className="py-16 md:py-24 bg-white">
+        <Container>
+          <div className="max-w-4xl">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              What Is 4130 Steel?
+            </h2>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Once an API flange climbs into the 10,000# class and above, the material on the drawing
+              usually changes from plain carbon steel to AISI 4130. Strictly speaking, 4130 is a
+              low-alloy steel rather than a straight carbon grade: a small dose of chromium and
+              molybdenum goes in alongside a medium carbon content, which is where the shop-floor
+              nicknames chromoly and chrome-moly come from. Its chemistry falls under ASTM A29, the
+              general specification for hot-wrought carbon and alloy steel bars.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              The recipe is tight: 0.28 to 0.33% carbon, 0.80 to 1.10% chromium and 0.15 to 0.25%
+              molybdenum. 4130 tends to get mentioned in the same breath as its sibling 4140, which
+              shares the chrome-moly backbone but runs more carbon (0.38 to 0.43%). That extra carbon
+              lets 4140 harden deeper through a thick section. The lower carbon in 4130 is what makes it
+              the easier of the two to weld.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Heat treatment does the rest. Quenched and tempered, 4130 picks up the strength and
+              toughness that high-pressure wellhead service asks for. Annealed, it is ductile and
+              machines without much fuss. That mix of strength, toughness and fatigue resistance after
+              heat treat is why it earns its spot in the higher API pressure classes.
+            </p>
+          </div>
+        </Container>
+      </SectionWrapper>
+
       {/* ASTM A105 Section */}
       <SectionWrapper className="py-16 md:py-24 bg-gray-50">
         <Container>

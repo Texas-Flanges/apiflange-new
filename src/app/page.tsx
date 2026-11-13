@@ -328,9 +328,9 @@ export default function HomePage() {
               {
                 icon: CircleDot,
                 title: 'Flanges',
-                desc: 'Weld neck, blind, slip-on, threaded, socket weld, lap joint, reducing, orifice, spectacle blind, plate, and long weld neck. Carbon, stainless, alloy. 1/2" through 24" per ASME B16.5; 26" through 60" per ASME B16.47. Class 150 through 2500.',
+                desc: 'Weld neck, blind, slip-on, threaded, socket weld, lap joint, reducing, orifice, spectacle blind, plate, and long weld neck. Carbon, stainless, alloy. API 6A Type 6B and 6BX flanges from 2,000# through 20,000#, with ring type joint facings.',
                 href: '/products/flanges',
-                features: ['ASME B16.5 & B16.47', 'AWWA C207 & C228', 'DIN & EN 1092-1', 'Custom OD/ID machining'],
+                features: ['API 6A 6B & 6BX', 'AWWA C207 & C228', 'DIN & EN 1092-1', 'Custom OD/ID machining'],
               },
               {
                 icon: Wrench,
