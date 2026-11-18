@@ -1,0 +1,31 @@
+{
+  "site": "apiflange.com",
+  "heading": "Related resources",
+  "links": [
+    {
+      "url": "https://texasflange.com/?ref=apiflange",
+      "label": "Texas Flange & Fitting Supply",
+      "note": "Stock, pricing and quotes on API and ANSI flanges"
+    },
+    {
+      "url": "https://weldneckflanges.com/",
+      "label": "Weld neck flange reference (WeldNeckFlanges.com)",
+      "note": "Hub profiles, bore matching and API 6A weld neck data"
+    },
+    {
+      "url": "https://ringflanges.com/",
+      "label": "RTJ ring-joint flange guide (RingFlanges.com)",
+      "note": "Ring groove numbers and gasket fit for ring-type joints"
+    },
+    {
+      "url": "https://pipingflange.com/",
+      "label": "Piping flange resource center (PipingFlange.com)",
+      "note": "A broad piping flange guide that also covers API 6A data"
+    },
+    {
+      "url": "https://www.industrialflange.com/",
+      "label": "Industrial and oil & gas flange hub (IndustrialFlange.com)",
+      "note": "Flange types used across refining, pipeline and plant work"
+    }
+  ]
+}

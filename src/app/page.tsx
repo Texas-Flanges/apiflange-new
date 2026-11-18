@@ -20,6 +20,7 @@ import {
   Phone,
   Clock,
 } from 'lucide-react';
+import RelatedResources from '@/components/RelatedResources';
 
 /* ─────────────────────────────────────────────
    ANIMATED SECTION WRAPPER
@@ -885,6 +886,8 @@ export default function HomePage() {
         </div>
         <div className="h-1 bg-gradient-to-r from-brass-dark via-brass to-brass-dark" />
       </section>
+
+      <RelatedResources />
     </>
   );
 }
