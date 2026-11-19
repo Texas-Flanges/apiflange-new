@@ -831,7 +831,7 @@ export default function HomePage() {
               },
               {
                 q: 'Can you supply flanges with domestic melt requirements?',
-                a: 'Yes. We stock Buy American / ARRA compliant flanges and can provide full domestic melt and production documentation when required.',
+                a: 'Yes. Buy American / ARRA compliant flanges are available, and we can provide full domestic melt and production documentation when required.',
               },
               {
                 q: 'What is your typical lead time?',
@@ -839,7 +839,7 @@ export default function HomePage() {
               },
               {
                 q: 'Do you provide mill test reports?',
-                a: 'Every order ships with MTRs traceable to the original heat number. EN 10204 3.1 and 3.2 certificates available on request.',
+                a: 'Every order ships with MTRs traceable to the original heat number. EN 10204 3.1 certificates available on request.',
               },
               {
                 q: 'What size range can you handle?',
