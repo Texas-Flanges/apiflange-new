@@ -509,7 +509,8 @@ export default function CarbonSteelPage() {
               low-alloy steel rather than a straight carbon grade: a small dose of chromium and
               molybdenum goes in alongside a medium carbon content, which is where the shop-floor
               nicknames chromoly and chrome-moly come from. Its chemistry falls under ASTM A29, the
-              general specification for hot-wrought carbon and alloy steel bars.
+              general specification for hot-wrought carbon and alloy steel bars. ASTM A105 carbon steel
+              only covers API flanges in the 5,000# class and below.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               The recipe is tight: 0.28 to 0.33% carbon, 0.80 to 1.10% chromium and 0.15 to 0.25%

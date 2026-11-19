@@ -381,31 +381,6 @@ export const flangeTypes: FlangeType[] = [
     imagePlaceholder: "/images/flange-types/companion.svg",
   },
   {
-    id: "expander",
-    name: "Expander Flange",
-    slug: "expander",
-    description:
-      "Flange hub expands from smaller to larger pipe diameter. Used for transition connections where step increase is required. More economical than two flanges and a transition piece.",
-    standards: ["ASME B16.5"],
-    materials: ["A105"],
-    sizeRange: { min: "1\" to 2\"", max: "12\" to 14\"" },
-    pressureClasses: ["150", "300", "600"],
-    applications: [
-      "Size Transitions",
-      "Flow Increase",
-      "Pipeline Modifications",
-      "System Upgrades",
-    ],
-    features: [
-      "Hub expander design",
-      "Increasing bore size",
-      "Single-piece solution",
-      "Cost-effective transition",
-      "Gradual diameter change",
-    ],
-    imagePlaceholder: "/images/flange-types/expander.svg",
-  },
-  {
     id: "awwa-c207",
     name: "AWWA C207 Flange",
     slug: "awwa-c207",
