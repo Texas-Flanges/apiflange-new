@@ -133,7 +133,7 @@ const asmeVsAwwaRows = [
   {
     spec: 'Pressure Classes',
     asme: '150 to 2500 PSI (7 classes)',
-    awwa: 'C207: 86-300 PSI (Classes B, D, E, F); C228: 125-200 PSI',
+    awwa: 'C207: 86-300 PSI (Classes B, D, E, F); C228: 50-300 PSI',
   },
   {
     spec: 'Flange Materials',
@@ -328,7 +328,7 @@ export default function AWWAFlangePage() {
                     <h4 className="text-lg font-bold mb-2 text-white">AWWA C228</h4>
                     <p className="text-sm opacity-90 text-white">
                       Stainless steel pipe flanges for corrosive or brackish water environments.
-                      Sizes 2" to 72", Classes 125/150/200 PSI.
+                      Sizes 2" to 72", Classes SA/SB/SD/SE/SF (50 to 300 PSI).
                     </p>
                   </div>
                 </div>
