@@ -90,7 +90,7 @@ const standards: StandardCard[] = [
     organization: 'American Water Works Association',
     scope: 'Stainless steel pipe flanges for waterworks',
     sizeRange: '2 inches through 72 inches',
-    pressureRange: 'Classes 125, 150, 200 PSI',
+    pressureRange: 'Classes SA, SB, SD, SE, SF (50 to 300 PSI)',
     materials: ['Stainless Steel'],
     applications: [
       'Corrosive Water',
