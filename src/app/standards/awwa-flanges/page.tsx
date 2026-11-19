@@ -99,7 +99,7 @@ const coatingData = [
 
 const coatingRows = [
   {
-    coating: 'Galvanized (AWWA C207)',
+    coating: 'Galvanized (when specified)',
     material: 'Zinc coating per ASTM A123',
     thickness: 'Typically 1.5-3.0 mils',
     protection: 'Excellent for freshwater, moderate for saltwater',
@@ -138,7 +138,7 @@ const asmeVsAwwaRows = [
   {
     spec: 'Flange Materials',
     asme: 'Carbon, stainless, alloy steels',
-    awwa: 'C207: Zinc-coated carbon; C228: Stainless steel',
+    awwa: 'C207: Carbon steel; C228: Stainless steel',
   },
   {
     spec: 'Face Types',
@@ -226,7 +226,7 @@ const faqItems = [
   {
     question: 'What is the main difference between AWWA C207 and AWWA C228?',
     answer:
-      'The primary difference is material and coating strategy. AWWA C207 uses zinc-coated (galvanized) carbon steel for general water systems, providing cost-effective corrosion protection. AWWA C228 uses stainless steel (typically 304/316L) for environments with high chloride or acidic conditions where galvanizing alone is insufficient. Choose C207 for inland freshwater systems; choose C228 for coastal, brackish, or corrosive environments.',
+      'The primary difference is material and coating strategy. AWWA C207 uses carbon steel for general water systems, with the coating set by the purchaser. AWWA C228 uses stainless steel (typically 304/316L) for environments with high chloride or acidic conditions where galvanizing alone is insufficient. Choose C207 for inland freshwater systems; choose C228 for coastal, brackish, or corrosive environments.',
   },
   {
     question: 'Can I use AWWA C207 flanges instead of ASME B16.5 in water systems?',
@@ -259,7 +259,7 @@ const watermarksPoints = [
   {
     title: 'Corrosion Resistance',
     description:
-      'AWWA standards mandate galvanizing or stainless steel for long-term protection in water systems.',
+      "AWWA C207 leaves the coating to the purchaser's spec, and C228 uses stainless steel.",
   },
   {
     title: 'Potable Water Compatibility',
@@ -307,8 +307,7 @@ export default function AWWAFlangePage() {
                 because they address the unique demands of water systems.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                AWWA standards mandate corrosion protection (galvanizing or stainless steel),
-                establish potable water-safe materials, and specify pressure classes optimized
+                AWWA standards establish potable water-safe materials, and specify pressure classes optimized
                 for water system economics. If you're specifying flanges for a waterworks
                 project, AWWA standards are typically required for regulatory compliance and
                 system reliability.

@@ -142,7 +142,7 @@ export default function FlangesPage() {
             },
             {
               material: 'Galvanized Carbon Steel',
-              description: 'Hot-dip galvanized A105 for outdoor and waterworks service per AWWA C207.',
+              description: 'Hot-dip galvanized A105 for outdoor and waterworks service.',
               link: '/materials/galvanized',
             },
             {
