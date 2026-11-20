@@ -71,10 +71,10 @@ const standards: StandardCard[] = [
     id: 'awwa-c207',
     name: 'AWWA C207',
     organization: 'American Water Works Association',
-    scope: 'Steel pipe flanges for waterworks (zinc-coated)',
+    scope: 'Steel pipe flanges for waterworks',
     sizeRange: '4 inches through 144 inches',
     pressureRange: 'Classes B, D, E, F (different pressure ratings)',
-    materials: ['Carbon Steel (Zinc-Coated)'],
+    materials: ['Carbon Steel'],
     applications: [
       'Water Transmission',
       'Water Distribution',
@@ -90,7 +90,7 @@ const standards: StandardCard[] = [
     organization: 'American Water Works Association',
     scope: 'Stainless steel pipe flanges for waterworks',
     sizeRange: '2 inches through 72 inches',
-    pressureRange: 'Classes 125, 150, 200 PSI',
+    pressureRange: 'Classes SA, SB, SD, SE, SF (50 to 300 PSI)',
     materials: ['Stainless Steel'],
     applications: [
       'Corrosive Water',
@@ -387,7 +387,7 @@ export default function StandardsPage() {
                     <p className="font-semibold text-primary mb-2">AWWA C207 & C228</p>
                     <p className="text-gray-700 text-sm">
                       American Water Works Association standards specifically designed for
-                      water and wastewater applications. C207 uses zinc-coated carbon steel;
+                      water and wastewater applications. C207 uses carbon steel;
                       C228 uses stainless steel for corrosive environments.
                     </p>
                   </div>
@@ -488,7 +488,7 @@ export default function StandardsPage() {
                   </div>
                   <div className="border-t border-gray-200 pt-4">
                     <p className="font-semibold text-primary mb-2">Water Systems</p>
-                    <p className="text-gray-700 text-sm">→ AWWA C207 (zinc-coated) or C228 (stainless)</p>
+                    <p className="text-gray-700 text-sm">→ AWWA C207 (carbon steel) or C228 (stainless)</p>
                   </div>
                   <div className="border-t border-gray-200 pt-4">
                     <p className="font-semibold text-primary mb-2">European/Metric Systems</p>

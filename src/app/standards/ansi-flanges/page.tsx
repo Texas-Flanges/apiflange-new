@@ -540,7 +540,7 @@ export default function ANSIFlangePage() {
                   AWWA C207 & C228
                 </h3>
                 <p className="text-gray-700 text-sm mb-4">
-                  Water industry standards. C207 for zinc-coated steel; C228 for stainless steel in
+                  Water industry standards. C207 for carbon steel; C228 for stainless steel in
                   corrosive environments.
                 </p>
                 <span className="text-brass font-semibold flex items-center gap-2">

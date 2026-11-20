@@ -10,7 +10,7 @@ import FlangesClient from './FlangesClient';
 export const metadata: Metadata = {
   title: 'Flanges Beyond API 6A Specs | ApiFlange',
   description:
-    'Comprehensive range of 20 flange types including weld neck, slip-on, socket weld, threaded, and RTJ flanges. ASME B16.5, API 6A, and DIN compliant for industrial piping systems.',
+    'A full range of flange types including weld neck, slip-on, socket weld, threaded, and RTJ flanges. ASME B16.5, API 6A, and DIN compliant for industrial piping systems.',
   keywords: [
     'flanges',
     'weld neck flange',
@@ -142,7 +142,7 @@ export default function FlangesPage() {
             },
             {
               material: 'Galvanized Carbon Steel',
-              description: 'Hot-dip galvanized A105 for outdoor and waterworks service per AWWA C207.',
+              description: 'Hot-dip galvanized A105 for outdoor and waterworks service.',
               link: '/materials/galvanized',
             },
             {
